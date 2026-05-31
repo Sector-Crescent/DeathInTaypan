@@ -1,37 +1,34 @@
 ﻿<Document>
-  # Химикаты
+# Chemicals
 
-  Химикаты — мощный инструмент, способный вызывать множество эффектов при употреблении. Некоторые содержатся в растениях, другие можно заказать через логистику или синтезировать, комбинируя с другими веществами.
+Chemicals are a powerful tool that can cause a variety of effects when consumed. Some can be found in plants, purchased from logistics, or be synthesized through combination with other chemicals.
 
-  Знание разных типов химикатов и их эффектов — важный навык для тех, кто хочет справляться с травмами и угрозами.
+Knowing different types of chemicals and their effects is important for being able to manage injury and danger.
 
-  ## Элементы
-  <GuideReagentGroupEmbed Group="Elements"/>
+## Elements
+<GuideReagentGroupEmbed Group="Elements"/>
 
-  ## Медикаменты
-  <GuideReagentGroupEmbed Group="Medicine"/>
+## Medicine
+<GuideReagentGroupEmbed Group="Medicine"/>
 
-  ## Наркотики
-  <GuideReagentGroupEmbed Group="Narcotics"/>
+## Narcotics
+<GuideReagentGroupEmbed Group="Narcotics"/>
 
-  ## Пиротехника
-  <GuideReagentGroupEmbed Group="Pyrotechnic"/>
+## Pyrotechnics
+<GuideReagentGroupEmbed Group="Pyrotechnic"/>
 
-  ## Токсины
-  <GuideReagentGroupEmbed Group="Toxins"/>
+## Toxins
+<GuideReagentGroupEmbed Group="Toxins"/>
 
-  ## Пищевые
-  <GuideReagentGroupEmbed Group="Foods"/>
+## Foods
+<GuideReagentGroupEmbed Group="Foods"/>
 
-  ## Растительные
-  <GuideReagentGroupEmbed Group="Botanical"/>
+## Botanical
+<GuideReagentGroupEmbed Group="Botanical"/>
 
-  ## Биологические
-  <GuideReagentGroupEmbed Group="Biological"/>
+## Biological
+<GuideReagentGroupEmbed Group="Biological"/>
 
-  ## Особые
-  <GuideReagentGroupEmbed Group="Special"/>
-
-  ## Прочие
-  <GuideReagentGroupEmbed Group="Unknown"/>
+## Other
+<GuideReagentGroupEmbed Group="Unknown"/>
 </Document>

@@ -1,11 +1,9 @@
 <Document>
 
-# Элементы
+# Elements
 
-Перед вами — основа любой химии. Эти простые, но важные реагенты являются строительными блоками для создания более сложных и мощных соединений. Без них не обойтись ни одному уважающему себя химику.
+This list contains all the basic reagents used to make other chemicals.
 
 <GuideReagentGroupEmbed Group="Elements"/>
-
-[center][italic]Из хаоса — структура. Из элементов — всё остальное.[/italic][/center]
 
 </Document>
