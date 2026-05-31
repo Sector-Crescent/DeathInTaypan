@@ -151,7 +151,7 @@ public sealed partial class CCVars
     /// how long they are forced to wait before attempting to reconnect.
     /// </summary>
     public static readonly CVarDef<int> GameServerFullReconnectDelay =
-        CVarDef.Create("game.server_full_reconnect_delay", 30, CVar.SERVERONLY);
+        CVarDef.Create("game.server_full_reconnect_delay", 10, CVar.SERVERONLY);
 
     /// <summary>
     /// Whether or not panic bunker is currently enabled.
