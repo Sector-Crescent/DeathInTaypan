@@ -8,7 +8,7 @@ public sealed partial class CCVars
     ///     Link to Discord server to show in the launcher.
     /// </summary>
     public static readonly CVarDef<string> InfoLinksDiscord =
-        CVarDef.Create("infolinks.discord", "https://discord.gg/rXGUxyDWuS", CVar.SERVER | CVar.REPLICATED); // WD EDIT
+        CVarDef.Create("infolinks.discord", "https://discord.gg/8FFhZbGZK", CVar.SERVER | CVar.REPLICATED); // WD EDIT
 
     /// <summary>
     ///     Link to website to show in the launcher.
