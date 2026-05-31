@@ -1,52 +1,9 @@
 <Document>
+## Recipe list
+Note: Only solid foods are listed here! To learn recipes for liquid ingredients, check the chemistry guidebook.
 
-# Рецепты для микроволновой печи
+This list is auto-generated and contains all known foods.
 
-Это последняя опубликованная версия коллекции рецептов Кухня Центрального Командования НаноТрейзен для поваров, готовящих блюда на приборах НТ.
-
-## Пицца
-<GuideMicrowaveGroupEmbed Group="Pizza"/>
-
-## Изысканная кухня
-<GuideMicrowaveGroupEmbed Group="Savory"/>
-
-## Хлебные изделия
-<GuideMicrowaveGroupEmbed Group="Breads"/>
-
-## На завтрак
-<GuideMicrowaveGroupEmbed Group="Breakfast"/>
-
-## Для молей
-<GuideMicrowaveGroupEmbed Group="Moth"/>
-
-## Паста и лапша
-<GuideMicrowaveGroupEmbed Group="Pasta"/>
-
-## Выпечка и десерты
-<GuideMicrowaveGroupEmbed Group="Dessert"/>
-
-## Супы и рагу
-<GuideMicrowaveGroupEmbed Group="Soup"/>
-
-## Пирожки и тарты
-<GuideMicrowaveGroupEmbed Group="Pie"/>
-
-## Батончики и печенье
-<GuideMicrowaveGroupEmbed Group="BarsAndCookies"/>
-
-## Торты
-<GuideMicrowaveGroupEmbed Group="Cake"/>
-
-## Салаты
-<GuideMicrowaveGroupEmbed Group="Salad"/>
-
-## Лекарственное
-<GuideMicrowaveGroupEmbed Group="Medicinal"/>
-
-## Прочее
-<GuideMicrowaveGroupEmbed Group="Other"/>
-
-## Секретное
-<GuideMicrowaveGroupEmbed Group="Secret"/>
+<GuideFoodGroupEmbed/>
 
 </Document>

@@ -1,84 +1,87 @@
 <Document>
-  # Существа Мерцания
+# Glimmer Creatures
+As glimmer rises higher and higher, there can be occasional disturbances in the [color=#a4885c]noösphere[/color].
+When new psionic signatures are detected Central Command will make an announcement to the station.
+Sometimes these signatures can be the appearance of glimmer creatures!
 
-  По мере возрастания уровня [color=#a4885c]мерцания[/color] в ноосфере начинают появляться аномальные возмущения. Иногда они столь сильны, что ЦентКом делает экстренное объявление: на станции зафиксированы новые псионические сигнатуры.
+Glimmer creatures can appear in numbers as low as 1, or multiple depending on how high glimmer is and how many psionics there are.
 
-  В ряде случаев это означает одно — прибытие существ мерцания.
+These are the entities currently known to NanoTrasen.
+Research is ongoing, more are yet to be discovered.
 
-  Их количество зависит от того, насколько высок уровень мерцания и сколько псиоников находится на борту. Бывает, приходит одно. Бывает — целая свора.
+# Glimmer Mite
 
-  Это лишь известные корпорации NanoTrasen формы. Исследования продолжаются. Возможно, за пределами станционных светильников бродит нечто куда более странное.
+<GuideEntityEmbed Entity="MobGlimmerMite"/>
 
-  # Мерцающий Клещ
+The glimmer mite is a small insect-like being that naturally provokes the noösphere.
 
-  <GuideEntityEmbed Entity="MobGlimmerMite"/>
+Minimum glimmer rating: Low
 
-  Небольшое насекомоподобное создание, чьё само существование возбуждает ноосферу.
+## Assessment
+As long as it is physically intact it will slowly raise glimmer.
 
-  **Минимальный уровень мерцания:** низкий.
+They show no signs of aggression and are physically harmless.
 
-  ## Оценка
+## Procedure
+Kill them as soon as they're spotted, they affect the noösphere and the brooding sound drives crew insane!
 
-  Пока оно живо и цело, оно будет неуклонно повышать мерцание. Безобидно, не нападает, но на фоне его присутствия начинается зуд в ушах, шорох в голове — будто ноосфера сама шепчет тебе на ухо.
+## Analysis
+You can get liquid [color=#a4885c]Ectoplasm[/color] from blending its body, so they can be a decent source of [color=#a4885c]Normality Crystals[/color].
 
-  ## Тактика
+In an emergency the body can be beaten to a pulp which will make it cease raising glimmer, at the cost of not yielding ectoplasm.
 
-  Уничтожать сразу. Пока стоит на лапках — оно нарушает равновесие.
+Overall, a mild help to stopping glimmer, if you can find them.
 
-  ## Анализ
+# Glimmer Wisp
 
-  Если измельчить тело, можно получить [color=#a4885c]жидкую эктоплазму[/color], полезную для создания [color=#a4885c]кристаллов нормальности[/color]. Альтернативно, можно просто разбить тело в кашу, чтобы оно перестало повышать мерцание — но тогда ресурс не получить.
+<GuideEntityEmbed Entity="MobGlimmerWisp"/>
 
-  В целом — не угроза, но источник нестабильности. Полезны, если нужны кристаллы и если не слишком поздно.
+These wisps are physical manifestations of glimmer that are ghostly in appearance.
 
-  # Мерцающий Огонёк
+Minimum glimmer rating: High
 
-  <GuideEntityEmbed Entity="MobGlimmerWisp"/>
+## Assessment
 
-  Призрачное существо, почти неуловимое, воплощённая волна мерцания. Видится как тусклый парящий свет, скользящий по коридорам.
+They don't directly affect the noösphere themselves, the main threat is that they [color=#a4885c]hunt down[/color] any psionics!
 
-  **Минимальный уровень мерцания:** высокий.
+Once a psionic is critically injured, they will begin to drain the life out of the body to [color=#a4885c]heal all injuries[/color].
 
-  ## Оценка
+## Procedure
+Most physical attacks pass through them unnoticed, but holy weapons like the Chaplain's [color=#a4885c]Bible[/color] will weaken it.
 
-  Сам по себе не влияет на ноосферу, но начинает [color=#a4885c]охоту на псиоников[/color].
+Once attacked they will retaliate for some time, so be prepared for a fight!
 
-  Если псионик тяжело ранен, огонёк приступает к дренажу жизненных сил, исцеляя свои собственные повреждения.
+They can also be dispelled by any gifted psionic.
 
-  ## Тактика
+## Analysis
+If you manage to kill a wisp, it will leave behind a large amount of ectoplasm which can easily make a drain or two.
 
-  Физические атаки проходят сквозь него без эффекта. Но [color=#a4885c]священные предметы[/color] вроде библии капеллана способны нанести урон.
+Extremely useful to a trained Epistemics team, but will require coordination to take it down.
 
-  Псионики также могут изгнать существо напрямую, используя силу.
+# Revenant
 
-  Но будьте осторожны: если атаковать его, оно даст ответ. И это будет нечто.
+<GuideEntityEmbed Entity="MobRevenant"/>
 
-  ## Анализ
+A tortured soul taking revenge on those who wronged them, brought to this plane by the noösphere.
 
-  После смерти оставляет крупный сгусток эктоплазмы — отличная находка для команды Эпистемиков. Но без подготовки и взаимодействия огонёк способен устроить резню.
+Minimum glimmer rating: Dangerous
 
-  # Ревенант
+## Assessment
 
-  <GuideEntityEmbed Entity="MobRevenant"/>
+They have no effect on the noösphere but are a serious threat to the station, feeding on the souls of dead crew.
 
-  Изуродованная душа, ведомая жаждой мести. Призванная неведомыми волнами ноосферы, она возвращается, чтобы свести счёты с живыми.
+Unlike wisps, revenants cannot be attacked in any way by default.
 
-  **Минимальный уровень мерцания:** опасный.
+Once a revenant uses their abilities, they can be attacked by any means for a short time.
 
-  ## Оценка
+## Procedure
+Holy damage from a bible or anti-psionic knife is especially effective at taking down wisps.
 
-  На само мерцание не влияет. Но убивает и поглощает души погибших членов экипажа, подпитываясь их сущностью.
+Assistance from the Security department is usually recommended.
 
-  В отличие от огоньков, [italic]ревенант по умолчанию неуязвим[/italic]. Однако если он применяет свои способности, его можно атаковать — но лишь на короткое время.
+Spare no time in putting down a revenant.
 
-  ## Тактика
-
-  Священный урон, такой как от библии или антипсионического ножа, наиболее эффективен.
-
-  Без охраны лучше не приближаться. Требуется скоординированное нападение. Не мешкайте — действуйте быстро.
-
-  ## Анализ
-
-  Полезности — мало. Эктоплазмы почти не даёт. Главная угроза — паника и смерть, которую он несёт за собой.
+## Analysis
+Mostly annoying to the crew, limited exploitation due to low amount of ectoplasm when killed.
 
 </Document>
