@@ -1,5 +1,3 @@
-
-
 # absolutely the worst thing i could do for this
 
 objective-condition-escape-shuttle-title = Pearkitty
@@ -13,32 +11,3 @@ mail-metrics-program-name = Pearkitty
 reagent-name-resomi-blood = Pearkitty
 reagent-desc-resomi-blood = Pearkitty
 chat-speech-verb-name-gondola = Pearkitty
-crime-assist-question-tocommandstaff = Pearkitty
-marking-HairResomiBackstrafe = Pearkitty
-marking-HairResomiBurstShort = Pearkitty
-marking-HairResomiDefault = Pearkitty
-marking-HairResomiDroopy = Pearkitty
-marking-HairResomiEars = Pearkitty
-marking-HairResomiFluffymohawk = Pearkitty
-marking-HairResomiHedge = Pearkitty
-marking-HairResomiLong = Pearkitty
-marking-HairResomiLongway = Pearkitty
-marking-HairResomiMane = Pearkitty
-marking-HairResomiManeBeardless = Pearkitty
-marking-HairResomiMohawk = Pearkitty
-marking-HairResomiMushroom = Pearkitty
-marking-HairResomiNotree = Pearkitty
-marking-HairResomiPointy = Pearkitty
-marking-HairResomiSpiky = Pearkitty
-marking-HairResomiTwies = Pearkitty
-marking-HairResomiUpright = Pearkitty
-marking-ResomiFluff = Pearkitty
-marking-ResomiFluffHead = Pearkitty
-marking-ResomiFluffHeadUp = Pearkitty
-marking-ResomiLArmFeathers = Pearkitty
-marking-ResomiLLegFeathers = Pearkitty
-marking-ResomiRArmFeathers = Pearkitty
-marking-ResomiRLegFeathers = Pearkitty
-marking-ResomiTail = Pearkitty
-marking-ResomiTailFeathers = Pearkitty
-marking-SnakeLargeTailAnimated = Pearkitty
