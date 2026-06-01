@@ -37,3 +37,4 @@ jobs:
           cd "Tools/prtitlecase"
           node index.js
         shell: bash
+
