@@ -5,9 +5,6 @@
   id: CrescentWeaponLauncherGL932
   description: placeholder
   components:
-  - type: ParticleOnGunShot # EN start
-    effect: MuzzleSmoke
-    inheritAngle: true # EN end
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/Guns/SPECIAL/GL-93-2.rsi
   - type: Clothing
