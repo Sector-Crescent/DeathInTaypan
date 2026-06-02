@@ -176,7 +176,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/UnionfallWeapons/lever_fire.ogg
+      path: /Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lever_fire.ogg
   - type: BallisticAmmoProvider
     soundInsert:
       collection: LeverReload

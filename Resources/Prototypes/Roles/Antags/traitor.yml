@@ -44,8 +44,6 @@
 - type: startingGear
   id: SyndicateOperativeGearExtremelyBasic
   parent: SyndicateOperativeClothing
-  subGear:
-  - BoxSurvivalSyndicate
   storage:
     back:
     - WeaponPistolViper
@@ -57,8 +55,6 @@
 - type: startingGear
   id: SyndicateReinforcementMedic
   parent: SyndicateOperativeClothing
-  subGear:
-  - BoxSurvivalSyndicate
   equipment:
     pocket1: WeaponPistolViper
   inhand:
@@ -67,8 +63,6 @@
 - type: startingGear
   id: SyndicateReinforcementSpy
   parent: SyndicateOperativeClothing
-  subGear:
-  - BoxSurvivalSyndicate
   equipment:
     id: AgentIDCard
     mask: ClothingMaskGasVoiceChameleon
@@ -77,8 +71,6 @@
 - type: startingGear
   id: SyndicateReinforcementThief
   parent: SyndicateOperativeClothing
-  subGear:
-  - BoxSurvivalSyndicate
   equipment:
     pocket1: WeaponPistolViper
   inhand:

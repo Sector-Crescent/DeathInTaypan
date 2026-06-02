@@ -17,9 +17,9 @@
         - Sign
       languagesUnderstood:
         - Sign
-        
+
 - type: trait
-  id: Tradeband
+  id: SolCommon
   category: TraitsSpeechLanguages
   points: 0
   # slots: 1
@@ -30,7 +30,27 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Harpy
+        - Human
+    - !type:CharacterNationalityRequirement
+      inverted: true
+      nationalities:
+        - Solarian
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - SolCommon
+      languagesUnderstood:
+        - SolCommon
+
+- type: trait
+  id: Tradeband
+  category: TraitsSpeechLanguages
+  points: 0
+  # slots: 1
+  # itemGroupSlots: 0
+  requirements:
+    # - !type:CharacterItemGroupRequirement
+    #   group: TraitsLanguagesBasic
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -53,3 +73,44 @@
         - Freespeak
       languagesUnderstood:
         - Freespeak
+
+- type: trait
+  id: ForeignerLight
+  category: TraitsSpeechLanguages
+  points: 2
+  requirements:
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Foreigner
+    - Muted
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+    - Mime
+  functions:
+  - !type:TraitAddComponent
+    components:
+    - type: ForeignerTrait
+      cantUnderstand: false
+      baseTranslator: TranslatorForeigner
+
+- type: trait
+  id: Foreigner
+  category: TraitsSpeechLanguages
+  points: 4
+  requirements: # TODO: Add a requirement to know at least 1 non-gc language
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - ForeignerLight
+    - Muted
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+    - Mime
+  functions:
+  - !type:TraitAddComponent
+    components:
+    - type: ForeignerTrait
+      baseTranslator: TranslatorForeigner

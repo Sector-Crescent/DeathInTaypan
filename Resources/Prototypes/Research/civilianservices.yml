@@ -166,25 +166,3 @@
   - BluespaceBodyBag # WD
   # TODO: Add things like frontier's Hyposprays.
   softCapContribution: 1.5
-
-- type: technology
-  id: AdvancedTranslation
-  name: research-technology-advanced-translation
-  icon:
-    sprite: Objects/Devices/translator.rsi
-    state: icon
-  discipline: CivilianServices
-  tier: 3
-  cost: 15000
-  recipeUnlocks:
-  - XenoTranslator
-  - AdvancedGalaticCommonTranslatorImplanter
-  - BubblishTranslatorImplanter
-  - NekomimeticTranslatorImplanter
-  - DraconicTranslatorImplanter
-  - CanilunztTranslatorImplanter
-  - SolCommonTranslatorImplanter
-  - RootSpeakTranslatorImplanter
-  - AnimalTranslator
-  - MofficTranslatorImplanter
-  softCapContribution: 1.5
