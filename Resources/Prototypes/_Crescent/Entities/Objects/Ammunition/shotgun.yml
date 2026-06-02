@@ -29,8 +29,6 @@
     damage:
       types:
         Piercing: 10 # i just hit the juckport
-    harmorPenetration: 30
-    stoppingPower: 4
 
 - type: entity
   id: Crescent185gaPelletShotgunSpread
@@ -184,8 +182,6 @@
     damage:
       types:
         Piercing: 12 # i just hit the juckport
-    harmorPenetration: 30
-    stoppingPower: 4
 
 - type: entity
   id: Crescent12gPelletShotgunSpread
@@ -280,8 +276,6 @@
     damage:
       types:
         Piercing: 1000 # crazy how its justified this time
-    harmorPenetration: 30
-    stoppingPower: 4
 
 - type: entity
   id: Crescent4GaPelletShotgunSpread

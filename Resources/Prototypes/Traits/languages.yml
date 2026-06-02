@@ -2,31 +2,54 @@
   id: SignLanguage
   category: TraitsSpeechLanguages
   points: -1
+  # slots: 1
+  # itemGroupSlots: 0
   requirements:
     # - !type:CharacterItemGroupRequirement
     #   group: TraitsLanguagesBasic
-    #- !type:CharacterTraitRequirement
-    #  inverted: true
-    #  traits:
-    #    - Muted
-    - !type:CharacterSpeciesRequirement
+    - !type:CharacterTraitRequirement
       inverted: true
-      species:
-        - Human
+      traits:
+        - Muted
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
         - Sign
       languagesUnderstood:
         - Sign
-
+        
 - type: trait
   id: Tradeband
   category: TraitsSpeechLanguages
-  points: -2
+  points: 0
+  # slots: 1
+  # itemGroupSlots: 0
+  requirements:
+    # - !type:CharacterItemGroupRequirement
+    #   group: TraitsLanguagesBasic
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Harpy
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
         - Tradeband
       languagesUnderstood:
         - Tradeband
+
+- type: trait
+  id: Freespeak
+  category: TraitsSpeechLanguages
+  points: 0
+  # slots: 1
+  # itemGroupSlots: 0
+  # requirements:
+  #   - !type:CharacterItemGroupRequirement
+  #     group: TraitsLanguagesBasic
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Freespeak
+      languagesUnderstood:
+        - Freespeak
