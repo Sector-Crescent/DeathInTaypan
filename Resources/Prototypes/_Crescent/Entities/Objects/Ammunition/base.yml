@@ -116,8 +116,6 @@
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     shape:
     - 0,0,5,1
@@ -146,10 +144,6 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
   - type: Appearance
 
 - type: entity
