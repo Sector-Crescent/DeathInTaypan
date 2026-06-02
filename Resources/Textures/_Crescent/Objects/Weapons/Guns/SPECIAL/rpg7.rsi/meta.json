@@ -1,9 +1,9 @@
 {
     "version": 1,
     "license": "",
-    "copyright": "sprites provided by @WillyBillyGilly, licensed under CC-BY-SA 3.0",
+    "copyright": "Made by the Sector Crescent team for the Hullrot Project. All rights reserved. Do not modify, publish, use, relicense, or edit.",
     "size": {
-        "x": 48,
+        "x": 64,
         "y": 32
     },
     "states": [
@@ -14,7 +14,10 @@
             "name": "base"
         },
         {
-            "name": "bolt-open"
+            "name": "mag-0"
+        },
+        {
+            "name": "mag-1"
         },
         {
             "name": "inhand-left",

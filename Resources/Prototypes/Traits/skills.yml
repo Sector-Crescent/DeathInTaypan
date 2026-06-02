@@ -192,7 +192,6 @@
       species:
         - Felinid
         - Tajaran
-        - Harpy
 
 - type: trait
   id: AnomalousPositronics

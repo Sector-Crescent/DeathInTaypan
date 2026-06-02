@@ -3,10 +3,3 @@
   id: BoxSurvival
   subGear:
   - BoxSurvivalOxygen
-
-- type: startingGear
-  id: BoxSurvivalOxygen
-  parent: OxygenBreather
-  storage:
-    back:
-    - BoxSurvival
