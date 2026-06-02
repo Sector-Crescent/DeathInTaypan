@@ -15,6 +15,13 @@
   - type: Hunger
   - type: Puller
     needsHands: false
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Draconic #
+    understands:
+    - Draconic
+    - TauCetiBasic #needed for vending machines
   - type: Thirst
   - type: Carriable # Carrying system from nyanotrasen.
   - type: Icon
