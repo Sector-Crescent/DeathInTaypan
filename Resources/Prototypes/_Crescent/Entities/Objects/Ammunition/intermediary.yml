@@ -28,8 +28,6 @@
     damage:
       types:
         Piercing: 25 # i just hit the juckport
-    harmorPenetration: 30
-    stoppingPower: 4
 
 
 - type: entity
@@ -176,8 +174,6 @@
     damage:
       types:
         Piercing: 25 # i just hit the juckport
-    harmorPenetration: 30
-    stoppingPower: 4
 
 - type: entity
   abstract: False
@@ -293,8 +289,6 @@
     damage:
       types:
         Piercing: 25 # i just hit the juckport
-    harmorPenetration: 30
-    stoppingPower: 4
 
 - type: entity
   abstract: False
@@ -380,8 +374,6 @@
     damage:
       types:
         Piercing: 25 # i just hit the juckport
-    harmorPenetration: 30
-    stoppingPower: 4
 
 - type: entity
   abstract: False
