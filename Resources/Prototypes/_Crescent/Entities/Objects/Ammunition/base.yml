@@ -112,7 +112,7 @@
   description: yeah fuck it give it all the calibers it even accepts crowbars! wont shoot it doe
   components:
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Guns/akms.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/RIFLE/AK-74.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -160,7 +160,7 @@
   abstract: False
   components:
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Guns/deckard.rsi
+    sprite: Entities/Objects/Weapons/Guns/deckard.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
