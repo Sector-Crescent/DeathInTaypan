@@ -160,7 +160,7 @@
   abstract: False
   components:
   - type: Sprite
-    sprite: Entities/Objects/Weapons/Guns/deckard.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/SPECIAL/GL-93-2.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -175,7 +175,7 @@
     tags:
     - Sidearm
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/SPECIAL/GL-93-2.rsi
     quickEquip: false
     slots:
     - suitStorage
