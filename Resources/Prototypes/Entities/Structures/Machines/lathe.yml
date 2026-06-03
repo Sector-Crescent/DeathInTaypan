@@ -140,7 +140,6 @@
     - ElectronicsStatic
     # EE EDIT START
     - FauxTiles # moved to static
-    - TranslatorStatic
     # EE EDIT END
   - type: EmagLatheRecipes
     emagStaticPacks:
@@ -225,7 +224,6 @@
     # EE EDIT START
     # - FauxTiles # moved to static
     - Parts
-    - Translator
     # EE EDIT END
   - type: EmagLatheRecipes
     emagDynamicPacks:

@@ -30,7 +30,7 @@
     whitelist:
       tags:
         - Shell40mm
-    proto: Cartridge40mmFrag
+    proto: Cartridge40mmCan
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
@@ -58,7 +58,3 @@
   - type: HeldSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 2
-    recipes:
-      - WeaponLauncherMilkor

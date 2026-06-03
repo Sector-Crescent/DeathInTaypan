@@ -49,8 +49,6 @@
     damage:
       types:
         Piercing: 21
-    harmorPenetration: 5
-    stoppingPower: 3
 
 - type: entity
   id: Spread40mmCan
