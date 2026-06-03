@@ -29,10 +29,10 @@
   - type: LanguageKnowledge
     speaks:
     - TauCetiBasic
-    - Moffic
+    - Atryian
     understands:
     - TauCetiBasic
-    - Moffic
+    - Atryian
   - type: TypingIndicator
     proto: moth
   - type: Butcherable
