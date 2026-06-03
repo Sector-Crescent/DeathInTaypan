@@ -11,3 +11,4 @@ mail-metrics-program-name = Pearkitty
 reagent-name-resomi-blood = Pearkitty
 reagent-desc-resomi-blood = Pearkitty
 chat-speech-verb-name-gondola = Pearkitty
+crime-assist-question-tocommandstaff = Pearkitty
