@@ -11,6 +11,7 @@ using Content.Shared.Database;
 using Content.Shared.Ghost;
 using Content.Shared.Maps;
 using Content.Shared.Parallax;
+using Content.Shared.SegmentedEntity;
 using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Systems;
 using Content.Shared.StatusEffect;
@@ -657,6 +658,21 @@ public sealed partial class ShuttleSystem
                 childXform,
                 new EntityCoordinates(oldMapUid.Value,
                 Vector2.Transform(relative.Position, oldGridMatrix)), rotation: relative.Quaternion2D.Angle + oldGridRotation);
+        }
+    }
+
+    private void KnockOverKids(TransformComponent xform, ref ValueList<EntityUid> toKnock)
+    {
+        // Not recursive because probably not necessary? If we need it to be that's why this method is separate.
+        var childEnumerator = xform.ChildEnumerator;
+        while (childEnumerator.MoveNext(out var child))
+        {
+            if (!_buckleQuery.TryGetComponent(child, out var buckle) || buckle.Buckled
+            || HasComp<SegmentedEntityComponent>(child)
+            || HasComp<SegmentedEntitySegmentComponent>(child))
+                continue;
+
+            toKnock.Add(child);
         }
     }
 
