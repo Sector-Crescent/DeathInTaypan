@@ -17,6 +17,7 @@
 - type: startingGear
   id: ERTLeaderGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTLeader
@@ -43,7 +44,9 @@
 - type: startingGear
   id: ERTLeaderGearEVA
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
+  - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTLeader
     back: ClothingBackpackERTLeader
@@ -69,6 +72,7 @@
 - type: startingGear
   id: ERTLeaderGearEVALecter
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
@@ -118,6 +122,7 @@
 - type: startingGear
   id: ERTChaplainGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTChaplain
@@ -151,6 +156,7 @@
 - type: startingGear
   id: ERTChaplainGearEVA
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
@@ -201,6 +207,7 @@
 - type: startingGear
   id: ERTEngineerGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTEngineer
@@ -231,6 +238,7 @@
 - type: startingGear
   id: ERTEngineerGearEVA
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
@@ -278,6 +286,7 @@
 - type: startingGear
   id: ERTSecurityGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTSecurity
@@ -304,6 +313,7 @@
 - type: startingGear
   id: ERTSecurityGearEVA
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
@@ -331,6 +341,7 @@
 - type: startingGear
   id: ERTSecurityGearEVALecter
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
@@ -376,6 +387,7 @@
 - type: startingGear
   id: ERTMedicalGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTMedic
@@ -401,6 +413,7 @@
 - type: startingGear
   id: ERTMedicalGearEVA
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
@@ -443,6 +456,7 @@
 - type: startingGear
   id: ERTJanitorGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTJanitor
@@ -467,6 +481,7 @@
 - type: startingGear
   id: ERTJanitorGearEVA
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear
   - GasTankSuitStorage
   equipment:
