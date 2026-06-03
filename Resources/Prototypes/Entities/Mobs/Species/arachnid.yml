@@ -19,7 +19,7 @@
     - TauCetiBasic
     - Moffic
     understands:
-    - Atyrian
+    - Moffic
     - TauCetiBasic #needed for vending machines
   - type: Sericulture
     action: ActionSericulture
