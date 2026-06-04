@@ -226,6 +226,7 @@
     - id: ClothingHeadHatBeretCmo
     - id: ClothingHeadsetAltMedical
     - id: ClothingMaskSterile
+    - id: ClothingOuterJacketSurgical
     - id: CMOIDCard
     - id: DoorRemoteMedical
     - id: HandheldCrewMonitor

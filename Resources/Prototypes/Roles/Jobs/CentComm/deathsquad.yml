@@ -16,7 +16,9 @@
 - type: startingGear
   id: DeathSquadGear
   subGear:
+  - BoxSurvivalEngineering
   - ERTPlasmamanGear # TODO: death squad envirosuit
+  - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
     back: ClothingBackpackDeathSquad

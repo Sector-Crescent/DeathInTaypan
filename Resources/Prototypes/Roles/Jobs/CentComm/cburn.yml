@@ -16,7 +16,9 @@
 - type: startingGear
   id: CBURNGear
   subGear:
+  - BoxSurvivalEngineering
   - CBURNPlasmamanGear
+  - GasTankSuitStorage
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBrown
     back: ClothingBackpackDuffelCBURN
