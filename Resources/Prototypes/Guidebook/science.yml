@@ -7,7 +7,6 @@
   - AnomalousResearch
   - Xenoarchaeology
   - Robotics
-  - MachineUpgrading
   - ReverseEngineering
   - MantisGuide
 
@@ -53,7 +52,7 @@
   id: ArtifactReports
   name: guide-entry-artifact-reports
   text: "/ServerInfo/Guidebook/Science/ArtifactReports.xml"
-  
+
 - type: guideEntry
   id: Cyborgs
   name: guide-entry-cyborgs
