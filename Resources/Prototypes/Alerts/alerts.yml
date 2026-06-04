@@ -112,7 +112,7 @@
   icons:
   - sprite: /Textures/_Crescent/Interface/Alerts/fire.rsi
     state: fire
-  onClick: !type:ResistFireAlertEvent
+  clickEvent: !type:ResistFireAlertEvent
   name: alerts-on-fire-name
   description: alerts-on-fire-desc
 
@@ -163,14 +163,14 @@
 
 - type: alert
   id: Handcuffed
-  onClick: !type:RemoveCuffsAlertEvent
+  clickEvent: !type:RemoveCuffsAlertEvent
   icons: [ /Textures/Interface/Alerts/Handcuffed/Handcuffed.png ]
   name: alerts-handcuffed-name
   description: alerts-handcuffed-desc
 
 - type: alert
   id: Ensnared
-  onClick: !type:RemoveEnsnareAlertEvent
+  clickEvent: !type:RemoveEnsnareAlertEvent
   icons:
   - sprite: /Textures/Interface/Alerts/ensnared.rsi
     state: ensnared
@@ -180,7 +180,7 @@
 - type: alert
   id: Buckled
   category: Buckled
-  onClick: !type:UnbuckleAlertEvent
+  clickEvent: !type:UnbuckleAlertEvent
   icons:
   - sprite: /Textures/_Crescent/Interface/Alerts/buckled.rsi
     state: buckled
@@ -189,7 +189,7 @@
 
 - type: alert
   id: Offer
-  onClick: !type:AcceptOfferAlertEvent
+  clickEvent: !type:AcceptOfferAlertEvent
   icons:
   - sprite: /Textures/Interface/Alerts/offer_item.rsi
     state: offer_item
@@ -217,7 +217,7 @@
 - type: alert
   id: HumanHealth
   category: Health
-  onClick: !type:CheckHealthAlertEvent
+  clickEvent: !type:CheckHealthAlertEvent
   icons:
   - sprite: /Textures/_Crescent/Interface/Alerts/human_alive.rsi
     state: health0
@@ -314,7 +314,7 @@
 - type: alert
   id: Internals
   category: Internals
-  onClick: !type:ToggleInternalsAlertEvent
+  clickEvent: !type:ToggleInternalsAlertEvent
   icons:
   - sprite: /Textures/_Crescent/Interface/Alerts/internals.rsi
     state: internal0
@@ -330,7 +330,7 @@
 - type: alert
   id: PilotingShuttle
   category: Piloting
-  onClick: !type:StopPilotingAlertEvent
+  clickEvent: !type:StopPilotingAlertEvent
   icons: [ /Textures/Interface/Alerts/piloting.png ]
   name: alerts-piloting-name
   description: alerts-piloting-desc
@@ -404,14 +404,14 @@
   id: VowOfSilence
   icons: [ /Textures/Interface/Alerts/Abilities/silenced.png ]
   name: alerts-vow-silence-name
-  onClick: !type:BreakVowAlertEvent
+  clickEvent: !type:BreakVowAlertEvent
   description: alerts-vow-silence-desc
 
 - type: alert
   id: VowBroken
   icons: [ /Textures/Interface/Actions/scream.png ]
   name: alerts-vow-broken-name
-  onClick: !type:RetakeVowAlertEvent
+  clickEvent: !type:RetakeVowAlertEvent
   description: alerts-vow-broken-desc
 
 # Goobstation start
@@ -427,7 +427,7 @@
     state: grabbed-hard
   - sprite: /Textures/_Crescent/Interface/Alerts/pull.rsi
     state: grabbed-choke
-  onClick: !type:StopBeingPulledAlertEvent
+  clickEvent: !type:StopBeingPulledAlertEvent
   name: alerts-pulled-name
   description: alerts-pulled-desc
   minSeverity: 0
@@ -444,7 +444,7 @@
     state: grab-hard
   - sprite: /Textures/_Crescent/Interface/Alerts/pull.rsi
     state: grab-choke
-  onClick: !type:StopPullingAlertEvent
+  clickEvent: !type:StopPullingAlertEvent
   name: alerts-pulling-name
   description: alerts-pulling-desc
   minSeverity: 0
@@ -554,7 +554,7 @@
 - type: alert
   id: Insane
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood_insane
@@ -564,7 +564,7 @@
 - type: alert
   id: Horrible
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood1
@@ -574,7 +574,7 @@
 - type: alert
   id: Terrible
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood2
@@ -584,7 +584,7 @@
 - type: alert
   id: Bad
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood3
@@ -594,7 +594,7 @@
 - type: alert
   id: Meh
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood4
@@ -604,7 +604,7 @@
 - type: alert
   id: Neutral
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood5
@@ -614,7 +614,7 @@
 - type: alert
   id: Good
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood6
@@ -624,7 +624,7 @@
 - type: alert
   id: Great
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood7
@@ -634,7 +634,7 @@
 - type: alert
   id: Exceptional
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood8
@@ -644,7 +644,7 @@
 - type: alert
   id: Perfect
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood9
@@ -654,7 +654,7 @@
 - type: alert
   id: MoodDead
   category: Mood
-  onClick: !type:ShowMoodEffectsAlertEvent
+  clickEvent: !type:ShowMoodEffectsAlertEvent
   icons:
     - sprite: /Textures/Interface/Alerts/mood.rsi
       state: mood_happiness_bad
