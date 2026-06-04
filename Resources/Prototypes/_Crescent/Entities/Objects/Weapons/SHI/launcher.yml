@@ -58,7 +58,3 @@
   - type: HeldSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 2
-    recipes:
-      - WeaponLauncherMilkor
