@@ -1046,6 +1046,76 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
         _atmos.SetMapAtmosphere(mapUid, false, mixture);
     }
 
+public void BakePlanetGrid(
+    EntityUid gridUid,
+    MapGridComponent grid,
+    BiomeTemplatePrototype biomeTemplate,
+    int radius,
+    int? seed = null)
+{
+    var biome = (BiomeComponent) EntityManager.ComponentFactory.GetComponent(typeof(BiomeComponent));
+
+    seed ??= _random.Next();
+
+    SetSeed(gridUid, biome, seed.Value, false);
+    SetTemplate(gridUid, biome, biomeTemplate, false);
+
+    var tiles = new List<(Vector2i, Tile)>();
+
+    // tiles
+    for (var x = -radius; x <= radius; x++)
+    {
+        for (var y = -radius; y <= radius; y++)
+        {
+            var indices = new Vector2i(x, y);
+            if (!TryGetBiomeTile(indices, biome.Layers, biome.Seed, grid, out var tile))
+                continue;
+            tiles.Add((indices, tile.Value));
+            if (tiles.Count >= 4096)
+            {
+                _mapSystem.SetTiles(gridUid, grid, tiles);
+                tiles.Clear();
+            }
+        }
+    }
+
+    if (tiles.Count > 0)
+        _mapSystem.SetTiles(gridUid, grid, tiles);
+
+    // entities
+    for (var x = -radius; x <= radius; x++)
+    {
+        for (var y = -radius; y <= radius; y++)
+        {
+            var indices = new Vector2i(x, y);
+            var anchored = _mapSystem.GetAnchoredEntitiesEnumerator(gridUid, grid, indices);
+            if (anchored.MoveNext(out _) || !TryGetEntity(indices, biome, grid, out var entPrototype))
+                continue;
+            var ent = Spawn(entPrototype, _mapSystem.GridTileToLocal(gridUid, grid, indices));
+            if (_xformQuery.TryGetComponent(ent, out var xform) && !xform.Anchored)
+            {
+                _transform.AnchorEntity((ent, xform), (gridUid, grid), indices);
+            }
+        }
+    }
+
+    // decals
+    for (var x = -radius; x <= radius; x++)
+    {
+        for (var y = -radius; y <= radius; y++)
+        {
+            var indices = new Vector2i(x, y);
+            var anchored = _mapSystem.GetAnchoredEntitiesEnumerator(gridUid, grid, indices);
+            if (anchored.MoveNext(out _) || !TryGetDecals(indices, biome.Layers, biome.Seed, grid, out var decals))
+                continue;
+            foreach (var decal in decals)
+            {
+                _decals.TryAddDecal(decal.ID, new EntityCoordinates(gridUid, decal.Position), out _);
+            }
+        }
+    }
+}
+
     /// <summary>
     /// Sets the specified tiles as relevant and marks them as modified.
     /// </summary>
