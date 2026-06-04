@@ -1,0 +1,1272 @@
+<Document>
+  # Классификация законов
+
+  \n<Table Columns="5">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        1XX - мелкие преступления.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        2XX - преступления средней тяжести.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        3XX - тяжкие преступления.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        4XX - особо тяжкие преступления.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        01
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Побои
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Средние телесные повреждения
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Тяжкие телесные повреждения
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Покушение на убийство/убийство сотрудника
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        02
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Антиобщественные действия
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Домогательство
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Похищение
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нарушение директивы 014
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        03
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное хранение, производство или транспортировка наркотических средств
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Распространение наркотиков
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Хранение или использование контрабанды
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Враг корпорации
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        04
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Мелкая кража у сотрудника
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража ценного имущества или в особо крупных масштабах
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража особо ценного имущества
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        05
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное проникновение
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проникновение со взломом
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное проникновение в защищенный отсек
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проникновение в отсек особой важности
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        06
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Сопротивление
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Неисполнение приказа главы
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Призыв к мятежу
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Вооружённый мятеж
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        07
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нападение на должностное лицо
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нападение на Представителя Nanotrasen
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        08
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Вандализм
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Саботаж
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Диверсия
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Террористический акт
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        09
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Халатность
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Убийство сотрудника, совершенное по неосторожности
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Грубая халатность
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        10
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Изготовление или владение самодельным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное владение холодным или нелетальным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное владение летальным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#000000">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконный оборот огнестрельным оружием
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х01 - Физическое насилие
+  Физическое насилие - предусматривает статьи о физическом насилии над сотрудниками станции.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        101
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Побои
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нанесение минимальных повреждений сотруднику. Если нет возможности определить степень повреждений, то применяется данная статья.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Мим и уборщик вступили в драку из-за того, что уборщик смыл с пола рисунки мима, где оба обменялись парой ударов.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        201
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Средние телесные повреждения
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нанесение легких повреждений сотруднику.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Мим в порыве ярости, схватив огнетушитель со стены, накинулся на уборщика, разбив ему лицо.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        301
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Тяжкие телесные повреждения
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нанесение тяжких повреждений сотруднику. Введение в критическое состояние.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Мим также решил продемонстрировать свои творческие способности, доведя уборщика до такого состояния, что тот едва стоял на ногах.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        401
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Покушение на убийство/убийство сотрудника
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Действия, напрямую приведшие к смерти сотрудника, или действия, имевшие целью лишение жизни сотрудника, но не приведшие к смерти по независящим от преступника обстоятельствам.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Уборщик уже был введен в критическое состояние, умолял о пощаде, но Мим, охваченный яростью, продолжал жестоко избивать его.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х02 - Преступления против нравственности
+  Преступления против нравственности - предусматривает статьи о действиях которые нарушает правила общественного порядка и нравственности.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        102
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Антиобщественные действия
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нарушение правил общественного порядка. Сюда включаются действия, которые вызывают недовольство у группы лиц, а так же намеренное оголение в публичных местах.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Научный Руководитель проиграл клоуну в споре и пробежал 3 круга вокруг мостика голым.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        202
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Домогательство
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Домогательство к членам экипажа и приставание к сотруднику, явно выражающему своё нежелание подобных действий.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        На замечания бармена научный руководитель начал произносить похабные шутки о ней и попытался установить физический контакт.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        302
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Похищение
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Похищение сотрудника с применением средств ограничения свободы. В данную статью можно включить попытку скрыть похищенное лицо.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Научный руководитель заставил бармена поскользнуться, после чего надел на неё наручники и потащил в технические помещения.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        402
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нарушение директивы 014
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Любые формы полового акта, а также действия, направленные на стимуляцию полового возбуждения, между любыми живыми существами на борту станций и в прилегающем космосе, контролируемом NanoTrasen.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Научный руководитель был неудержим и завершил то, что он ранее намеревался сделать с барменом.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х03 - Контрабанда
+  Оборот запрещенных веществ и оружия - оборот запрещённых веществ и оружия на станции.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        103
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное хранение, производство или транспортировка наркотических средств
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное хранение, производство, транспортировка наркотических средств или их употребление. Для хранения и производства наркотических средств требуется медицинский рецепт. Стимуляторы попадают под наркотические средства.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Музыкант взял несколько сомнительных таблеток, чтобы найти себе вдохновление.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        203
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Распространение наркотиков
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Распространение наркотиков. Даже если у вас есть разрешение на их хранение, вам не разрешено распространять в отношении лиц, у которых такого разрешения нет.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Химик произвел чистый и уникальный продукт, решил продавать его.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        303
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Хранение или использование контрабанды
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Хранение или использование вещей, включенных в список контрабанды.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Химик решил не сдаваться во время облавы службы безопасности и, достав пистолет Кобра, открыл ответный огонь.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        403
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Враг корпорации
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Наличие стороннего ПО в ПДА, хранение вражеского снаряжения или участие во вражеских группировках подпадает под данную статью.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        После расследования выяснилось, что химик является участником вражеской группировки, цель которой - свергнуть власть на данной станции.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х04 - Кража
+  Кража - статьи, регулирующие кражу имущества.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        104
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Мелкая кража у сотрудника
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража личных, не ценных для станции, вещей, таких как: пища, одежда, гарнитура и подобные мелочи.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Сервисный работник с клептоманией решил снять очки со спящего юриста.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        204
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража вещей из отделов или других объектов, которые имеют какую-либо ценность. Сюда входят, например, инструменты, оборудование, транспорт, паспорт, ПДА и другие предметы, принадлежащие определенным отделам.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Сервисный работник забежал в инженерный и своровал оттуда изолирующие перчатки.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        304
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража ценного имущества или в особо крупных масштабах
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража ценного имущества включает в себя все, что при пропаже может повлиять на работу отдела, или находится в закрытых шкафах. Также в ценное имущество входят ID карты глав и смотрителя. Кроме того, кража в особо крупных масштабах означает кражу 4 и более вещей.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проходя мимо брига, сервисный сотрудник увидел открытую дверь и сумел украсть секвей службы безопасности, не привлекая внимания.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        404
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража особо ценного имущества
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Кража ключевых предметов глав, счета карго, ID карта главы персонала и ID карта капитана, а также вещи, которые представляют особую ценность для НаноТрайзен или самой станции.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        С помощью системы труб и неких махинаций, сервисный сотрудник сумел проникнуть в комнату капитана, где украл его скафандр.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х05 - Незаконное проникновение
+  Незаконное проникновение - статьи о проникновении на охраняемую территорию.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        105
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное проникновение
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проникновение в отсек, к которому нет доступа по ID, или без полученного разрешения от владельца отсека. Отказ выйти мирным путем.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Клоун, возомнив себя экскурсантом, без спроса вломился в вотчину Старшего Инженера - его инженерный отдел. На вежливые (и не очень) просьбы инженеров покинуть помещение он не реагировал, игнорируя законных обитателей отсека.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        205
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проникновение со взломом
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Намеренное проникновение в отсеки, к которым подозреваемый не имеет доступа, с использованием инструментов или других методов для проникновения. В данную статью также включается изменение труб для проникновения.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Клоун после этого отправился в карго, где выломал окно, чтобы через консоль заказать 20 цистерн кваса.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        305
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное проникновение в защищенный отсек
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Намеренное проникновение в защищенные отсеки, к которым подозреваемый не имеет доступа. К защищеным отсекам относятся: Бриг(та часть, к которой у адвокатов нету доступа); Кабинеты глав; Мостик; Атмосферный отдел; Хранилище ядерной боеголовки; Генератор гравитации.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        После этого клоун изменив трубопровод, решил подшутить над капитаном, проникнув на мостик через мусорку.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        405
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проникновение в отсек особой важности
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Проникновение без надлежащего допуска в особо охраняемые зоны, такие как оружейная и ядро ИИ.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Завершить свой поход клоун решил походом в оружейную, где его расстрелял варден.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х06 - Подрывная деятельность
+  Предусматривает статьи о действиях, направленных против командования станции, корпорации NanoTrasen или Центрального Командования.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        106
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Сопротивление
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Побег от службы безопасности во время обыска или ареста. Применяется в случае, если сотрудник службы безопасности полностью соблюдал процедуры.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Офицер приказал боксеру, который ранее избил репортера, остановиться, но тот сбежал.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        206
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Неисполнение приказа главы
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Неисполнение приказа, отданного руководителем. Исключение - приказ нарушает космический закон.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Повар отказался приготовить борщ по приказу капитана.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        306
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Призыв к мятежу
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Подстрекательство членов экипажа к действиям против командования или порядка на станции с использованием силы.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Грузчик подстрекает каргонцев к восстанию против глав, после того как Квартирмейстер запретил им заказывать квас.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        406
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Вооружённый мятеж
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Действия группы вооруженных лиц, направленные против интересов командования станции, корпорации NanoTrasen или Центрального Командования.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Когда капитан угрожал тюрьмой свободной каргонии, они взяли оружие и отправились на мостик с криками "viva la revolution!" в поисках справедливости.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х07 - Нападение на представителей власти
+  В этом разделе собраны статьи, описывающие нападения на сотрудников службы безопасности, командования и представителей интересов НаноТрейзен.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        107
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нападение на должностное лицо
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нападение, нанесение физического ущерба должностному лицу (сотрудникам службы безопасности, руководителям станции), попытки ареста или активные попытки опрокидывания толканиями.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        После приказа офицера остановиться, боксер решил отработать по офицеру несколько приемов, чтобы сбежать.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        407
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нападение на Представителя Nanotrasen
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нападение на прямых представителей компании Нанотрейзен. Сюда входят ОБР, Магистрат, Представитель Центрального Командования.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Уборщик, сжигаемый обидой за мизерную зарплату, набросился на Представителя Центрального Командования, вооружившись шваброй. Бравая свита в лице ОБР расстреляла уборщика еще когда он замахнулся шваброй.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х08 - Саботаж и терроризм
+  Саботаж и терроризм - статьи, описывающие саботаж и терроризм.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        108
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Вандализм
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Умышленное причинение незначительного ущерба имуществу станции. Сюда входит незначительные повреждение боргов. Животные также считаются имуществом станции.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Клоун разбил все бокалы в баре в отместку за отказ бармена приготовить ему "Бахус".
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        208
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Саботаж
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Это намеренное, но некритическое выведение из строя инфраструктуры или отсеков станции, не приводящее к гибели экипажа или значительному материальному ущербу. Примерами могут служить: поломка АПЦ в общежитиях, обесточивание шлюзов и т.п.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Клоун был впереди красноперых на пять шагов и, прежде чем воплотить свой план в жизнь, заварил двери в бриге, чтобы сотрудники Службы Безопасности не могли покинуть отдел.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        308
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Диверсия
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Действия, приводящие к серьёзному нарушению работы одного из отделов станции. Примеры включают вывод из строя ключевых элементов энергосети (например, путём повреждения подстанции) или уничтожение боргов.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Клоун пошел дальше и открутил подстанцию СБ.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        408
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Террористический акт
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Нанесение существенного вреда работе станции, в результате которого могли быть смертельные исходы, или, если на устранение неполадок уйдет долгое время.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Клоун угрожал ХоПу взорвать его кабинет, если тот не выдаст расширенный доступ. В ответ на отказ клоун взорвал несколько топливных резервуаров, вызвав разгерметизацию.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х09 - Нанесение вреда без умысла
+  Нанесение вреда без умысла
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        209
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Халатность
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Создание ситуаций, потенциально опасных для экипажа или станции из-за небрежных или безответственных, но неумышленных действий. Нарушение процедур, которое глава отдела может квалифицировать как халатность, подпадает под эту статью даже в случае, если нарушение не оказало негативного влияния на работу отдела и/или станции.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Глава Персонала не закрыла окно перед уходом и оставила ID-карту в консоли, что позволило преступнику завладеть её доступом.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        309
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Убийство сотрудника, совершенное по неосторожности
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Причинение смерти другому лицу в результате небрежного, халатного или безрассудного поведения, без явного умысла на убийство.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        В результате несоблюдения техники безопасности при проведении эксперимента в лаборатории произошла утечка токсичного газа. Один из находившихся в помещении ученых получил смертельное отравление.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        409
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Грубая халатность
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Действия или бездействие члена экипажа, демонстрирующие вопиющее пренебрежение безопасностью станции, ее персонала или ценного имущества Корпорации, повлекшие за собой катастрофические последствия, включая, но не ограничиваясь: массовую гибель людей, невосполнимый ущерб станции.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Старший инженер запустил сингулярность, но не счёл нужным контролировать её сохранность.
+      </Box>
+    </ColorBox>
+  </Table>\n
+
+  ##Х10 - Хранение оружия
+  Статьи, описывающие хранения оружия.
+  <Table Columns="4">
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Код
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Преступление
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Описание
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        Пример
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+        110
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Изготовление или владение самодельным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Изготовление или хранение самодельного оружия.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#47612e">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        У ученого была жажда создать идеальное оружие. Его первой мыслью было создать длинное оружие, которое не позволило бы тварям подойти на близкое расстояние. И, таким образом, он создал копье.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        210
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное владение холодным или нелетальным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Владение холодным или нелетальным оружием без соответствующего разрешения. Сюда включаются холодное оружие, предназначенное для нанесения серьезных увечий, а также любое другое оружие и приспособления для временного усмирения.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a69b38">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        После нескольких драк он понял, что сила проявляется в дальнем бою. Ученый смог выторговать у офицера дизейблер за незначительную побрякушку.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        310
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконное владение летальным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Владение огнестрельным и летальным энергетическим без соответствующего разрешения, сюда входят и самодельные огнестрельные приспособления. Изначально лицензию на владение имеют только сотрудники отдела СБ, Капитан, Глава Персонала, Бармен в пределах бара и Утилизаторы в пределах карго.
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#662424">
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Но все технологии казались слишком устаревшими или слабыми. Тогда он взял все в свои руки и создал лазерную пушку. Теперь у него было средство для компенсации недостатков.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        410
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Незаконный оборот огнестрельным оружием
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Вооружение других сотрудников огнестрельным илм лазерным оружием. Разрешение на данное действие имеет только Капитан и Глава Службы Безопасности, либо сотрудник с разрешением указанных ранее глав.
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+        Он осознал гениальность данного изобретения и решил вооружить всех сотрудников РНД этой технологией, чтобы не было никакой большой угрозы для них.
+      </Box>
+    </ColorBox>
+  </Table>
+
+</Document>
