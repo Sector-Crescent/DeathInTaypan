@@ -5,7 +5,7 @@ trait-description-Dockta = [color = green]
     a mishmash of Solarian Basic, Low Imperial and much from other languages that immigrated to Sector Crescent, integrated to be used
     with aggressive hand gestures to communicate with others in zero-atmosphere, zero-gravity space. [color = red]
     A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge. [/color]
-    
+
 trait-name-Kaishago = Kaishago
 trait-description-Kaishago = [color = green]
     This is the primary language of the SHI faction. All SHI members are able to speak and understand it. [/color]
@@ -19,14 +19,7 @@ trait-description-LowImperial = [color = green]
     The language spoken in the majority of Mandate space. A butchering of ancient romance languages like French and Romanian,
     colored in multiple dialects that are still somehow mutually understood. [color = red]
     A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge. [/color]
-
-trait-name-Freespeak = Freespeak
-trait-description-Freespeak = [color = green]
-    This is the primary language of the TFSC faction. All TFSC members are able to speak and understand it. [/color]
-    A language of renegades and frontiersmen descending from various languages from Earth-- like Hindi,
-    combined into a multi-rooted jumble that sounds incoherent or even barbarian to non-native speakers.[color = red]
-    A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge. [/color]
-
+    
 trait-name-American = American
 trait-description-American = An amalgamation of various ancient languages originating from Old Terra, spoken by those of the New American Protectorate.
 
