@@ -1,8 +1,8 @@
 <Document>
 
-# Основные медикаменты
+# Core Medications
 
-Эти препараты — основа работы любого медицинского отсека. Почти каждый из них найдёт своё применение в течение смены.
+These medications are almost always useful to medbay in one way or another.
 
 <GuideReagentEmbed Reagent="Bicaridine"/>
 <GuideReagentEmbed Reagent="Kelotane"/>
@@ -13,9 +13,9 @@
 <GuideReagentEmbed Reagent="DexalinPlus"/>
 <GuideReagentEmbed Reagent="Iron"/>
 
-# Специализированные медикаменты
+# Specialty Medications
 
-Эти препараты применяются в более узких, но жизненно важных ситуациях. От шоков до ожогов, от заморозки до радиации — каждый из них знает своё время.
+These medications tend to have specific use cases.
 
 <GuideReagentEmbed Reagent="Cryoxadone"/>
 <GuideReagentEmbed Reagent="Epinephrine"/>
@@ -27,9 +27,9 @@
 <GuideReagentEmbed Reagent="Ambuzol"/>
 <GuideReagentEmbed Reagent="Oculine"/>
 
-# Полный список препаратов
+# All Medications
 
-Полный перечень всех медицинских препаратов, доступных на станции. Включает в себя как базовые, так и редкие смеси. Настоящее руководство по химическому спасению жизней.
+This is a list of -all- medications available, including ones previously listed.
 
 <GuideReagentGroupEmbed Group="Medicine"/>
 

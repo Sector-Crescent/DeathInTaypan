@@ -1,16 +1,13 @@
 <Document>
-  # Термоэлектрический генератор (ТЭГ)
+  # Thermo-electric Engine (TEG)
 
-  ТЭГ генерирует энергию путем обмена теплом между горячими и холодными газами.
-  На станции горячий газ обычно создается путем сжигания плазмы, а массив [textlink="теплообменных" link="Radiators"] труб в космосе излучает тепло, охлаждая циркулирующие газы.
+  The TEG generates power by exchanging heat between hot and cold gases. On the station, hot gas is usually created by burning plasma, and an array of heat-exchanging pipes in space radiates away heat to cool down circulated gases.
 
-  ТЭГ сильно зависит от [textlink="атмосферики" link="Atmospherics"] и [textlink="трубопроводов." link="Pipes"]
-  Единственный действительно особенный компонент в нем — это ядро генератора и циркуляторы; все остальное — стандартное атмосферное оборудование.
-  Обратите внимание, что хотя точная компоновка может значительно варьироваться в зависимости от станции, общие компоненты и настройка обычно одинаковы.
+  The TEG relies heavily on atmospherics piping. The only truly special component about it is the generator core and circulators; the rest is all off-the-shelf atmospherics equipment. Note that while the exact layout may vary significantly depending on station, the general components and setup are usually the same.
 
-  ## Генератор
+  ## Generator
 
-  Сам основной генератор представляет собой машину, состоящую из 3 основных частей: центрального генератора и двух "циркуляторов", расположенных следующим образом:
+  The main generator itself is a machine made up of 3 major parts: the central generator and two "circulators", in this arrangement:
 
   <Box>
     <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
@@ -18,42 +15,62 @@
     <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
   </Box>
 
-  Циркуляторы принимают либо горячий, либо холодный газ и пропускают его через машину для теплообмена.
-  Затем газ выходит с другого конца циркулятора. Генератор производит фактическую мощность и выдает ее по [color=orange]проводу ВН[/color].
+  The circulators take in either a hot or cold gas, and pass it through the machine to exchange heat. The gas then gets output on the other end of the circulator. The generator produces the actual power and outputs it over an HV wire.
 
-  Обратите внимание, что циркуляторы [color=#a4885c]направленные[/color]: они пропускают газ только в одну сторону.
-  Вы можете увидеть это направление в игре, осмотрев сам циркулятор.
-  Для движения газа требуется разница давлений на входе и выходе, поэтому обычно предусмотрены насосы, которые необходимо включать.
+  Note that the circulators are [color=#a4885c]directional[/color]: they will only let gas through one way. You can see this direction in-game by examining the circulator itself. A pressure difference is required across the input and output, so pumps are generally provided and must be turned on.
 
-  Нет предпочтений, какая сторона должна быть горячей или холодной, нужна лишь разница в температуре между ними.
-  Газы в двух "контурах" никогда не смешиваются, [color=#a4885c]обменивается только энергия[/color] между ними.
-  Горячая сторона будет охлаждаться, холодная сторона будет нагреваться.
+  There is no preference for which side must be hot or cold, there need only be a difference in temperature between them. The gases in the two "loops" are never mixed, [color=#a4885c]only energy is exchanged between them[/color]. The hot side will cool down, the cold side will heat up.
 
-  ## Трубы
+  ## The Pipes
 
-  Здесь есть 2 основные [textlink="трубосети" link="PipeNetworks"], о которых нужно беспокоиться: [color=red]Горячий контур[/color] (где газ будет сжигаться для нагрева) и [color=cyan]Холодный контур[/color] (где циркулирующий нагретый отработанный газ будет либо удаляться в космос, либо охлаждаться обратно).
-  Убедитесь, что [color=#a4885c][bold]эти две [textlink="трубосети" link="PipeNetworks"] НЕ смешиваются[/bold][/color], так как через ТЭГ должна передаваться только теплота.
+  There are 2 major pipenets to worry about here: [color=red]The Hot Loop[/color] (where gas will be burnt for heat), and [color=cyan]The Cold Loop[/color] (where circulated, heated waste gas will either be removed into space or cooled back down). Make sure that [color=#a4885c][bold]both pipenets do NOT mix[/bold][/color], as only heat should be transferred between the two through the TEG.
 
-  # Горячий контур
+  # The Hot Loop
 
-  Как однажды сказал мудрый человек: лучший способ сделать что-то горячим — поджечь это.
-  Что ж, в зависимости от контекста, это может быть не очень мудро, но, к счастью, в вашем инженерном отделе есть все необходимое, чтобы сделать это мудро.
+  As I'm sure a wise person once said: the best way to make something hot is to light it on fire. Well, depending on context, that may not be very wise, but luckily your engineering department has just what's needed to do it wisely after all.
 
-  Как уже говорилось выше, существует множество различных компоновок, которым можно следовать для нагрева (или охлаждения) газов; эта часть руководства охватит некоторые распространенные методы, которые часто можно увидеть для горячего контура, включающие [color=red]Камеру сгорания[/color].
+  As stated above, there are many different layouts one can follow to heat up (or cool down) gases; this part of the guide will cover 2 common methods one will often see for the hot loop when the TEG is setup: [color=#a4885c]The Pipe Burn[/color], and [color=red]the Burn Chamber[/color].
 
-  Примечание: Плазменные пожары горят относительно холодно по сравнению, например, с тритиевыми пожарами.
-  Может быть целесообразно извлекать тритий из установки экстракции и вступать в реакцию с кислородом, чтобы получить поистине адские температуры для выработки энергии.
+  Side note: Plasma fires burn relatively cool compared to, for example, Tritium fires. It may be viable to extract Tritium from an extraction setup (using a 96/4 ratio of O2/Plasma) and react it with Oxygen to get truly hellish temperatures for power. Although, this is just a recommendation; I'm not ya mum.
 
-  ## Камера сгорания
+  ## The Pipe Burn
 
-  Камера сгорания — предпочтительный метод нагрева газов, и она обычно используется и для других целей (см.: Производство трития).
+  Also known as the naive method, this is generally discouraged when working for efficiency. However, if all you need is a smidge of power to run the station, and you don't feel like setting up the burn chamber, this method will do.
 
-  На большинстве (если не на всех) станциях камера сгорания отделена от основного блока Атмосферики космическим зазором шириной в 1 клетку, чтобы предотвратить поток обжигающе горячего газа в Атмосферику в случае прорыва. Камеры состоят из 3 важных частей:
-  - [textlink="Инжектор воздуха" link="AirInjector"]/[textlink="Пассивный клапан" link="PassiveVent"]
-  - Космический клапан
-  - Массив [textlink="скрубберов" link="AirScrubber"]
+  [color=#444444]TODO: Remove this section when atmos pipes are updated to have pressure/temperature limits in a future atmos refactor.[/color]
 
-  Вот один слой примера установки:
+  Most (if not all) pipe burns follow this general layout:
+  <Box>
+    Gas input -> High-pressure pump -> Pipe segment (with heater) -> Low-pressure pump -> Circulator
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasMixer" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-3"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHeaterEnabled" Caption="" Rotation="180" Margin="0"/>
+  </Box>
+  - The Gas input is pretty self-explanatory; this is where you will input the O2-Plasma mix to be burnt. A 2:1 (67/33) ratio of Oxygen to Plasma is recommended for the hottest burn.
+  - The High-pressure pump serves 2 purposes; first, it prevents the burn from backwashing into the supply pipe, which would be.. bad, for many reasons. Second, it maintains a positive pressure in the following pipe segment, which is important to allow the burn to continue, especially since hot gases expand.
+  - The Pipe segment is where the burn actually occurs; to start it off, one can use a heater to increase the temperature up to the ignition temperature of Plasma. Afterwards, the reaction should be self-sustaining, so long as the Pressure and Moles supplied remains high enough. [color=#a4885c]Be warned[/color]; if you wish to remove the heater, it will carry some of this superheated gas with it, transferring it to the next pipenet you connect it to. Best to space the gas through a space vent, if you must.
+  - The Low-pressure pump (whose pressure should be [italic]slightly lower[/italic] than the input pump) prevents [italic]all[/italic] the gas from passing through the circulator, which could result in the loss of the Moles required to sustain a burn.
+  - The Circulator is where this generated heat will flow to the cold loop; afterwards, feel free to space the waste gases.
+
+  Note: Pressure pumps are used here as, while they pump on pressure (not flow-rate, which is comparatively faster), they are a bit easier to control when it comes to the limited Plasma supply on-station. However, the steps shown can be followed with volumetric pumps too.
+
+  ## The Burn Chamber
+
+  The burn chamber is the preferred method for heating up gases, and it is commonly used for other purposes too. (see: Tritium production)
+
+  Most (if not all) stations have the burn chamber separated from the main atmospherics block by a 1-wide spaced grid, presumably to prevent conduction. The chambers consist of 3(+1) important parts:
+  - The Air Injector/Passive Vent
+  - The Space Vent
+  - The Scrubber Array
+
+  Here is one layer of an example setup: (pipes can and do need to be layered under the scrubbers below to connect them!)
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
@@ -64,15 +81,15 @@
   <Box>
     <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="GasVentScrubber" Rotation="90" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="-90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="90" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="-90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
   </Box>
   <Box>
@@ -83,38 +100,27 @@
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
   </Box>
 
-  [textlink="Инжектор воздуха" link="AirInjector"] (или [textlink="пассивный клапан" link="PassiveVent"]) впрыскивает воздух (или позволяет воздуху течь) в камеру сгорания.
-  Любой из них должен быть дополнен насосом перед ним для поддержания высокого давления.
+  The air injector (or Passive Vent) injects air (or allows air to flow) into the burn chamber. Either should be supplemented with a pump before it, to keep pressures high.
+  There is a notable difference between the passive vent and the air injector; the air injector can only keep injecting air up to [color=#a4885c]9MPa[/color], which can be reached very easily with a good burn. Ideally, switch out the air injector for a passive vent connected to a volume pump.
 
-  Существует заметная разница между [textlink="пассивным клапаном" link="PassiveVent"] и [textlink="инжектором воздуха" link="AirInjector"]; [textlink="инжектор воздуха" link="AirInjector"] может продолжать впрыскивать воздух только до [color=#a4885c]9 МПа[/color], что легко достигается при хорошем горении.
-  В идеале замените [textlink="инжектор воздуха" link="AirInjector"] на [textlink="пассивный клапан" link="PassiveVent"], подключенный к объемному насосу.
+  The space vent (designated as a blast door to space on one side of the burn chamber) allows waste gases to be expelled and destroyed. Open this every now and then to keep the pressure under control, or to space excess input gas.
 
-  Космический клапан (обозначенный как противовзрывная дверь в космос с одной стороны камеры сгорания) позволяет отработанным газам выбрасываться и уничтожаться.
-  Открывайте его время от времени, чтобы контролировать давление или сбрасывать избыточный входной газ.
-  Возможно, вам даже пригодится пневматический клапан для периодического сброса газа.
+  The scrubber array filters out all the burnt gasses and sends them through the TEG. Note that using default settings on the scrubbers is a bad idea, as valuable plasma will be filtered out too.
+  Instead, use a network configurator to connect all the scrubbers to a nearby air alarm, and set the air alarm's scrubber settings to scrub everything except Oxygen and Plasma, and to siphon air aswell. This ensures that as much heat as available can be collected and sent to the TEG.
 
-  Массив [textlink="скрубберов" link="AirScrubber"] отфильтровывает все сгоревшие газы и отправляет их через ТЭГ.
-  Обратите внимание, что использование настроек по умолчанию на [textlink="скрубберах" link="AirScrubber"] — плохая идея, так как ценная плазма также будет отфильтрована.
+  Note that these are just two of many ways you can setup the hot loop; [color=#a4885c]feel free to mix and match setups as needed![/color] Volume pumps in replacement of pressure pumps, radiator loops for heat collection, or even a Pyroclastic anomaly to provide said heat! The stars are the limit!
 
-  Вместо этого используйте сетевой конфигуратор для подключения всех [textlink="скрубберов" link="AirScrubber"] к ближайшей воздушной тревоге и установите в настройках [textlink="скрубберов" link="AirScrubber"] воздушной тревоги очистку всего, кроме кислорода и плазмы, а также откачку воздуха.
-  Это гарантирует, что будет собрано как можно больше тепла и отправлено в ТЭГ.
+  # The Cold Loop
 
-  Обратите внимание, что это лишь один из многих способов настройки горячего контура; [color=#a4885c]не стесняйтесь комбинировать установки по мере необходимости![/color]
-  [textlink="Объемные насосы" link="Pumps"] вместо [textlink="нагнетательных насосов" link="Pumps"], [textlink="радиаторные" link="Radiators"] контуры для сбора тепла или даже пирокластическая аномалия для обеспечения этого тепла!
-  Предел — только звезды!
+  As with the Hot Loop, the Cold Loop must also be setup in order to operate the TEG. However, the Cold Loop is usually a lot more low-tech than the Hot Loop; in reality, the Cold Loop only has to be "relatively" cooler -- hey, room temperature is technically cooler than the surface of the sun, right?
 
-  # Холодный контур
+  There are 3 main methods you will see used for the Cold Loop: [color=#a4885c]The Water Cooler[/color] (see: Liltenhead's video on the TEG), [color=cyan]the Coolant Array[/color] and [color=#a4885c]the Freezer Loop[/color].
 
-  Как и горячий контур, холодный контур также должен быть настроен для работы ТЭГ.
-  Однако холодный контур обычно гораздо менее технологичен, чем горячий; на самом деле, холодный контур должен быть лишь "относительно" холоднее — эй, комнатная температура технически холоднее, чем поверхность солнца, верно?
+  ## The Water Cooler
 
-  Существует 3 основных метода, которые вы увидите для холодного контура: [color=#a4885c]Водяное охлаждение[/color] (см.: видео Liltenhead о ТЭГ), [color=cyan]Охлаждающий массив[/color] и [color=#a4885c]Контур морозильника[/color].
+  An equally naive method as the Pipe Burn, this simply involves taking some useless gas (in this case, Water Vapour) and flowing it through the TEG and into space. It's dirt-cheap and simple, at the cost of efficiency and permanant loss of gas.
 
-  ## Водяное охлаждение
-
-  Столь же наивный метод, как и сжигание труб, он просто заключается в том, чтобы взять какой-нибудь бесполезный газ (в данном случае водяной пар), пропустить его через ТЭГ и сбросить в космос. Это дешево и просто, ценой эффективности и постоянной потери газа.
-
-  Настроить это настолько просто, что даже Хомяк справится. Возьмите выход газа (здесь водяной пар), пропустите его через холодную сторону ТЭГ, а затем сбросьте в космос.
+  Setting this up is so simple, even Hamlet could manage it. Just take an output of a gas (here, Water Vapour), send it through the Cold side of the TEG, and then vent it into space.
 
   <Box>
     <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
@@ -125,21 +131,19 @@
     <GuideEntityEmbed Entity="GasPassiveVent" Rotation="270" Caption="" Margin="-1"/>
   </Box>
 
-  ## Охлаждающий массив
+  [color=#444444]TODO: Remove this section when gas miners are removed in a future atmos refactor.[/color]
 
-  Это метод по умолчанию для холодного контура, который вы увидите на различных станциях.
-  Будучи умеренно сложным и не имеющим потерь каких-либо ресурсов, этот [color=#a4885c]должен[/color] быть основным методом охлаждения ТЭГ.
-  Однако на данный момент на большинстве станций радиаторы подключены неправильно (или предлагают неправильную разводку труб), что значительно снижает эффективность.
+  ## Coolant Array
 
-  Для правильного использования теплообменников они должны быть установлены [color=#a4885c]параллельно[/color], а не последовательно (как вы видите на большинстве станций).
-  Газовый насос на максимальном давлении должен быть размещен после, а объемный насос — перед теплообменниками.
-  Скорость потока объемного насоса должна быть установлена с использованием следующей формулы:
+  This is the default method for the Cold Loop you will see on a variety of stations. Being of moderate complexity and having no losses of any resource, this [color=#a4885c]should[/color] be the main method of cooling down the TEG. However, most stations at the moment somehow have their heat exchangers hooked up wrong (or suggest incorrect piping), reducing efficiency greatly. [color=#444444](Thanks a bunch, NT!)[/color]
+
+  To use heat-exchangers properly, they must be setup in [color=#a4885c]parallel[/color], not in series (like what you see on most stations). A gas pump at max pressure should be placed after, and a volumetric pump before the heat-exchangers.
+  The flow-rate of the volumetric pump should be set using the following formula:
   <Box>
-    [color=cyan]( 200 / количество теплообменников )[/color] л/с.
+    [color=cyan]( 200 / number of heat-exchangers )[/color] L/s.
   </Box>
 
-  Проще говоря, Охлаждающий массив состоит из 3 основных частей: входного соединительного порта, нескольких насосов и массива теплообменников в космосе.
-  Его можно настроить следующим образом:
+  Simply speaking, the Coolant Array consists of 3 major parts: An input connector port, a few pumps and the heat-exchanger array out in space. It can be setup like so:
 
   <Box>
     <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
@@ -186,17 +190,15 @@
     <GuideEntityEmbed Entity="GasPort" Rotation="180" Caption="" Margin="-1"/>
   </Box>
 
-  - Соединительный порт: Используйте его для подачи газа с высокой теплоемкостью; в большинстве случаев для этого используется плазма или фрезон, так как они оба имеют очень высокую удельную теплоемкость (хотя подойдет почти любой газ). (Да, Плазма =/= Горячая. Вы можете охладить ее, и она будет отличной средой для теплообмена.)
-  - Входные/выходные насосы: Используются для обеспечения непрерывного потока газа как через Циркулятор, так и через массив радиаторов. По мере того как газ охлаждается и нагревается (и по мере прохождения через Теплообменник), необходимо прикладывать давление для поддержания потока.
-  - Радиатор: По сути, просто куча радиаторов в космосе. Нечего особо сказать, кроме того, что он охлаждает газ внутри себя. Убедитесь, что радиаторы [color=#a4885c]установлены на решетке, а не на плите[/color]! В противном случае эффективность теплообмена значительно снизится, так как радиаторы не будут напрямую подвергаться воздействию космоса под ними.
+  - Connector Port: Use this to input a gas with high heat capacity; most of the time, Plasma or Frezon is used to do so, as they both have very high specific heat capacities (although most any gas will do). (Yes, Plasma =/= Hot. You can cool it down, and it acts as a really good heat exchange medium.)
+  - Input/Output Pumps: Used to make sure gas keeps flowing through both the Circulator and the Heat-Exchanger array. As the gas cools down and heats up (and as it flows through the Exchanger), pressure must be applied for it to keep flowing.
+  - Heat-Exchanger: Basically, just a bunch of heat-exchanger pipes in space. Not much to say, besides the fact that it cools down the gas inside it. Make sure the heat-exchangers are [color=#a4885c]placed on lattice, not plating[/color]! Otherwise, the heat-exchange efficiency will be greatly reduced, as the heat-exchangers aren't directly exposed to space below them.
 
-  ## Контур морозильника
+  ## The Freezer Loop
 
-  В большинстве случаев вы увидите этот метод, используемый в эффективных установках ТЭГ.
-  Это в основном Охлаждающий массив, но с заменой радиаторов на морозильник.
-  Даже несмотря на то, что морозильник потребляет энергию, это лишь малая часть того, что может выработать ТЭГ, и на данный момент это лучше, чем стандартный Охлаждающий массив, так что вперед.
+  Most of the time, you will see this method being used in efficient TEG setups. It's basically just the Coolant array, but replacing the Heat-Exchangers with a freezer. Even though the freezer does use power, it is only a small fraction of what the TEG can generate, and it's better than the default Coolant array at the moment, so go fish.
 
-  Следуйте инструкциям для Охлаждающего массива, но используйте морозильник вместо Теплообменников. Вот так:
+  Just follow the steps for the Coolant array, but use a freezer in place of the Heat-Exchangers. As so:
   <Box>
     <GuideEntityEmbed Entity="GasPort" Rotation="90" Caption="" Margin="-1"/>
     <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
@@ -217,18 +219,5 @@
     <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
   </Box>
 
-  И снова используйте в контуре плазму или фрезон для максимальной эффективности (хотя подойдет почти любой газ).
-
-  ## В поисках большей эффективности
-  Помните, атмосферика — это наука, и, как таковая, она постоянно развивается.
-  Приведенные выше установки — лишь верхушка айсберга; существует множество способов настройки ТЭГ и множество способов улучшить приведенные выше установки.
-  [color=#a4885c]Экспериментируйте![/color]
-
-  Всегда стремитесь улучшать конструкции, которые вы видите, и всегда стремитесь улучшать конструкции, которые создаете сами.
-  ТЭГ — мощный инструмент, и с большой силой приходит большая ответственность.
-  Убедитесь, что вы используете его с умом и правильно.
-
-  Атмосферика Space Station 14 — это сложная система, и ТЭГ — лишь ее часть.
-  [bold]Это как гигантская головоломка, так что идите и решите ее![/bold]
-
+  Once again, use Plasma or Frezon in the loop for max efficiency (although most any gas will do).
 </Document>

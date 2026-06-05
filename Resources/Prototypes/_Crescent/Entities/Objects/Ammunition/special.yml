@@ -1,0 +1,120 @@
+
+
+# 40mm Grenade
+
+- type: entity
+  id: Cartridge40mmCan
+  name: 40mm M1001 CA grenade
+  parent: BaseItem
+  description: A 40mm grenade launcher round, commonly called a 40 mike mike. This is a canister shot.
+  components:
+  - type: Tag
+    tags:
+      - Shell40mm
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: Spread40mmCan
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Ammunition/Casings/40mm_grenade.rsi
+    layers:
+      - state: can
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+    state: "can"
+  - type: StaticPrice
+    price: 20
+  - type: ExtendDescription
+    descriptionList:
+      - description: Intended target - Personnel
+        fontSize: 12
+        color: "#ffb700"
+        requireDetailRange: false
+  - type: EmitSoundOnLand
+    sound:
+      collection: HeavyBulletBounce
+  - type: EmitSoundOnCollide
+    sound:
+      collection: HeavyBulletBounce
+
+- type: entity
+  id: Projectile40mmCan
+  name: pellet (40mm can)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 21
+
+- type: entity
+  id: Spread40mmCan
+  categories: [ HideSpawnMenu ]
+  parent: Projectile40mmCan
+  components:
+  - type: ProjectileSpread
+    proto: Projectile40mmCan
+    count: 12
+    spread: 15
+
+- type: entity
+  id: Cartridge40mmSmoke
+  name: 40mm M680 S grenade
+  parent: BaseItem
+  description: A 40mm grenade launcher round, commonly called a 40 mike mike. This one has a smoke warhead.
+  components:
+  - type: Tag
+    tags:
+      - Shell40mm
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: Projectile40mmSmoke
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Ammunition/Casings/40mm_grenade.rsi
+    layers:
+      - state: smoke
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: SpentAmmoVisuals
+    state: "smoke"
+  - type: Appearance
+  - type: StaticPrice
+    price: 20
+  - type: ExtendDescription
+    descriptionList:
+      - description: Intended target - Nothing
+        fontSize: 12
+        color: "#ffffff"
+        requireDetailRange: false
+  - type: EmitSoundOnLand
+    sound:
+      collection: HeavyBulletBounce
+  - type: EmitSoundOnCollide
+    sound:
+      collection: HeavyBulletBounce
+
+- type: entity
+  id: Projectile40mmSmoke
+  name: rocket
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+      - state: frag
+  - type: SmokeOnTrigger
+    duration: 13
+    spreadAmount: 18
+  - type: SoundOnTrigger
+    sound: /Audio/_Crescent/Weapons/Grenades/smoke10s.ogg
+  - type: DeleteOnTrigger
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5

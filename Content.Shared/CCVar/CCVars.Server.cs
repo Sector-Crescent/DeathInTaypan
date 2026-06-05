@@ -18,7 +18,7 @@ public sealed partial class CCVars
     ///     Guide Entry Prototype ID to be displayed as the server rules.
     /// </summary>
     public static readonly CVarDef<string> RulesFile =
-        CVarDef.Create("server.rules_file", "WhiteDreamRuleset", CVar.REPLICATED | CVar.SERVER); // WD EDIT
+        CVarDef.Create("server.rules_file", "HullrotRuleset", CVar.REPLICATED | CVar.SERVER); // Crescent Edit
 
     /// <summary>
     ///     Guide entry that is displayed by default when a guide is opened.
@@ -46,7 +46,7 @@ public sealed partial class CCVars
     ///     If empty, the title will be {ui-lobby-title} + the server's full name from the hub
     /// </summary>
     public static readonly CVarDef<string> ServerLobbyName =
-        CVarDef.Create("server.lobby_name", "[font=\"Bedstead\" size=20] White Dream [/font]", CVar.REPLICATED | CVar.SERVER); // WD EDIT
+        CVarDef.Create("server.lobby_name", "[font=\"Bedstead\" size=20] Death In Taypan [/font]", CVar.REPLICATED | CVar.SERVER); // WD EDIT
 
     /// <summary>
     ///     The width of the right side (chat) panel in the lobby
