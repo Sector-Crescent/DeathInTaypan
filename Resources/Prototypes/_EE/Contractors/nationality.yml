@@ -28,7 +28,6 @@
   id: Valyrian
   nameKey: nationality_name_valyrian
   descriptionKey: nationality_description_valyrian
-  requirements:
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -100,4 +99,4 @@
   nameKey: nationality_name_qiimaeruan
   descriptionKey: nationality_description_qiimaeruan
   passportPrototype: QiimaeruPassport
-  requirements:
+

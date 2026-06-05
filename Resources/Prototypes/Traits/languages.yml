@@ -48,9 +48,6 @@
   points: 0
   # slots: 1
   # itemGroupSlots: 0
-  requirements:
-    # - !type:CharacterItemGroupRequirement
-    #   group: TraitsLanguagesBasic
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
