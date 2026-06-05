@@ -1,0 +1,27 @@
+- type: soundCollection
+  id: LMGGunshots1
+  files:
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lmg_fire_1.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lmg_fire_2.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lmg_fire_3.ogg"
+
+- type: soundCollection
+  id: LMGGunshots2
+  files:
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lmg_fire_4.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lmg_fire_5.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lmg_fire_6.ogg"
+
+- type: soundCollection
+  id: LeverReload
+  files:
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lever_reload_1.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lever_reload_2.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/lever_reload_3.ogg"
+
+- type: soundCollection
+  id: ShellReload
+  files:
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/shell_reload_1.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/shell_reload_2.ogg"
+  - "/Audio/_Crescent/Weapons/Guns/UnionfallWeapons/shell_reload_3.ogg"

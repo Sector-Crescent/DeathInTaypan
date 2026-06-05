@@ -8,11 +8,11 @@
   files:
     - /Audio/Voice/Human/female_sneeze_1.ogg
 
-- type: soundCollection
-  id: MaleCoughs
-  files:
-  - /Audio/Voice/Human/male_cough_1.ogg
-  - /Audio/Voice/Human/male_cough_2.ogg
+#- type: soundCollection
+#  id: MaleCoughs
+#  files:
+#  - /Audio/Voice/Human/male_cough_1.ogg
+#  - /Audio/Voice/Human/male_cough_2.ogg
 
 - type: soundCollection
   id: FemaleCoughs

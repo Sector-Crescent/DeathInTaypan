@@ -58,21 +58,21 @@
       languagesUnderstood:
         - Tradeband
 
-- type: trait
-  id: Freespeak
-  category: TraitsSpeechLanguages
-  points: 0
+#- type: trait
+#  id: Freespeak
+#  category: TraitsSpeechLanguages
+#  points: 0
   # slots: 1
   # itemGroupSlots: 0
   # requirements:
   #   - !type:CharacterItemGroupRequirement
   #     group: TraitsLanguagesBasic
-  functions:
-    - !type:TraitModifyLanguages
-      languagesSpoken:
-        - Freespeak
-      languagesUnderstood:
-        - Freespeak
+#  functions:
+ #   - !type:TraitModifyLanguages
+ #     languagesSpoken:
+#        - Freespeak
+#      languagesUnderstood:
+ #       - Freespeak
 
 - type: trait
   id: Elyran
