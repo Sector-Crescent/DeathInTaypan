@@ -29,9 +29,6 @@
   nameKey: nationality_name_valyrian
   descriptionKey: nationality_description_valyrian
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Harpy
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -104,6 +101,3 @@
   descriptionKey: nationality_description_qiimaeruan
   passportPrototype: QiimaeruPassport
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Xelthia # Consider not making this exclusive later, actually

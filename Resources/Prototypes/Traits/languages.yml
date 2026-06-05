@@ -51,10 +51,6 @@
   requirements:
     # - !type:CharacterItemGroupRequirement
     #   group: TraitsLanguagesBasic
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Harpy
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
@@ -111,10 +107,6 @@
       inverted: true
       nationalities:
         - Valyrian
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Harpy
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:

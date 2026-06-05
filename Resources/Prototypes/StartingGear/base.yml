@@ -6,12 +6,10 @@
     species:
     - Arachne
     - Arachnid
-    - Chitinid
     - Diona
     - Dwarf
     - Felinid
     - Gingerbread
-    - Harpy
     - Human
     - Lamia
     - Moth
@@ -20,9 +18,7 @@
     - Shadowkin
     - SynthHuman
     - Tajaran
-    - Thaven
     - Vulpkanin
-    - Xelthia
 
 - type: startingGear
   id: NitrogenBreather
