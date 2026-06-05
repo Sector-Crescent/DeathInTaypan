@@ -223,7 +223,7 @@
     - Equipment
     # EE EDIT START
     # - FauxTiles # moved to static
-    - Partss
+    - Parts
     # EE EDIT END
   - type: EmagLatheRecipes
     emagDynamicPacks:
