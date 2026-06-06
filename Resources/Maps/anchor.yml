@@ -18858,17 +18858,6 @@ entities:
     - type: Transform
       pos: 39.786003,-50.590843
       parent: 2
-- proto: AnimalTranslator
-  entities:
-  - uid: 726
-    components:
-    - type: Transform
-      parent: 725
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: AnomalyLocator
   entities:
   - uid: 731
