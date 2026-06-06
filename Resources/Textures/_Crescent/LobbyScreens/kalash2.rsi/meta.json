@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "proprietary",
+  "copyright": "dlooodySpy",
+  "size": {
+    "x": 4000,
+    "y": 2250
+  },
+  "states": [
+    {
+      "name": "1",
+	  "delays": [
+        [
+          0.1
+        ]
+      ]
+    }
+  ]
+}

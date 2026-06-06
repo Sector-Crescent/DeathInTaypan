@@ -9,11 +9,6 @@
   #   department: Medical
   #   min: 28800
   # WD EDIT END
-  - !type:CharacterEmployerRequirement
-    employers:
-    - ZengHuPharmaceuticals
-    - Interdyne
-    - NanoTrasen
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo

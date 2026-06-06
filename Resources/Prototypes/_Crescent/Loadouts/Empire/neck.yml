@@ -1,0 +1,48 @@
+- type: loadout
+  id: LoadoutNeckDSMBow
+  category: Neck
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingNeckImperialBow
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+
+- type: loadout
+  id: LoadoutNeckDSMBowJeweled
+  category: Neck
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingNeckImperialBowJeweled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+
+- type: loadout
+  id: LoadoutNeckDSMCapelet
+  category: Neck
+  cost: 0
+  exclusive: true
+  customColorTint: true
+  items:
+    - ClothingNeckCloakImperialCapelet
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+
+- type: loadout
+  id: ClothingNeckImperialGreatcoat
+  category: Neck
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingNeckImperialGreatcoat
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+

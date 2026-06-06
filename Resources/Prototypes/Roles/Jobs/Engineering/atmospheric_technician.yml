@@ -9,11 +9,6 @@
   #   department: Engineering
   #   min: 36000
   # WD EDIT END
-  - !type:CharacterEmployerRequirement
-    employers:
-    - HephaestusIndustries
-    - EinsteinEngines
-    - NanoTrasen
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 3600

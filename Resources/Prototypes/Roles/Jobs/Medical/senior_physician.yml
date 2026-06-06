@@ -16,11 +16,6 @@
     #   department: Medical
     #   min: 216000 # 60 hrs
     # WD EDIT END
-    - !type:CharacterEmployerRequirement
-      employers:
-      - ZengHuPharmaceuticals
-      - Interdyne
-      - NanoTrasen
   startingGear: SeniorPhysicianGear
   icon: "JobIconSeniorPhysician"
   supervisors: job-supervisors-cmo

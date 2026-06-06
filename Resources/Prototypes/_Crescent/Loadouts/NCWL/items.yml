@@ -1,0 +1,9 @@
+
+
+- type: loadout
+  id: LoadoutItemsWhistle
+  category: Items
+  cost: 1
+  items:
+  - SyndicateWhistle
+

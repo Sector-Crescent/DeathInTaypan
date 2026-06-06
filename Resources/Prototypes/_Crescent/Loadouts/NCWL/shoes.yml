@@ -1,0 +1,12 @@
+- type: loadout
+  id: LoadoutShoesBootsMVDParade
+  category: Shoes
+  cost: 1
+  exclusive: true
+  items:
+  - ClothingShoesBootsMVDParade
+  requirements:
+  - !type:CharacterWhitelistRequirement
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutShoes
+

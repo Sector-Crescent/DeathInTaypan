@@ -1,0 +1,194 @@
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetNCWLBasic
+  name: 2B5 Combat Helmet
+  description: The standard issue, low cut, combat helmet employed by the Union. Comes with flared sides to fit your communication equipment, and ample padding for comfort. For best results, apply to head.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmet.rsi
+
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetNCWLHeavy
+  name: 2B8 Heavy Combat Helmet
+  description: An incredibly heavy helmet, constructed entirely out of solid plasteel, rather than ballistic fibre. The faceplate is rated to stop smaller rifle rounds. Commonly worn by juggernauts, but is only issued on request.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlheavyhelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlheavyhelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
+        Caustic: 0.85
+
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetNCWLRiot
+  name: 2B5P Riot Helmet
+  description: A variation of the standard 2B5 helmet, with the brim removed, and a plastic face visor added. The helmet retains most of its protective ability, but the visor will really only protect you from a brick.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmetriot.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmetriot.rsi
+
+
+## hardsuit helmets ncwl revamp
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitNCWLMedi
+  categories: [ HideSpawnMenu ]
+  name: 2B20D Helmet
+  description: The helmet to the 2B20D hardsuit. Protects the head from impacts and projectiles.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/infanteermedsuithelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/infanteermedsuithelmet.rsi
+  - type: PointLight
+    radius: 6
+    color: "#ffffed"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitNCWLEngi
+  categories: [ HideSpawnMenu ]
+  name: 2B20C Helmet
+  description: The helmet to the 2B20C hardsuit. Protects the head from impacts and projectiles.
+  components:
+  - type: BreathMask
+  - type: EyeProtection
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/salvagehardsuithelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/salvagehardsuithelmet.rsi
+  - type: PointLight
+    radius: 6
+    color: "#ffffed"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+
+## hardsuit helmets
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitNCWLInfantry
+  categories: [ HideSpawnMenu ]
+  name: 2B20 Helmet
+  description: The helmet to the 2B20 hardsuit. Protects the head from impacts and projectiles.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/infantryhelm.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/infantryhelm.rsi
+  - type: PointLight
+    radius: 6
+    color: "#ffffed"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitNCWLPetya
+  categories: [ HideSpawnMenu ]
+  name: 2B29 Helmet
+  description: The helmet to the 2B29 hardsuit. Features an incredibly basic HUD that essentially serves zero purpose. Protects the head from impacts and projectiles.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/commieheavy.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/commieheavy.rsi
+  - type: PointLight
+    radius: 6
+    color: "#ffffed"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitNCWLJuggernaut
+  categories: [ HideSpawnMenu ]
+  name: 2B30 Helmet
+  description: The helmet to the 2B30 hardsuit. Protects the head from impacts and projectiles.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/ncwljuggernauthelm.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/ncwljuggernauthelm.rsi
+  - type: PointLight
+    radius: 6
+    color: "#ffffed"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.9
+        Caustic: 0.9
+
+## softsuit helmets
+
+- type: entity
+  parent: ClothingHeadEVAHelmetBase
+  id: ClothingHeadHelmetNCWLEVA
+  name: union EVA helmet
+  description: A working man's helmet. Designed for EVA.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlsofthelm.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Head/ncwlsofthelm.rsi

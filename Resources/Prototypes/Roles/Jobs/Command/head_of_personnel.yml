@@ -7,13 +7,7 @@
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
-    - Foreigner
-    - ForeignerLight
     - Muted
-  - !type:CharacterEmployerRequirement
-    employers:
-    - NanoTrasen
-    - IdrisIncorporated
   weight: 10
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

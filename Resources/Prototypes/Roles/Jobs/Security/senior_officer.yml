@@ -22,18 +22,10 @@
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
-        - Foreigner
-        - ForeignerLight
         - Muted
         - Blindness
         - Pacifist
         - BrittleBoneDisease
-    - !type:CharacterEmployerRequirement
-      employers:
-      - ZavodskoiInterstellar
-      - PMCG
-      - NanoTrasen
-      - EastOrionCompany
     # WD EDIT START
     - !type:CharacterOverallTimeRequirement
       min: 3600

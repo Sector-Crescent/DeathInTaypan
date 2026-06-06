@@ -9,11 +9,6 @@
   #   department: Civilian
   #   min: 3600 #DeltaV
   # WD EDIT END
-  - !type:CharacterEmployerRequirement
-    employers:
-    - IdrisIncorporated
-    - NanoTrasen
-    - OrionExpress
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hop

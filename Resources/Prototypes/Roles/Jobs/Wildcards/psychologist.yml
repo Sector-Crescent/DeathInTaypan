@@ -12,11 +12,6 @@
   - Psychologist
   extendedAccess:
   - Chemistry
-  requirements:
-  - !type:CharacterEmployerRequirement
-    employers:
-    - Interdyne
-    - NanoTrasen
 
 - type: startingGear
   id: PsychologistGear

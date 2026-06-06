@@ -10,11 +10,6 @@
   - Justice
   - Lawyer
   - Maintenance
-  requirements:
-  - !type:CharacterEmployerRequirement
-    employers:
-    - IdrisIncorporated
-    - NanoTrasen
   special: # Goobstation - Everyone knows lawyers are soulless.
   - !type:AddComponentSpecial
     components:

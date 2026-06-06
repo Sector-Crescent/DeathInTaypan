@@ -30,10 +30,6 @@
         fontSize: 12
         color: "#2a740a"
         requireDetailRange: true
-        requirements:
-        - !type:CharacterNationalityRequirement
-          nationalities:
-          - Bieselite
       # - description: "clarizian_view_union_passport"
       #   fontSize: 12
       #   color: "#1c89b1"

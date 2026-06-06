@@ -12,6 +12,7 @@ reagent-name-resomi-blood = Pearkitty
 reagent-desc-resomi-blood = Pearkitty
 chat-speech-verb-name-gondola = Pearkitty
 crime-assist-question-tocommandstaff = Pearkitty
+reagent-physical-desc-gellike = Pearkitty
 # marking-HairResomiBackstrafe = Pearkitty
 # marking-HairResomiBurstShort = Pearkitty
 # marking-HairResomiDefault = Pearkitty

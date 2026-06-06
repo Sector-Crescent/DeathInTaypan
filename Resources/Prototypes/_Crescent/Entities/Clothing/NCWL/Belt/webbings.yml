@@ -1,0 +1,70 @@
+- type: entity
+  parent: ClothingBeltNfsdWebbing
+  id: ClothingBeltNCWLWebbing
+  name: 1W5 Webbing Gear
+  description: A generic set of suspenders, combined with a belt, and adorned with all kinds of pouches. Carries all your magazines and other gear.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_webbing.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_webbing.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+
+- type: entity
+  parent: ClothingBeltNfsdWebbing
+  id: ClothingBeltNCWLPouches
+  name: 1W8 Drop Pouches
+  description: A large bundle of load bearing pouches, suspended off the shoulders. Carries gear just the same as webbing gear, with a little less security.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_droppouches.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_droppouches.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+
+- type: entity
+  parent: ClothingBeltNfsdWebbing
+  id: ClothingBeltNCWLDoubleHolster
+  name: double holster belt
+  description: A simple double holster belt.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_double_holster.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_double_holster.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: ClothingBeltSheathNCWLKukri
+  name: chengridz jaeger's kukri sheath
+  description: A sheath made of synthetic leather meant to hold a Jaeger-design vibro-kukri, decorated in communard colors.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_kukri_sheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Belt/ncwl_kukri_sheath.rsi
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: Kukri
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - Kukri
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - Kukri
+  - type: Appearance

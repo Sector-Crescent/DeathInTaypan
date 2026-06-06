@@ -1,0 +1,37 @@
+
+- type: loadout
+  id: LoadoutHeadDSMBeret
+  category: Head
+  cost: 0
+  exclusive: true
+  customColorTint: true
+  items:
+    - ClothingHeadHatImperialBeret
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+
+
+- type: loadout
+  id: LoadoutHeadDSMHat
+  category: Head
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingHeadHatImperialHat
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+
+
+- type: loadout
+  id: LoadoutHeadDSMPeakedCap
+  category: Head
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingHeadHatImperialPeakedCap
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+

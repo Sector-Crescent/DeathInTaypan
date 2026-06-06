@@ -349,9 +349,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - SalvageSpecialist
-    - !type:CharacterEmployerRequirement
-      employers:
-        - HephaestusIndustries
   items:
     - ClothingUniformJumpsuitHephMiner
 
@@ -367,8 +364,5 @@
     - !type:CharacterJobRequirement
       jobs:
         - SalvageSpecialist
-    - !type:CharacterEmployerRequirement
-      employers:
-        - NanoTrasen
   items:
     - ClothingUniformJumpsuitNTMiner
