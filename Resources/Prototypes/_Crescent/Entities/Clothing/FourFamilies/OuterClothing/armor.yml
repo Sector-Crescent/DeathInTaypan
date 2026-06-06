@@ -98,12 +98,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitIzdari
   - type: StaticPrice
     price: 700
-  - type: ReverseEngineering
-    difficulty: 2
-    recipes:
-      - ClothingOuterHardsuitIzdari
-      - ClothingOuterHardsuitThukker
-      - ClothingOuterHardsuitDraugr
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -135,12 +130,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitThukker
   - type: StaticPrice
     price: 500
-  - type: ReverseEngineering
-    difficulty: 2
-    recipes:
-      - ClothingOuterHardsuitThukker
-      - ClothingOuterHardsuitIzdari
-      - ClothingOuterHardsuitDraugr
+
 
 
 - type: entity
@@ -177,12 +167,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 250
-  - type: ReverseEngineering
-    recipes:
-      - ClothingOuterArmorServileAlseik
-      - ClothingHeadHatServile
-      - ClothingOuterArmorDraugrAlseik
-      - ClothingHeadHatDraugr
+
 
 
 - type: entity
@@ -203,12 +188,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 500
-  - type: ReverseEngineering
-    recipes:
-      - ClothingOuterArmorDraugrAlseik
-      - ClothingHeadHatDraugr
-      - ClothingOuterArmorServileAlseik
-      - ClothingHeadHatServile
+
 
 - type: entity
   parent: ClothingOuterBaseLarge

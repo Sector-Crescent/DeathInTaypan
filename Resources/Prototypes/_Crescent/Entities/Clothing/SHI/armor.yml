@@ -22,12 +22,7 @@
     sprintModifier: 0.95
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMetrocop
-  - type: ClothingAddFaction
-    faction: SHI
-#  - type: ReverseEngineering # i dont know how this works dawg
-#    recipes:
-#      - ClothingOuterHardsuitHEV
-#      - ClothingOuterHardsuitMetrocop
+
   - type: FootstepModifier
     footstepSoundCollection:
       collection: MetrocopSuit
@@ -56,16 +51,7 @@
     sprintModifier: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombine
-  - type: ClothingAddFaction
-    faction: SHI
-#  - type: ReverseEngineering # i dont know how this works dawg
-#    difficulty: 3
-#    recipes:
-#      - ClothingOuterHardsuitHighsec
-#      - ClothingOuterHardsuitHighsecUA
-#      - ClothingOuterHardsuitHighsecIndependent
-#      - ClothingOuterHardsuitHEV
-#      - ClothingOuterHardsuitCombine
+
   - type: FootstepModifier
     footstepSoundCollection:
       collection: CombineSuit
@@ -101,11 +87,7 @@
     sprintModifier: 0.97
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitHEV
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingOuterHardsuitHEV
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -142,15 +124,7 @@
     sprintModifier: 0.95
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCorpsec
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitHighsec
-      - ClothingOuterHardsuitHighsecUA
-      - ClothingOuterHardsuitHighsecIndependent
-      - ClothingOuterHardsuitHEV
+
 
 - type: entity
   parent: [ClothingOuterHardsuitHighsec, ClothingArmorInsertHardsuit]
@@ -170,15 +144,7 @@
         requireDetailRange: true
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCorpsecUA
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitHighsecUA
-      - ClothingOuterHardsuitHighsec
-      - ClothingOuterHardsuitHighsecIndependent
-      - ClothingOuterHardsuitHEV
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuitJugg]
@@ -225,15 +191,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitSHIJuggernaut
   - type: StaticPrice
     price: 5000
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 4
-    recipes:
-      - ClothingOuterHardsuitSHIJuggernaut
-      - ClothingOuterHardsuitHighsec
-      - ClothingOuterHardsuitHighsecUA
-      - ClothingOuterHardsuitHighsecIndependent
+
 
 - type: entity
   parent: [ClothingOuterArmorBasic]
@@ -271,15 +229,8 @@
   - type: ToggleableClothing
     slot: head
     clothingPrototype: ClothingHeadHelmetHardsuitSHISpeedsuit
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 4
-    recipes:
-      - ClothingOuterHardsuitSHISpeedsuit
-      - ClothingOuterHardsuitHighsec
-      - ClothingOuterHardsuitHighsecUA
-      - ClothingOuterHardsuitHighsecIndependent
+
+
 
 #armor
 
@@ -313,13 +264,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: GroupExamine
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 2
-    recipes:
-      - ClothingOuterArmorShinoharaHOSVest
-      - ClothingOuterArmorShinoharaArmor
-      - ClothingOuterArmorShinoharaArmorHighsec
-      - ClothingOuterArmorShinoharaArmorHighsecUA
+
 
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
@@ -351,15 +296,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: GroupExamine
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingOuterArmorShinoharaArmor
-      - ClothingOuterArmorShinoharaArmorHighsec
-      - ClothingOuterArmorShinoharaArmorHighsecUA
-      - ClothingOuterArmorShinoharaArmorBulwark
-      - ClothingOuterArmorShinoharaHOSVest
+
+
 
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
@@ -391,15 +329,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.80
   - type: GroupExamine
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingOuterArmorShinoharaArmorHighsec
-      - ClothingOuterArmorShinoharaArmorHighsecUA
-      - ClothingOuterArmorShinoharaArmorBulwark
-      - ClothingOuterArmorShinoharaHOSVest
-      - ClothingOuterArmorShinoharaArmor
+
+
 
 - type: entity
   parent: ClothingOuterArmorShinoharaArmorHighsec
@@ -417,15 +348,8 @@
         fontSize: 15
         color: "#ff2106"
         requireDetailRange: true
-  - type: ClothingAddFaction
-    faction: SHI
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingOuterArmorShinoharaArmorHighsecUA
-      - ClothingOuterArmorShinoharaArmorBulwark
-      - ClothingOuterArmorShinoharaHOSVest
-      - ClothingOuterArmorShinoharaArmor
-      - ClothingOuterArmorShinoharaArmorHighsec
+
+
 
 #clothes
 
@@ -442,8 +366,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: GroupExamine
-  - type: ClothingAddFaction
-    faction: SHI
+
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -458,8 +381,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: GroupExamine
-  - type: ClothingAddFaction
-    faction: SHI
+
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -471,8 +393,7 @@
     sprite: _Crescent/Clothing/SHI/OuterClothing/suitjacket.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/suitjacket.rsi
-  - type: ClothingAddFaction
-    faction: SHI
+
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -484,8 +405,7 @@
     sprite: _Crescent/Clothing/SHI/OuterClothing/execsuitjacket.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/execsuitjacket.rsi
-  - type: ClothingAddFaction
-    faction: SHI
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -497,5 +417,4 @@
     sprite: _Crescent/Clothing/SHI/OuterClothing/rndcoat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/SHI/OuterClothing/rndcoat.rsi
-  - type: ClothingAddFaction
-    faction: SHI
+

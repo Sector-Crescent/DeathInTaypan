@@ -31,12 +31,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitImperialWorker
   - type: StaticPrice
     price: 2500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterHardsuitImperialWorker
-      - ClothingOuterHardsuitClarizianWorker
+
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -68,8 +64,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitInspector
   - type: StaticPrice
     price: 3500
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -93,12 +88,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitClarizeWorker
   - type: StaticPrice
     price: 2500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterHardsuitClarizianWorker
-      - ClothingOuterHardsuitImperialWorker
+
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -120,8 +111,7 @@
         Caustic: 0.9
   - type: StaticPrice
     price: 500
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -145,14 +135,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitClarize
   - type: StaticPrice
     price: 2500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterHardsuitClarize
-      - ClothingOuterHardsuitClarizianWorker
-      - ClothingOuterHardsuitImperialSoldier
-      - ClothingOuterHardsuitImperialWorker
+
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -190,8 +174,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitImperialCommand
   - type: StaticPrice
     price: 5000
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -229,15 +212,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitImperialSoldier
   - type: StaticPrice
     price: 4500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 2
-    recipes:
-      - ClothingOuterHardsuitImperialSoldier
-      - ClothingOuterHardsuitImperialWorker
-      - ClothingOuterHardsuitClarize
-      - ClothingOuterHardsuitClarizianWorker
+
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -276,14 +252,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitImperialKnight
   - type: StaticPrice
     price: 6000
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitImperialKnight
-      - ClothingOuterHardsuitImperialSoldier
-      - ClothingOuterHardsuitImperialWorker
+
+
 
 - type: entity
   parent: ClothingOuterHardsuitImperialSoldier
@@ -355,15 +325,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitImperialJuggernaut
   - type: StaticPrice
     price: 9000
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 5
-    recipes:
-      - ClothingOuterHardsuitImperialKnight
-      - ClothingOuterHardsuitImperialSoldier
-      - ClothingOuterHardsuitImperialWorker
-      - ClothingOuterHardsuitImperialJuggernaut
+
+
 
 # armor
 
@@ -396,14 +359,8 @@
   - type: AllowSuitStorage
   - type: StaticPrice
     price: 1500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorImperialTrooperArmor
-      - ClothingHeadHelmetImperialTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
+
+
 
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
@@ -419,14 +376,8 @@
     damageCoefficient: 0.80
   - type: StaticPrice
     price: 1500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
-      - ClothingOuterArmorImperialTrooperArmor
-      - ClothingHeadHelmetImperialTrooperHelmet
+
+
 
 - type: entity
   parent: [ClothingOuterBaseLarge, ClothingArmorInsert]
@@ -457,16 +408,8 @@
   - type: StaticPrice
     price: 3000
   - type: AllowSuitStorage
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorImperialArmorPrestige
-      - ClothingHeadHelmetImperialKnightCommanderHelmet
-      - ClothingOuterArmorImperialTrooperArmor
-      - ClothingHeadHelmetImperialTrooperHelmet
-      - ClothingOuterArmorClarizianTrooperArmor
-      - ClothingHeadHelmetClarizianTrooperHelmet
+
+
 
 #coats
 
@@ -490,8 +433,7 @@
         Caustic: 0.9
   - type: StaticPrice
     price: 1500
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -513,8 +455,7 @@
         Caustic: 0.9
   - type: StaticPrice
     price: 1500
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -536,8 +477,7 @@
         Caustic: 0.9
   - type: StaticPrice
     price: 1500
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -559,11 +499,8 @@
         Caustic: 0.9
   - type: StaticPrice
     price: 2000
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterCoatImperialGovernor
+
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -577,12 +514,8 @@
     sprite: _Crescent/Clothing/Empire/OuterClothing/mandateparade.rsi
   - type: StaticPrice
     price: 1000
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterCoatImperialParade
-      - ClothingOuterCoatClarizianOfficer
+
+
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -596,12 +529,8 @@
     sprite: _Crescent/Clothing/Empire/OuterClothing/clarizianofficer.rsi
   - type: StaticPrice
     price: 1000
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterCoatClarizianOfficer
-      - ClothingOuterCoatImperialParade
+
+
 
 - type: entity
   parent: ClothingOuterEVASuitBase
@@ -623,8 +552,7 @@
     size: Large
     shape:
     - 0,0,3,3
-  - type: ClothingAddFaction
-    faction: DSM
+
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -656,13 +584,8 @@
     clothingPrototype: ClothingHeadHelmetImperialRitter
   - type: StaticPrice
     price: 2000
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 2
-    recipes:
-      - ClothingOuterCoatImperialRitter
-      - ClothingOuterHardsuitImperialWorker
+
+
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -694,9 +617,5 @@
     clothingPrototype: ClothingHeadHelmetHardsuitImperialNullweavePsion
   - type: StaticPrice
     price: 2500
-  - type: ClothingAddFaction
-    faction: DSM
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 4
-    recipes:
-      - ClothingOuterHardsuitImperialNullweavePsion
+
+

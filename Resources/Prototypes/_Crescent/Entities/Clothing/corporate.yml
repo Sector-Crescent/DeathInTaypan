@@ -21,11 +21,6 @@
         Piercing: 0.9
         Heat: 0.9
         Caustic: 0.9
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingHeadHatShinoharaNonevaHelm
-      - ClothingHeadHatShinoharaHelmet
-      - ClothingHeadHatShinoharaHelmetUA
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -148,13 +143,6 @@
   - type: ExplosionResistance
     damageCoefficient: 0.80
   - type: GroupExamine
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingOuterArmorShinoharaArmorBulwark
-      - ClothingOuterArmorShinoharaHOSVest
-      - ClothingOuterArmorShinoharaArmor
-      - ClothingOuterArmorShinoharaArmorHighsec
-      - ClothingOuterArmorShinoharaArmorHighsecUA
 
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
@@ -212,10 +200,3 @@
     sprintModifier: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCorpsec
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitHighsec
-      - ClothingOuterHardsuitHighsecUA
-      - ClothingOuterHardsuitHighsecIndependent
-      - ClothingOuterHardsuitHEV

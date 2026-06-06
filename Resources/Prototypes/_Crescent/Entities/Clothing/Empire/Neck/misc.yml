@@ -13,7 +13,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckImperialBowJeweled
   name: Jeweled Cravat
-  description: A black mothsilk cravat, with a single polished amethyst attached to the neck. 
+  description: A black mothsilk cravat, with a single polished amethyst attached to the neck.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/Neck/mandatebowjeweled.rsi
@@ -30,9 +30,6 @@
      sprite: _Crescent/Clothing/Empire/Neck/mandategovernorcape.rsi
    - type: Clothing
      sprite: _Crescent/Clothing/Empire/Neck/mandategovernorcape.rsi
-   - type: ReverseEngineering # Sector Crescent
-     recipes:
-       - ClothingNeckCloakImperialGovernor
 
 - type: entity
   parent: ClothingNeckBase
@@ -60,15 +57,13 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakImperialCapelet
   name: Imperial Capelet
-  description: A mothsilk capelet, hand sewn out of premium mothsilk. This one is in the bold purple of House Olywir. 
+  description: A mothsilk capelet, hand sewn out of premium mothsilk. This one is in the bold purple of House Olywir.
   components:
    - type: Sprite
      sprite: _Crescent/Clothing/Empire/Neck/mandatecapelet.rsi
    - type: Clothing
      sprite: _Crescent/Clothing/Empire/Neck/mandatecapelet.rsi
-   - type: ReverseEngineering # Sector Crescent
-     recipes:
-       - ClothingNeckCloakImperialCapelet
+
 
 - type: entity
   parent: ClothingNeckBase
@@ -80,6 +75,3 @@
     sprite: _Crescent/Clothing/Empire/Neck/mandategreatcoat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Empire/Neck/mandategreatcoat.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingNeckImperialGreatcoat

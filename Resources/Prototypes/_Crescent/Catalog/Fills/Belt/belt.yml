@@ -10,12 +10,6 @@
     maxItemSize: Normal
     grid:
     - 0,0,7,1
-  - type: StorageFill
-    contents:
-      - id: RGD55M13Handgrenade
-        amount: 6
-      - id: ZaryiaFlashbangHandgrenade
-        amount: 2
   - type: StaticPrice
     price: 250
 
@@ -167,8 +161,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: MagazineRiflePan
-        amount: 2
       - id: MagazinePistol
         amount: 2
       - id: Gauze
@@ -222,12 +214,6 @@
     - 0,0,7,1
   - type: StorageFill
     contents:
-    - id: MagazineRifleDrum
-      amount: 1
-    - id: MagazineRifleDrumBlackTip
-      amount: 2
-    - id: PTAWarcrimeHandgrenade
-      amount: 1
     - id: Tourniquet
       amount: 1
 
@@ -247,12 +233,6 @@
     contents:
     - id: MagazineRifle
       amount: 4
-    - id: SHIHG3TearGasHandgrenade
-      amount: 1
-    - id: SHIHG7FlashbangHandgrenade
-      amount: 1
-    - id: SHIHG17SmartHandgrenade
-      amount: 1
     - id: Tourniquet
       amount: 1
     - id: Zipties
@@ -274,12 +254,6 @@
     contents:
     - id: MagazineRifle
       amount: 4
-    - id: SHIHG3TearGasHandgrenade
-      amount: 1
-    - id: SHIHG7FlashbangHandgrenade
-      amount: 1
-    - id: SHIHG17SmartHandgrenade
-      amount: 1
     - id: Tourniquet
       amount: 1
     - id: Zipties
@@ -324,12 +298,6 @@
     contents:
     - id: MagazineLightRifle
       amount: 4
-    - id: M14IncendiaryHandgrenade
-      amount: 1
-    - id: M18SmokeHandgrenade
-      amount: 1
-    - id: F1Handgrenade
-      amount: 1
     - id: Gauze
       amount: 1
 
@@ -362,7 +330,6 @@
     whitelist:
   - type: StorageFill
     contents:
-      - id: MagazineBoxLightRifleSurplus
       - id: MagazinePistol
         amount: 2
       - id: Gauze
@@ -378,7 +345,6 @@
     whitelist:
   - type: StorageFill
     contents:
-      - id: MagazineBoxLightRifleSurplus
       - id: MagazineMagnum
         amount: 2
       - id: Gauze

@@ -39,11 +39,8 @@
     price: 1000
   - type: Contraband
     value: 8
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterHardsuitRamzi
+
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -84,13 +81,8 @@
     price: 1000
   - type: Contraband
     value: 8
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 2
-    recipes:
-      - ClothingOuterHardsuitSyndieDonator
-      - ClothingOuterHardsuitRamzi
+
+
 
 - type: entity
   parent: [ClothingOuterHardsuitRamzi, ClothingArmorInsertHardsuit]
@@ -123,11 +115,7 @@
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterHardsuitCybersun
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBaseMedium, BaseIntegratedMagboot, ClothingArmorInsertHardsuit]
@@ -175,11 +163,7 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
-  - type: ReverseEngineering
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitCyberdawnTactical
-      - ClothingOuterHardsuitCybersun
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -219,15 +203,11 @@
     price: 1250
   - type: Contraband
     value: 15
-  - type: ClothingAddFaction
-    faction: TFSC
+
   - type: Tag
     tags:
     - Bulwark
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitSyndicateBG
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -259,11 +239,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitTraumasec
   - type: Contraband
     value: 5
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterHardsuitTraumasec
+
+
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
@@ -302,13 +279,8 @@
     clothingPrototype: ClothingHeadHelmetHardsuitCoordinator
   - type: Contraband
     value: 5
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitCoordinator
-      - ClothingOuterHardsuitTraumasec
+
+
 
 - type: entity
   parent: ClothingOuterHardsuitSyndicateBG
@@ -322,11 +294,7 @@
     sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatesellsword.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndicateSellsword
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 3
-    recipes:
-      - ClothingOuterHardsuitSyndicateSellsword
-      - ClothingOuterHardsuitSyndicateBG
+
 
 - type: entity
   parent: ClothingOuterHardsuitSyndicateBG
@@ -369,11 +337,8 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 250
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateForeman
+
+
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -401,11 +366,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 250
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateCoordinator
+
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -425,8 +386,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 100
-  - type: ClothingAddFaction
-    faction: TFSC
+
 
 - type: entity
   parent: ClothingOuterBaseLarge
@@ -446,8 +406,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 100
-  - type: ClothingAddFaction
-    faction: TFSC
+
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -467,11 +426,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 100
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateApron
+
 
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
@@ -505,12 +460,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 250
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateArmorvest
-      - ClothingHeadHelmetSyndicateBasic
+
 
 - type: entity
   parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
@@ -544,12 +494,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 250
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateArmorvestInterdyne
-      - ClothingHeadHelmetSyndicateBasicInterdyne
+
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -577,12 +522,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 350
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateRingmaster
-      - ClothingOuterArmorSyndicateLieutenant
+
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -610,11 +550,7 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 450
-  - type: ClothingAddFaction
-    faction: TFSC
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingOuterArmorSyndicateLieutenant
+
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
@@ -642,5 +578,4 @@
   - type: GroupExamine
   - type: StaticPrice
     price: 500
-  - type: ClothingAddFaction
-    faction: TFSC
+

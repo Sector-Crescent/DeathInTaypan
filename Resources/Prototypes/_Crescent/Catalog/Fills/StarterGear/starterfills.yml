@@ -290,7 +290,7 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-      - id: PietyRedeemable
+
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -300,7 +300,7 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-      - id: PietyRedeemable
+
 
 #shi
 
@@ -389,9 +389,9 @@
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltNCWLPouches
   id: ClothingBeltNCWLPouchesHomeguardConscript
-  components: 
+  components:
     - type: StorageFill
-      contents: 
+      contents:
         - id: SpeedLoaderRifle
         - id: SpeedLoaderRifle
         - id: SpeedLoaderRifle
@@ -403,9 +403,9 @@
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltNCWLPouches
   id: ClothingBeltNCWLPouchesSpetsnazSMG
-  components: 
+  components:
     - type: StorageFill
-      contents: 
+      contents:
        - id: MagazineCaselessRifleUranium
        - id: MagazineCaselessRifleUranium
        - id: MagazineCaselessRifleUranium
@@ -420,9 +420,9 @@
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltNCWLPouches
   id: ClothingBeltNCWLPouchesSpetsnazRifleman
-  components: 
+  components:
     - type: StorageFill
-      contents: 
+      contents:
        - id: MagazineLightRifleUranium
        - id: MagazineLightRifleUranium
        - id: MagazineLightRifleUranium
@@ -437,13 +437,13 @@
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltNCWLPouches
   id: ClothingBeltNCWLPouchesHomeguardConscriptSMG
-  components: 
+  components:
     - type: StorageFill
-      contents: 
+      contents:
         - id: MagazinePistolSubMachineGun
         - id: MagazinePistolSubMachineGun
         - id: MagazinePistolSubMachineGun
-        
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltAssault
@@ -459,7 +459,7 @@
         - id: SpeedLoaderLightRifle
         - id: SpeedLoaderLightRifle
         - id: SpeedLoaderLightRifle
-        
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltAssault
@@ -470,7 +470,7 @@
         - id: MagazinePistolSubMachineGunHeavy
         - id: MagazinePistolSubMachineGunHeavy
         - id: MagazinePistolSubMachineGunHeavy
-        
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltAssault
@@ -478,16 +478,12 @@
   components:
     - type: StorageFill
       contents:
-        - id: MagazineRifleUranium
-        - id: MagazineRifleUranium
-        - id: MagazineRifleUranium
-        - id: MagazineRifleUranium
         - id: KaiserAutoinjector
         - id: KaiserAutoinjector
         - id: MechaniteAutoinjector
         - id: MechaniteAutoinjector
         - id: CrowbarRed
-        
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBeltAssault
@@ -502,7 +498,7 @@
         - id: MechaniteAutoinjector
         - id: MechaniteAutoinjector
         - id: CrowbarRed
-        
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBackpackDSM
@@ -511,10 +507,8 @@
     - type: StorageFill
       contents:
         - id: CrowbarRed
-        - id: FoodPSB
-        - id: FoodPSB
         - id: DrinkMREFlask
-         
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBackpackNCWL
@@ -523,6 +517,4 @@
     - type: StorageFill
       contents:
         - id: CrowbarRed
-        - id: FoodPSB
-        - id: FoodPSB
         - id: DrinkMREFlask

@@ -13,12 +13,7 @@
     - Hair
     - Snout
   - type: IdentityBlocker
-  - type: ReverseEngineering
-    recipes:
-      - ClothingHeadHatDraugr
-      - ClothingOuterArmorDraugrAlseik
-      - ClothingHeadHatServile
-      - ClothingOuterArmorServileAlseik
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -35,12 +30,7 @@
     - Hair
     - Snout
   - type: IdentityBlocker
-  - type: ReverseEngineering
-    recipes:
-      - ClothingHeadHatServile
-      - ClothingOuterArmorServileAlseik
-      - ClothingHeadHatDraugr
-      - ClothingOuterArmorDraugrAlseik
+
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

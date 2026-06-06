@@ -9,10 +9,7 @@
     sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmet.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmet.rsi
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingHeadHelmetNCWLBasic
-      - ClothingOuterArmorNCWLLightBodyarmor
+
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -32,13 +29,7 @@
         Piercing: 0.85
         Heat: 0.85
         Caustic: 0.85
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingHeadHelmetNCWLHeavy
-      - ClothingHeadHelmetNCWLRiot
-      - ClothingOuterArmorNCWLHeavyCarapace
-      - ClothingHeadHelmetNCWLBasic
-      - ClothingOuterArmorNCWLLightBodyarmor
+
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -50,13 +41,7 @@
     sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmetriot.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmetriot.rsi
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - ClothingHeadHelmetNCWLRiot
-      - ClothingHeadHelmetNCWLHeavy
-      - ClothingOuterArmorNCWLHeavyCarapace
-      - ClothingHeadHelmetNCWLBasic
-      - ClothingOuterArmorNCWLLightBodyarmor
+
 
 ## hardsuit helmets ncwl revamp
 
