@@ -98,7 +98,7 @@
       "name": "shard"
     },
     {
-      "name": "medium" // don't question it.... yaml shittery at work...
+      "name": "medium"
     }
   ]
 }
