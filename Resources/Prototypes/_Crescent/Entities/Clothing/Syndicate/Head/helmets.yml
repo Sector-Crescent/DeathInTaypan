@@ -11,10 +11,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/syndiehelmet.rsi
   - type: StaticPrice
     price: 75
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHelmetSyndicateBasic
-      - ClothingOuterArmorSyndicateArmorvest
+
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -28,10 +25,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/ipm_helmet.rsi
   - type: StaticPrice
     price: 75
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHelmetSyndicateBasicInterdyne
-      - ClothingOuterArmorSyndicateArmorvestInterdyne
+
 
 ## hardsuit helmets
 
@@ -278,10 +272,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/ipm_bandana.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/Head/ipm_bandana.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatSyndicateInterdyne
-      - ClothingHeadHatSyndicateInterdyneBeret
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -304,10 +295,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/ipm_beret.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/Head/ipm_beret.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatSyndicateInterdyneBeret
-      - ClothingHeadHatSyndicateInterdyne
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -330,9 +318,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/syndieofficer.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/Head/syndieofficer.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatSyndicateOfficer
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -344,9 +330,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/syndiegarrison.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/Head/syndiegarrison.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatSyndicateArmaments
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -358,9 +342,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/foremanhardhat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/Head/foremanhardhat.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatHardhatSyndicateForeman
+
 
 - type: entity
   parent: ClothingHeadBase
@@ -372,9 +354,7 @@
     sprite: _Crescent/Clothing/Syndicate/Head/syndiehardhat.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/Syndicate/Head/syndiehardhat.rsi
-  - type: ReverseEngineering # Sector Crescent
-    recipes:
-      - ClothingHeadHatHardhatSyndicate
+
 
 - type: entity
   parent: ClothingHeadBase

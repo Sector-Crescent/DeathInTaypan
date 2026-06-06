@@ -171,9 +171,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - Roboticist
-    - !type:CharacterEmployerRequirement
-      employers:
-        - NanoTrasen
   items:
     - ClothingUniformJumpsuitNTRoboticist
 
@@ -189,8 +186,5 @@
     - !type:CharacterJobRequirement
       jobs:
         - Roboticist
-    - !type:CharacterEmployerRequirement
-      employers:
-        - HephaestusIndustries
   items:
     - ClothingUniformJumpsuitHephRoboticist

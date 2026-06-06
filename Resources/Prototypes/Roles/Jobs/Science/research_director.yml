@@ -21,12 +21,6 @@
     - Muted
     - Foreigner
     - ForeignerLight
-  - !type:CharacterEmployerRequirement
-    employers:
-    - NanoTrasen
-  - !type:CharacterEmployerRequirement
-    employers:
-    - NanoTrasen
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 7200

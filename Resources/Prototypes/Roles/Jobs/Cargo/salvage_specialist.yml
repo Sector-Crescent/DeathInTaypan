@@ -9,11 +9,6 @@
   #   department: Logistics
   #   min: 21600
   # WD EDIT END
-  - !type:CharacterEmployerRequirement
-    employers:
-    - OrionExpress
-    - PMCG
-    - NanoTrasen
   icon: "JobIconShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm

@@ -80,12 +80,7 @@
     - Khopesh
   - type: DisarmMalus
   - type: MultiHandedItem
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 4
-    recipes:
-      - SRMKhopesh
-      - DSMDuelingKhopesh
-      - ClothingBeltSheathKhopesh
+
 
 - type: entity
   parent: ArmBladeChangeling
@@ -190,15 +185,7 @@
     tags:
     - Rapier
   - type: DisarmMalus
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - DSMRapier
-      - ClothingBeltSheathDSMRapier
-      - DSMSabre
-      - ClothingBeltSheathDSMSabre
-      - DSMDuelingKhopesh
-      - ClothingBeltSheathKhopesh
-      - DSMBaton
+
 
 - type: entity
   name: noble's sabre
@@ -236,15 +223,7 @@
     tags:
     - DSMSabre
   - type: DisarmMalus
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - DSMRapier
-      - ClothingBeltSheathDSMRapier
-      - DSMSabre
-      - ClothingBeltSheathDSMSabre
-      - DSMDuelingKhopesh
-      - ClothingBeltSheathKhopesh
-      - DSMBaton
+
 
 - type: entity
   parent: [NCWLLugBaton]
@@ -260,15 +239,7 @@
     quickEquip: false
     slots:
     - Belt
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - DSMBaton
-      - DSMRapier
-      - ClothingBeltSheathDSMRapier
-      - DSMSabre
-      - ClothingBeltSheathDSMSabre
-      - DSMDuelingKhopesh
-      - ClothingBeltSheathKhopesh
+
 
 - type: entity
   name: homeguard lug baton
@@ -365,11 +336,7 @@
     sprite: _Crescent/Objects/Weapons/Melee/shinoharakatana.rsi
     slots:
     - Back
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - SHIKatana
-      - ClothingBeltSheathSHIKatana
-      - TelescopicBatonSHI
+
 
 - type: entity
   name: SHI-RIP9 cherenzikov shiver blade
@@ -398,8 +365,6 @@
   - type: Item
     size: Normal
     sprite: _Crescent/Objects/Weapons/Melee/shiverblade.rsi
-  - type: DashAbility
-    allowDashToUnseen: true
   - type: LimitedCharges
     maxCharges: 3
     charges: 1
@@ -418,12 +383,7 @@
     volume: 1
     sound:
       path: /Audio/Weapons/ebladehum.ogg
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 4
-    recipes:
-      - SHIShiverBlade
-      - SHIKatana
-      - ClothingBeltSheathSHIKatana
+
 
 - type: entity
   name: dueling khopesh
@@ -460,15 +420,7 @@
     tags:
     - Khopesh
   - type: DisarmMalus
-  - type: ReverseEngineering # SectorCrescent
-    recipes:
-      - DSMDuelingKhopesh
-      - ClothingBeltSheathKhopesh
-      - DSMRapier
-      - ClothingBeltSheathDSMRapier
-      - DSMSabre
-      - ClothingBeltSheathDSMSabre
-      - DSMBaton
+
 
 - type: entity
   name: chengridz jaeger's vibrokukri
@@ -516,11 +468,6 @@
     tags:
     - Kukri
   - type: DisarmMalus
-  - type: ReverseEngineering # SectorCrescent
-    difficulty: 4
-    recipes:
-      - NCWLKukri
-      - ClothingBeltSheathNCWLKukri
 
 - type: entity
   name: zweihander
@@ -576,7 +523,3 @@
   - type: SurgeryTool
     startSound:
       path: /Audio/Weapons/bladeslice.ogg
-  - type: ReverseEngineering # Sector Crescent
-    difficulty: 3
-    recipes:
-      - DSMZweihander #You need nothing else.

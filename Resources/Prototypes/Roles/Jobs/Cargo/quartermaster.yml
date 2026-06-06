@@ -7,14 +7,7 @@
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
-    - Foreigner
-    - ForeignerLight
     - Muted
-  - !type:CharacterEmployerRequirement
-    employers:
-    - OrionExpress
-    - IdrisIncorporated
-    - NanoTrasen
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 7200

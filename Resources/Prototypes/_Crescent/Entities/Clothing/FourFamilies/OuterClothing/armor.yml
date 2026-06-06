@@ -30,12 +30,6 @@
     clothingPrototype: ClothingHeadHelmetHardsuitDraugr
   - type: StaticPrice
     price: 1000
-  - type: ReverseEngineering
-    difficulty: 2
-    recipes:
-      - ClothingOuterHardsuitDraugr
-      - ClothingOuterHardsuitIzdari
-      - ClothingOuterHardsuitThukker
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]

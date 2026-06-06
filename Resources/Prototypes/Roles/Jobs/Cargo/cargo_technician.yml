@@ -12,11 +12,6 @@
   extendedAccess:
   - Salvage
   - Orders
-  requirements:
-  - !type:CharacterEmployerRequirement
-    employers:
-    - OrionExpress
-    - NanoTrasen
 
 - type: startingGear
   id: CargoTechGear

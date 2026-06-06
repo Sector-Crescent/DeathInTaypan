@@ -4,11 +4,6 @@
   description: job-description-intern
   playTimeTracker: JobMedicalIntern
   requirements:
-  - !type:CharacterEmployerRequirement
-    employers:
-    - ZengHuPharmaceuticals
-    - Interdyne
-    - NanoTrasen
   startingGear: MedicalInternGear
   icon: "JobIconMedicalIntern"
   supervisors: job-supervisors-medicine

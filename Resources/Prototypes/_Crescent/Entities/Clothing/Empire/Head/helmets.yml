@@ -477,8 +477,7 @@
     - Snout
   - type: IdentityBlocker
   - type: Tag
-    tags:
-      - FitsInVoidsuitKit
+
 
 
 - type: entity

@@ -144,9 +144,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - TechnicalAssistant
-    - !type:CharacterEmployerRequirement
-      employers:
-        - ZavodskoiInterstellar
   items:
     - ClothingUniformJumpsuitZavodEngineerApprentice
 
@@ -161,9 +158,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - TechnicalAssistant
-    - !type:CharacterEmployerRequirement
-      employers:
-        - NanoTrasen
   items:
     - ClothingUniformJumpsuitNTEngineeringApprentice
 
@@ -178,8 +172,5 @@
     - !type:CharacterJobRequirement
       jobs:
         - TechnicalAssistant
-    - !type:CharacterEmployerRequirement
-      employers:
-        - HephaestusIndustries
   items:
     - ClothingUniformJumpsuitHephEngineerApprentice

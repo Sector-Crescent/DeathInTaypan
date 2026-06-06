@@ -24,8 +24,6 @@
     tags: []
   - type: StaticPrice
     price: 1000
-  - type: Contraband
-    value: 3
 
 - type: entity
   name: exile autoinjector
@@ -58,8 +56,7 @@
           Quantity: 5
   - type: Tag
     tags: []
-  - type: Contraband
-    value: 5
+
 
 - type: entity
   name: kaiser autoinjector
@@ -92,8 +89,7 @@
           Quantity: 15
   - type: Tag
     tags: []
-  - type: Contraband
-    value: 10
+
 
 - type: entity
   name: mechanite injector gun
@@ -158,33 +154,7 @@
           Quantity: 15
   - type: Tag
     tags: []
-  - type: Contraband
-    value: 4
 
-- type: entity
-  name: narcan autoinjector
-  parent: ChemicalMedipen
-  id: NarcanAutoinjector
-  description: woah!
-  components:
-  - type: Sprite
-    sprite: Objects/Specific/Medical/medipen.rsi
-    layers:
-    - state: medipen
-      map: ["enum.SolutionContainerLayers.Fill"]
-  - type: SolutionContainerVisuals
-    maxFillLevels: 1
-    changeColor: false
-    emptySpriteName: medipen_empty
-  - type: SolutionContainerManager
-    solutions:
-      pen:
-        maxVol: 10
-        reagents:
-        - ReagentId: Narcan
-          Quantity: 10
-  - type: Tag
-    tags: []
 
 - type: entity
   name: JV-201 autoinjector
@@ -219,5 +189,3 @@
     tags: []
   - type: StaticPrice
     price: 1000
-  - type: Contraband
-    value: 5

@@ -1316,11 +1316,6 @@
     soundHit:
       path: /Audio/_Crescent/Weapons/Jackhammerhit01.ogg
     animation: WeaponArcThrust
-  - type: MeleeThrowOnHit
-    speed: 10
-    lifetime: 0.25
-  - type: KnockdownOnHit
-    duration: 1
   - type: MultiHandedItem
   - type: Item
     size: Huge

@@ -206,8 +206,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
-  - type: TemperatureProtection
-    coefficient: 0.01
   - type: FireProtection
     reduction: 0.75
   - type: ExplosionResistance
@@ -223,9 +221,6 @@
         Caustic: 0.9
   - type: ClothingSpeedModifier
     sprintModifier: 1.3
-  - type: FootstepModifier
-    footstepSoundCollection:
-      collection: FootstepSilent
   - type: ToggleableClothing
     slot: head
     clothingPrototype: ClothingHeadHelmetHardsuitSHISpeedsuit
