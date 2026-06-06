@@ -62,7 +62,7 @@
     noRot: false
     sprite: _Crescent/Objects/Weapons/Projectiles/ballistic.rsi
     layers:
-    - state: medium
+    - state: bullet
       shader: unshaded
   - type: Physics
     bodyType: Dynamic
