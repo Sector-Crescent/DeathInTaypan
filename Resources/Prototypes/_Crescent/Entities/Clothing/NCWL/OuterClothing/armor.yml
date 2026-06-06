@@ -1,0 +1,650 @@
+- type: entity
+  parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
+  id: ClothingOuterArmorNCWLCarapace
+  name: kommissar's trenchcoat
+  description: A kevlar-interwoven durathread trenchcoat with a synthfleece-trim collar. Looks badass.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/kommissarcoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/kommissarcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 1000
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLCarapace
+      - ClothingOuterArmorNCWLCarapaceKapitan
+
+- type: entity
+  parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
+  id: ClothingOuterArmorNCWLOpremeCarapace
+  name: major's greatcoat
+  description: A kevlar-intervowen durathread trenchcoat with a synthfleece-trim collar. Looks badass.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/opremecoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/opremecoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 1000
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLOpremeCarapace
+      - ClothingOuterArmorNCWLCarapaceKapitan
+      - ClothingOuterArmorNCWLCarapace
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, ClothingArmorInsert]
+  id: ClothingOuterArmorNCWLHeavyCarapace
+  name: 2B11 Heavy Aramid Carapace
+  description: A simple carrier vest, constructed out of aramid fibres. This one is a variation of the 2B10, and has added pauldrons and a lap protector, for extra protection even without an armor insert. A tag on the inside reads "If yellow fibres are visible, do not use,".
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/heavy.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/heavy.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 750
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLHeavyCarapace
+      - ClothingHeadHelmetNCWLHeavy
+      - ClothingHeadHelmetNCWLRiot
+      - ClothingOuterArmorNCWLLightBodyarmor
+      - ClothingHeadHelmetNCWLBasic
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorNCWLCarapaceKapitan
+  name: fleetkapitan's armored overcoat
+  description: A communard overcoat overlaid with a kevlar vest. Fit for a commanding officer.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/commsofficercoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/commsofficercoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 800
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLCarapaceKapitan
+      - ClothingOuterArmorNCWLCarapace
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorNCWLCarapaceDoktor
+  name: doktor's armored jacket
+  description: A communard paramedic's jacket. Layered with kevlar nanoweave.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/doktorlabcoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/doktorlabcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 900
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLCarapaceDoktor
+      - ClothingOuterArmorNCWLCarapaceVrachev
+      - ClothingOuterArmorNCWLMedi
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, ClothingArmorInsert]
+  id: ClothingOuterArmorNCWLLightBodyarmor
+  name: 2B10 Aramid Carapace
+  description: A simple aramid vest in communard brown, designed in the early days of NCWL independence. While it is an aging design, it holds inserts, and protects soldiers. A tag on the inside reads "If yellow fibres are visible, do not use,".
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/light.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/light.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 500
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLLightBodyarmor
+      - ClothingHeadHelmetNCWLBasic
+
+
+## ncwl revamp clothing
+
+- type: entity
+  parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
+  id: ClothingOuterArmorNCWLLogi
+  name: dockmaster's armored jacket
+  description: A communard jacket. Layered with kevlar nanoweave.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/engijacket.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/engijacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 900
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLEngi
+      - ClothingOuterArmorNCWLLogi
+
+- type: entity
+  parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
+  id: ClothingOuterArmorNCWLEngi
+  name: coordinator's armored jacket
+  description: A communard jacket. Layered with kevlar nanoweave. Boss around your fellow proletariat in style and comfort!
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/engijacket.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/engijacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 900
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLEngi
+      - ClothingOuterArmorNCWLLogi
+
+- type: entity
+  parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
+  id: ClothingOuterArmorNCWLCarapaceVrachev
+  name: director's armored labcoat
+  description: A communard jacket. Layered with kevlar nanoweave.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/medicheadcoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/medicheadcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 900
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLCarapaceVrachev
+      - ClothingOuterArmorNCWLMedi
+      - ClothingOuterArmorNCWLCarapaceDoktor
+
+- type: entity
+  parent: [ClothingOuterStorageBase, ClothingOuterArmorBasic]
+  id: ClothingOuterArmorNCWLMedi
+  name: vrachev union labcoat
+  description: A communard labcoat. Layered with kevlar nanoweave.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/mediclabcoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/mediclabcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 900
+  - type: AllowSuitStorage
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterArmorNCWLMedi
+      - ClothingOuterArmorNCWLCarapaceVrachev
+      - ClothingOuterArmorNCWLCarapaceDoktor
+
+## mvd
+
+- type: entity
+  parent: ClothingOuterArmorNCWLCarapace
+  id: ClothingOuterArmorMVDCoat
+  name: mvd officer's trenchcoat
+  description: A kevlar-interwoven durathread trenchcoat with brass plated shoulder guards. Looks menacing.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/mvdcoat.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/mvdcoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorNCWLLogi
+  id: ClothingOuterArmorMVDJacket
+  name: mvd grunt's jacket
+  description: A kevlar-interwoven durathread jacket with a synthfleece-trim lining. Its The Jacket.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/mvdjacket.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/mvdjacket.rsi
+
+## hardsuits ncwl revamp
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitNCWLMedi
+  name: 2B20D 'SANITAR' Medical Hardsuit
+  description: A variation of the 2B20 hardsuit, designed for union combat medics. The white makes you easily identified as a medical worker, for better or worse.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/infanteermedsuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/infanteermedsuit.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.97
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitNCWLMedi
+  - type: StaticPrice
+    price: 2000
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterHardsuitNCWLMedi
+      - ClothingOuterHardsuitNCWLEngi
+      - ClothingOuterHardsuitNCWLInfantry
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitNCWLEngi
+  name: 2B20C 'EVERMAN' Civilian Hardsuit
+  description: A very lightly armored, bulky hardsuit, built off of the classic 2B20 design. The design committee essentially just ripped everything out, and put in micrometeorite protection. Despite the design, the helmet will NOT protect your eyes.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/salvagehardsuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/salvagehardsuit.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.97
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Heat: 0.6
+        Cold: 0.6
+        Caustic: 0.6
+        Radiation: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitNCWLEngi
+  - type: StaticPrice
+    price: 2000
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterHardsuitNCWLEngi
+      - ClothingOuterHardsuitNCWLMedi
+      - ClothingOuterHardsuitNCWLInfantry
+
+## hardsuits
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitNCWLInfantry
+  name: 2B20 'INFANTEER' Combat Hardsuit
+  description: An aging, time tested hardsuit design first put into production immediately after the revolution for the newly established Homeguard. Built out of steel, aramid fibres, and a small liner of ballistic gel, this hardsuit can protect even the weakest of the proletariat.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/infantryhardsuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/infantryhardsuit.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitNCWLInfantry
+  - type: StaticPrice
+    price: 2000
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingOuterHardsuitNCWLInfantry
+      - ClothingOuterHardsuitNCWLEngi
+      - ClothingOuterHardsuitNCWLMedi
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitNCWLPetya
+  name: 2B29 'PETYA' Combat Hardsuit
+  description: The next generation combat hardsuit, developed by the Homeguard Utilities Committee in Chengridz. This hardsuit features better built in protection, increased comfort, and a rudimentary HUD. While the 2B29 has already replaced the 2B20 in Chengridz, fringe systems like Taypan are only issued it in small numbers.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/commieheavy.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/commieheavy.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.7
+        Cold: 0.7
+        Caustic: 0.7
+        Radiation: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.97
+    sprintModifier: 0.97
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitNCWLPetya
+  - type: StaticPrice
+    price: 2000
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    difficulty: 2
+    recipes:
+      - ClothingOuterHardsuitNCWLPetya
+      - ClothingOuterHardsuitNCWLInfantry
+      - ClothingOuterHardsuitNCWLEngi
+      - ClothingOuterHardsuitNCWLMedi
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuitJugg]
+  id: ClothingOuterHardsuitNCWLJuggernaut
+  name: 2B30 'HADES' Heavy Combat Hardsuit
+  description: An enormous, heavily armored suit designed to protect the wearer from damn near anything. The hardsuit itself provides surprisingly high protection, and can carry either two compact plates, or one full sized plate. Unsurprisingly, this comes at that cost of mobility. Kick ass, take names.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/commienaut.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/commienaut.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Heat: 0.6
+        Cold: 0.6
+        Caustic: 0.6
+        Radiation: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.6
+    sprintModifier: 0.6
+  - type: HeldSpeedModifier
+  - type: Reflect
+    spread: 270
+    reflectProb: 0.10
+    innate: true
+    reflects:
+      - Energy
+      - NonEnergy
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitNCWLJuggernaut
+  - type: StaticPrice
+    price: 5000
+  - type: ClothingAddFaction
+    faction: NCWL
+  - type: ReverseEngineering # SectorCrescent
+    difficulty: 4
+    recipes:
+      - ClothingOuterHardsuitNCWLJuggernaut
+      - ClothingOuterHardsuitNCWLPetya
+      - ClothingOuterHardsuitNCWLInfantry
+
+##softsuits
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterNCWLEVA
+  name: 6U11 EVA Suit
+  description: A simple, brown and black aramid EVA suit, designed for emergencies or workers who do not often see EVA work.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/softsuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/OuterClothing/softsuit.rsi
+  - type: Tag
+    tags:
+    - SuitEVA
+    - FitsInVoidsuitKit
+  - type: StaticPrice
+    price: 1000
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,3
+  - type: ClothingAddFaction
+    faction: NCWL

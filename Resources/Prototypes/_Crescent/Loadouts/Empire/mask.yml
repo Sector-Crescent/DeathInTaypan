@@ -1,0 +1,11 @@
+- type: loadout
+  id: LoadoutMaskDSMCombatGasmask
+  category: Mask
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingMaskImperialCombatGasmask
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMasks
+

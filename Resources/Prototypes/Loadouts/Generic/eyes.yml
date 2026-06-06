@@ -1,66 +1,9 @@
 - type: loadout
-  id: LoadoutEyesEyepatch
-  category: Eyes
-  cost: 0
-  canBeHeirloom: true
-  items:
-    - ClothingEyesEyepatch
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes
-
-
-- type: loadout
-  id: LoadoutEyesGlasses
-  category: Eyes
-  cost: 0
-  customColorTint: true
-  items:
-    - ClothingEyesGlasses
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes
-
-- type: loadout
   id: LoadoutEyesBlindfold
   category: Eyes
   cost: 0
   items:
     - ClothingEyesBlindfold
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes
-
-- type: loadout
-  id: LoadoutEyesGlassesCheapSunglassesAviator
-  category: Eyes
-  cost: 0
-  exclusive: true
-  customColorTint: true
-  items:
-    - ClothingEyesGlassesCheapSunglassesAviator
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes
-
-- type: loadout
-  id: LoadoutEyesGlassesCheapSunglassesBig
-  category: Eyes
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingEyesGlassesCheapSunglassesBig
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes
-
-- type: loadout
-  id: LoadoutEyesGlassesCheapSunglassesVisor
-  category: Eyes
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingEyesGlassesCheapSunglassesVisor
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutEyes

@@ -1,0 +1,22 @@
+- type: loadout
+  id: LoadoutOuterArmorDSMImperialParade
+  category: Outer
+  cost: 0
+  customColorTint: true
+  items:
+    - ClothingOuterCoatImperialParade
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuter
+
+
+- type: loadout
+  id: LoadoutOuterArmorDSMImperialNullweavePsion
+  category: Outer
+  cost: 0
+  items:
+    - ClothingOuterHardsuitImperialNullweavePsion
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuter
+

@@ -1,0 +1,22 @@
+# This file holds all of the temporary migrations to get AdventureRule to actually load.
+# This is bad. Please port these properly or replace them in the map.
+
+
+Crowbar: CrescentCrowbar
+Wirecutter: CrescentWirecutter
+Welder: CrescentWelder
+WelderIndustrial: CrescentWelder
+Screwdriver: CrescentScrewdriver
+Flashlight: CrescentFlashlight
+Wrench: CrescentWrench
+Multitool: CrescentMultitool
+NetworkConfigurator: CrescentNetworkConfigurator
+PowerDrill : CrescentPowerDrill
+RCD: CrescentRCD
+RPD: CrescentRPD
+RCDEmpty: CrescentRCDEmpty
+RPDEmpty: CrescentRPDEmpty
+Shovel: CrescentShovel
+Pickaxe: CrescentPickaxe
+trayScanner: CrescenttrayScanner
+JawsOfLife: CrescentJawsOfLife

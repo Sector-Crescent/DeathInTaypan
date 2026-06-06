@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingEyesHudSecurity
+  id: ClothingEyesGlassesNCWL
+  name: Homeguard Ballistic Goggles
+  description: A pair of fully sealed goggles, with orange tinted goggles. The lenses are rated to block dust, wind, and other various debris.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/Eyes/ncwlgoggles.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/Eyes/ncwlgoggles.rsi

@@ -1,15 +1,4 @@
 - type: loadout
-  id: LoadoutHandsGlovesLeather
-  category: Hands
-  cost: 0
-  exclusive: true
-  items:
-    - ClothingHandsGlovesLeather
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves
-
-- type: loadout
   id: LoadoutHandsClothWrap
   category: Hands
   cost: 0

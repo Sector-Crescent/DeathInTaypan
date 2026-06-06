@@ -1,0 +1,22 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCMMDeputyMarshal
+  category: Head
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingHeadHatCMMDeputyMarshal
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatMinuteman
+  category: Head
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingHeadHatMinuteman
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+

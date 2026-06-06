@@ -1,0 +1,43 @@
+- type: loadout
+  id: LoadoutBeltSheathDSMSabre
+  category: Belt
+  cost: 0
+  items:
+    - ClothingBeltSheathDSMSabreFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBelt
+
+
+- type: loadout
+  id: LoadoutBeltSheathDSMRapier
+  category: Belt
+  cost: 0
+  items:
+    - ClothingBeltSheathDSMRapierFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBelt
+
+
+- type: loadout
+  id: LoadoutBeltSheathDSMDuelingKhopesh
+  category: Belt
+  cost: 0
+  items:
+    - ClothingBeltSheathDSMDuelingKhopeshFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBelt
+
+
+- type: loadout
+  id: LoadoutBeltSheathDSMBaton
+  category: Belt
+  cost: 0
+  items:
+    - DSMBaton
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBelt
+

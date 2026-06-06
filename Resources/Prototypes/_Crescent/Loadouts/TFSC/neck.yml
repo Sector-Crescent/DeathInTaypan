@@ -1,0 +1,34 @@
+- type: loadout
+  id: LoadoutNeckTFSCCloakRingleader
+  category: Neck
+  exclusive: true
+  cost: 0
+  items:
+    - ClothingNeckCloakRingleader
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+
+- type: loadout
+  id: LoadoutNeckTFSCCloakHedgeknightCapelet
+  category: Neck
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingNeckCloakHedgeknightCapelet
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+
+- type: loadout
+  id: LoadoutNeckTFSCShemagh
+  category: Neck
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingNeckScarfSyndicateShemagh
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
