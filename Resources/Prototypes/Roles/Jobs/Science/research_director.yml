@@ -19,8 +19,6 @@
     inverted: true
     traits:
     - Muted
-    - Foreigner
-    - ForeignerLight
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 7200

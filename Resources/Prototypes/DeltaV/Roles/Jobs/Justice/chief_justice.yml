@@ -10,11 +10,6 @@
   requireAdminNotify: false # WWDP no need for admin notify
   supervisors: job-supervisors-captain
   canBeAntag: false
-  requirements:
-    - !type:CharacterEmployerRequirement
-      employers:
-      - IdrisIncorporated
-      - NanoTrasen
   access:
   - Command
   - ChiefJustice

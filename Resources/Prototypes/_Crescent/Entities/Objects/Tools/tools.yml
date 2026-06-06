@@ -504,7 +504,7 @@
 
 - type: entity
   name: SHI-UT Multitool
-  parent: BaseItem
+  parent: Multitool
   id: CrescentMultitool
   description: A UltraTool made multitool, used by electricians all over the sector.
   components:
@@ -535,7 +535,7 @@
   - type: Item
   - type: Tool
     qualities:
-      - Pulsing
+    - Pulsing
   - type: NetworkConfigurator
   - type: ActivatableUI
     key: enum.NetworkConfiguratorUiKey.List
@@ -550,8 +550,8 @@
         type: NetworkConfiguratorBoundUserInterface
   - type: Tag
     tags:
-      - Multitool
-      - DoorElectronicsConfigurator
+    - Multitool
+    - DoorElectronicsConfigurator
   - type: PhysicalComposition
     materialComposition:
       Aluminum: 50
