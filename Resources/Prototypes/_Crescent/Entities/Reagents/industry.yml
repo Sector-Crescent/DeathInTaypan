@@ -6,13 +6,13 @@
   color: "#030000e8"
   price: 0
 
-- type: material
-  id: Gunpowder
-  name: materials-Gunpowder
-  unit: materials-unit-piece
-  icon: { sprite: _Crescent/Objects/Industry.rsi, state: blackpowder }
-  color: "#030000"
-  price: 0
+#- type: material
+#  id: Gunpowder
+#  name: materials-Gunpowder
+#  unit: materials-unit-piece
+#  icon: { sprite: _Crescent/Objects/Industry.rsi, state: blackpowder }
+#  color: "#030000"
+#  price: 0
 
 - type: material
   id: OrdnanceCompound
