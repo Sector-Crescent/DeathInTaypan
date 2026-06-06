@@ -1,0 +1,25 @@
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCMM
+  category: Uniform
+  cost: 0
+  exclusive: true
+  canBeHeirloom: true
+  items:
+    - ClothingUniformJumpsuitCMM
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCMMMachinist
+  category: Uniform
+  cost: 0
+  exclusive: true
+  canBeHeirloom: true
+  items:
+    - ClothingUniformJumpsuitCMMMachinist
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+

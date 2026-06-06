@@ -11,11 +11,6 @@
   - Service
   - Maintenance
   - Zookeeper
-  requirements:
-  - !type:CharacterEmployerRequirement
-    inverted: true
-    employers:
-    - Unemployed
 
 - type: startingGear
   id: ZookeeperGear

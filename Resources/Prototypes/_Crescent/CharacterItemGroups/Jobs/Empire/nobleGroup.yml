@@ -1,0 +1,10 @@
+- type: characterItemGroup
+  id: LoadoutDSMNobleWeapon
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutItemDSMSabre
+    - type: loadout
+      id: LoadoutItemDSMRapier
+    - type: loadout
+      id: LoadoutItemDSMBaton

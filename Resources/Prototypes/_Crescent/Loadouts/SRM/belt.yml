@@ -1,0 +1,22 @@
+
+- type: loadout
+  id: LoadoutBeltSheathSRMKhopesh
+  category: Belt
+  cost: 0
+  items:
+    - ClothingBeltSheathKhopeshFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBelt
+
+
+- type: loadout
+  id: LoadoutBeltSheathSRMDuelingKhopesh
+  category: Belt
+  cost: 0
+  items:
+    - ClothingBeltSheathDSMDuelingKhopeshFilled
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBelt
+

@@ -10,10 +10,6 @@
     #   department: Epistemics
     #   min: 216000 #60 hrs
     # WD EDIT END
-    - !type:CharacterEmployerRequirement
-      employers:
-      - NanoTrasen
-      - ZengHuPharmaceuticals
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"
   supervisors: job-supervisors-rd

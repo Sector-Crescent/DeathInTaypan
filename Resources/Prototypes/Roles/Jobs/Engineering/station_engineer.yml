@@ -9,12 +9,6 @@
   #   department: Engineering
   #   min: 14400 #4 hrs
   # WD EDIT END
-  - !type:CharacterEmployerRequirement
-    employers:
-    - HephaestusIndustries
-    - ZavodskoiInterstellar
-    - EinsteinEngines
-    - NanoTrasen
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 3600

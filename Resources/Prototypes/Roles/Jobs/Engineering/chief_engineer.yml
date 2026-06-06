@@ -4,16 +4,6 @@
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
   requirements:
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - Foreigner
-    - ForeignerLight
-  - !type:CharacterEmployerRequirement
-    employers:
-    - NanoTrasen
-    - ZavodskoiInterstellar
-    - HephaestusIndustries
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 7200

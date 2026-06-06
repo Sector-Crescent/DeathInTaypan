@@ -1,0 +1,191 @@
+- type: loadout
+  id: LoadoutBackpackNCWL
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackNCWL
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackNCWLSatchel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelNCWL
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackNCWLDuffel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelNCWL
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackTFSC
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackNCSP
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackTFSCSatchel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackNCSPSatchel
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackTFSCDuffel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackNCSPDuffelbag
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackDSM
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackDSM
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackDSMSatchel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackDSMSatchel
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackSRM
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackFilledSRM
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackSRMSatchel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelFilledSRM
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackSHI
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSHI
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackSHISatchel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSHISatchel
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackSHIDuffel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSHIDuffelbag
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackCMM
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackMinuteman
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackCMMSatchel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackMinutemanSatchel
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
+- type: loadout
+  id: LoadoutBackpackCMMDuffel
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackMinutemanDuffelbag
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+

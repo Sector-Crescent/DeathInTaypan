@@ -1,0 +1,620 @@
+#hardsuits
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitImperialWorker
+  name: CEVAS Worker's Hardsuit
+  description: The Citizen EVA System (CEVAS) is the standard hardsuit provided to Imperial colonies and civilian fleets for EVA operations. Doesn't protect the wearer from much, but the suit is quite comfortable, and the purple makes you feel rich.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateworker.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateworker.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Heat: 0.6
+        Cold: 0.6
+        Caustic: 0.6
+        Radiation: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.97
+    sprintModifier: 0.97
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialWorker
+  - type: StaticPrice
+    price: 2500
+
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitInspector
+  name: mk. IV 'ORATEUR' combat hardsuit
+  description: A modular combat hardsuit for the Advocati Compliance Corps. Bears the colors of the Kaiserin's administration.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/inspector.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/inspector.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitInspector
+  - type: StaticPrice
+    price: 3500
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitClarizianWorker
+  name: clarizian maintenance hardsuit
+  description: A modular worker's hardsuit, bears the colors of the Queen.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizehardsuitworker.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizehardsuitworker.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitClarizeWorker
+  - type: StaticPrice
+    price: 2500
+
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatArchmaester
+  name: archmaester's jacket
+  description: The Archmaester's bolero jacket; designed for the modern explorer.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/archmaester.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/archmaester.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: StaticPrice
+    price: 500
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitClarize
+  name: royal trooper's hardsuit
+  description: A modular trooper's hardsuit, bears the colors of the Queen.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizehardsuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizehardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitClarize
+  - type: StaticPrice
+    price: 2500
+
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitImperialCommand
+  name: ICHS 'NOBLEMAN' Combat Hardsuit
+  description: The ICHS (Imperial Command Hardsuit) is an older model hardsuit, originally used by nobles on the field so that their men could easily identify them. The bluespace collapse has pressed these back into occasional use. Bears the colors of House Guies.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatecommand.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatecommand.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.7
+        Cold: 0.7
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialCommand
+  - type: StaticPrice
+    price: 5000
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitImperialSoldier
+  name: MECS Typ 1 'JANNISARY' Combat Hardsuit
+  description: The Modular Enhanced Combat Suit (MECS) is the current standard issue combat hardsuit in use by the lowest ranks of the Imperial Army and Marine Corps. This one bears the colors of House Olywir, and appears to be somewhat faded.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatesoldier.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatesoldier.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialSoldier
+  - type: StaticPrice
+    price: 4500
+
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuit]
+  id: ClothingOuterHardsuitImperialKnight
+  name: MECS Typ 2 'KONIGSCHILD' Combat Hardsuit
+  description: The MECS Typ 2 is a variation of the Typ 1 hardsuit, but comes with heavier armor and greater comfortability. This design was originally intended to be used specifically by NCOs, but Taypani garrisons can't afford to not issue the Typ 2 to levymen.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateknight.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateknight.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.7
+        Cold: 0.7
+        Caustic: 0.7
+        Radiation: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.97
+    sprintModifier: 0.97
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialKnight
+  - type: StaticPrice
+    price: 6000
+
+
+
+- type: entity
+  parent: ClothingOuterHardsuitImperialSoldier
+  id: ClothingOuterHardsuitImperialBanneret
+  name: MECS Typ 1 'SABRE' Modified Hardsuit
+  description: A variation of the MECS Typ1 hardsuit designed to distinguish minor nobility on the battlefield. It's outfitted with pauldrons and a skirt, with some tasteful gold plating.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatebanneret.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatebanneret.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialBanneret
+
+- type: entity
+  parent: ClothingOuterHardsuitImperialSoldier
+  id: ClothingOuterHardsuitImperialCoronet
+  name: MECS Typ 1 'CORONET' Modified Hardsuit
+  description: A personalized MECS Typ 1 hardsuit, used by Madame Valkenrath-Zehring in many campaigns in the Taypan system. It has now had its electronic guts scooped out, and the helmet removed. The paint is kept pristine by the museum keeper on Kal Surezai.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatecoronet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatecoronet.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialCoronet
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, ClothingArmorInsertHardsuitJugg]
+  id: ClothingOuterHardsuitImperialJuggernaut
+  name: ESACH 'VALKYRE' Combat Hardsuit #Damn you SHI for taking Gilgamesh
+  description: The Energetically Shielded Advanced Combat Hardsuit is an incredibly sophisticated combat suit, designed just before the Bluespace Collapse. The ESACH allows for a full sized plate to be inserted, and also comes equipped with a personal deflection matrix. This suit is worth its weight in gold.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatejuggernaut.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatejuggernaut.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Heat: 0.75
+        Cold: 0.75
+        Caustic: 0.75
+  - type: ClothingSpeedModifier #mildly better than other jugsuits, but far worse protection than a T2
+    walkModifier: 0.6
+    sprintModifier: 0.6
+  - type: HeldSpeedModifier
+  - type: Reflect
+    spread: 270
+    reflectProb: 0.05
+    innate: true
+    reflects:
+      - Energy
+      - NonEnergy
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialJuggernaut
+  - type: StaticPrice
+    price: 9000
+
+
+
+# armor
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, ClothingArmorInsert]
+  id: ClothingOuterArmorImperialTrooperArmor
+  name: SASIT Typ 1 Vest
+  description: The Standard Armor System for Imperial Troops (SASIT) is a simple steel vest, painted purple with a single white stripe on the breast. The complete lack of flair denotes this specific vest as being for the grunt masses.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatearmor.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatearmor.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: AllowSuitStorage
+  - type: StaticPrice
+    price: 1500
+
+
+
+- type: entity
+  parent: [ClothingOuterArmorBasic, ClothingArmorInsert]
+  id: ClothingOuterArmorClarizianTrooperArmor
+  name: royal knight's hauberk
+  description: A Type III Royal trooper vest.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizebodyarmor.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizebodyarmor.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: StaticPrice
+    price: 1500
+
+
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, ClothingArmorInsert]
+  id: ClothingOuterArmorImperialArmorPrestige
+  name: SASIT Typ 2 Vest
+  description: A variation of the Typ 1 SASIT, with a small amount of flourish to indicate that the wearer is minor nobility. Said flourish includes a gold stripe, and a short half skirt.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatearmorprestige.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatearmorprestige.rsi
+  - type: ExtendDescription
+    descriptionList:
+      - description: This is a carrier vest, it will only provide mediocre protection on its own. Put an armor insert into it to fully utilize it.
+        fontSize: 15
+        color: "#ff2106"
+        requireDetailRange: true
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: StaticPrice
+    price: 3000
+  - type: AllowSuitStorage
+
+
+
+#coats
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatImperialAdjutant
+  name: adjutant's formal coat
+  description: An ornate, durathread-reinforced officer's coat.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateadjutant.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateadjutant.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: StaticPrice
+    price: 1500
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatImperialAdvocatus
+  name: advocati coat
+  description: An ornate, durathread-reinforced officer's coat bearing House Olywir colors.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/advocatus.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/advocatus.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: StaticPrice
+    price: 1500
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatImperialMerchant
+  name: minister's robes
+  description: An ornate, silken robe made for the Minister of Wealth.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateminister.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateminister.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: StaticPrice
+    price: 1500
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatImperialGovernor
+  name: governor's formal coat
+  description: An ornate coat bedecked in Imperial livery and medals, clearly intended for the Imperial Governor.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandategovernor.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandategovernor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.9
+        Cold: 0.9
+        Caustic: 0.9
+  - type: StaticPrice
+    price: 2000
+
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatImperialParade
+  name: imperial military parade jacket
+  description: An ornate military jacket, intended for a formal parade.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateparade.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateparade.rsi
+  - type: StaticPrice
+    price: 1000
+
+
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatClarizianOfficer
+  name: royal officer's jacket
+  description: An ornate military jacket, intended for formal use.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizianofficer.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/clarizianofficer.rsi
+  - type: StaticPrice
+    price: 1000
+
+
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterCoatImperialSoftsuit
+  name: Imperial Voidsuit
+  description: A simple EVA suit, built out of synthcotton and small amounts of aramid fibre. Keeps the air in, and not much else.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateeva.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandateeva.rsi
+  - type: Tag
+    tags:
+    - SuitEVA
+  - type: StaticPrice
+    price: 1500
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,3
+
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterCoatImperialRitter
+  name: Exoplate Neurosuit
+  description: An airtight ballistic fiber woven uniform for Imperial Ritters. It serves as both soft protection against shrapnel and an interface with their Exoplate, absorbing many of the rigors of piloting in place of their bearer and allowing even an unaugmented human to move with their machine as though they were one body.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/rittersuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/rittersuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.8
+        Cold: 0.8
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetImperialRitter
+  - type: StaticPrice
+    price: 2000
+
+
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitImperialNullweavePsion
+  name: psion nullweave robes
+  description: Suffocating black cloth is the mark of the Imperial Psion, lacking value or birthright enough to escape the clutches of the House of Questions. After processing and education for the betterment of the Mandate at large, their uniform remains as both a mark of origin and valuable tool - the design of the robe and accompanying mask isolates the wearer entirely from their surroundings so that they may focus upon the working of space and matter. In addition, the space-grade seals are suitable for EVA traversal.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatenullweavepsion.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/OuterClothing/mandatenullweavepsion.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Heat: 0.6
+        Cold: 0.6
+        Caustic: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitImperialNullweavePsion
+  - type: StaticPrice
+    price: 2500
+
+

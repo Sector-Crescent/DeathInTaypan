@@ -384,9 +384,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - AtmosphericTechnician
-    - !type:CharacterEmployerRequirement
-      employers:
-        - ZavodskoiInterstellar
   items:
     - ClothingUniformJumpsuitZavodAtmos
 
@@ -401,9 +398,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - AtmosphericTechnician
-    - !type:CharacterEmployerRequirement
-      employers:
-        - NanoTrasen
   items:
     - ClothingUniformJumpsuitNTAtmos
 
@@ -418,8 +412,5 @@
     - !type:CharacterJobRequirement
       jobs:
         - AtmosphericTechnician
-    - !type:CharacterEmployerRequirement
-      employers:
-        - HephaestusIndustries
   items:
     - ClothingUniformJumpsuitHephAtmos

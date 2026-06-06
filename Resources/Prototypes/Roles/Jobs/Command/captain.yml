@@ -7,13 +7,8 @@
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
-    - Foreigner
-    - ForeignerLight
     - Pacifist
     - Muted
-  - !type:CharacterEmployerRequirement
-    employers:
-    - NanoTrasen
   # WD EDIT START
   - !type:CharacterOverallTimeRequirement
     min: 7200

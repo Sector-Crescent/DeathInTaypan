@@ -1,0 +1,38 @@
+- type: loadout
+  id: LoadoutUniformDSMSoldierFormal
+  category: Uniform
+  cost: 0
+  exclusive: true
+  canBeHeirloom: true
+  items:
+    - ClothingUniformJumpsuitImperialSoldierFormal
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+
+
+- type: loadout
+  id: LoadoutUniformDSMNobleMale
+  category: Uniform
+  cost: 0
+  exclusive: true
+  canBeHeirloom: true
+  items:
+    - ClothingUniformJumpsuitImperialNobleMale
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+
+
+- type: loadout
+  id: LoadoutUniformDSMNobleFemale
+  category: Uniform
+  cost: 0
+  exclusive: true
+  canBeHeirloom: true
+  items:
+    - ClothingUniformJumpsuitImperialNobleFemale
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+

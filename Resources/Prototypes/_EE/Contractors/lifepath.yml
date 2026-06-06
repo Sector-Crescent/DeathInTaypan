@@ -13,16 +13,6 @@
       - Unemployed
 
 - type: lifepath
-  id: SolRefugee
-  nameKey: lifepath_name_solrefugee
-  descriptionKey: lifepath_description_solrefugee
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Human
-
-- type: lifepath
   id: DeskWorker
   nameKey: lifepath_name_deskworker
   descriptionKey: lifepath_description_deskworker
@@ -126,21 +116,6 @@
   id: StreetVendor
   nameKey: lifepath_name_streetvendor
   descriptionKey: lifepath_description_streetvendor
-
-- type: lifepath
-  id: Entertainer
-  nameKey: lifepath_name_entertainer
-  descriptionKey: lifepath_description_entertainer
-
-- type: lifepath
-  id: Enforcer
-  nameKey: lifepath_name_enforcer
-  descriptionKey: lifepath_description_enforcer
-
-- type: lifepath
-  id: Hacker
-  nameKey: lifepath_name_hacker
-  descriptionKey: lifepath_description_hacker
 
 - type: lifepath
   id: ConArtist

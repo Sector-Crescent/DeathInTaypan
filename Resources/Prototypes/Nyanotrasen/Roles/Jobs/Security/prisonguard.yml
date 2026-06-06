@@ -23,11 +23,6 @@
   - !type:ModifyEnvirohelmSpecial
     powerCell: PowerCellHigh
   requirements:
-    - !type:CharacterEmployerRequirement
-      employers:
-      - ZavodskoiInterstellar
-      - PMCG
-      - NanoTrasen
     # WD EDIT START
     - !type:CharacterOverallTimeRequirement
       min: 3600
