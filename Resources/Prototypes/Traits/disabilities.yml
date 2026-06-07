@@ -321,7 +321,6 @@
   - !type:CharacterSpeciesRequirement
     inverted: true
     species:
-    - Vulpkanin # This trait functions exactly as-is for the Vulpkanin trait.
     - Shadowkin
     - Tajaran
   - !type:CharacterTraitRequirement
@@ -364,20 +363,6 @@
           Piercing: 4
         groups:
           Burn: 3
-
-- type: trait
-  id: NormalVision
-  category: Visual
-  requirements:
-  - !type:CharacterSpeciesRequirement
-    species:
-    - Harpy
-    - Vulpkanin
-  functions:
-  - !type:TraitRemoveComponent
-    components:
-    - type: UltraVision
-    - type: DogVision
 
 - type: trait
   id: Saturnine

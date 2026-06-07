@@ -101,7 +101,7 @@
   - type: Speech
     allowedEmotes: ['Bark', 'Snarl', 'Whine', 'Howl', 'Awoo']
     speechVerb: Canine
-    speechSounds: Vulpkanin
+    speechSounds: Human
   - type: Fixtures
     fixtures:
       fix1:

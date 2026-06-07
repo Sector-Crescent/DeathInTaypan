@@ -56,7 +56,7 @@
   id: DemonCowEars
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [Oni, Harpy, Arachne, Lamia, Human, IPC]
+  speciesRestriction: [Oni, Arachne, Lamia, Human, IPC]
   sprites:
   - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
     state: cow_ears
@@ -65,7 +65,7 @@
   id: DemonEars
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [Oni, Harpy, Arachne, Lamia, Human, IPC]
+  speciesRestriction: [Oni, Arachne, Lamia, Human, IPC]
   sprites:
   - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
     state: demon_ears
@@ -74,7 +74,7 @@
   id: DemonElfEars
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [Oni, Harpy, Arachne, Lamia, Human, IPC]
+  speciesRestriction: [Oni, Arachne, Lamia, Human, IPC]
   sprites:
   - sprite: _ADT/Mobs/Customization/Demon/custom.rsi
     state: ears_elf

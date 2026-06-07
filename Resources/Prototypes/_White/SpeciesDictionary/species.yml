@@ -26,11 +26,6 @@
   groupPrototype: Humanoid
 
 - type: speciesDictionary
-  id: Vulpkanin
-  guidePrototype: Vulpkanin
-  groupPrototype: Other
-
-- type: speciesDictionary
   id: Diona
   guidePrototype: Diona
   groupPrototype: Other
@@ -66,11 +61,6 @@
   id: IPC
   guidePrototype: IPC
   groupPrototype: Other
-
-- type: speciesDictionary
-  id: Harpy
-  guidePrototype: Harpy
-  groupPrototype: Humanoid
 
 - type: speciesDictionary
   id: Plasmaman

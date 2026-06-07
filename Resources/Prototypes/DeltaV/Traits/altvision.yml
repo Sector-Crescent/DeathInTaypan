@@ -5,8 +5,6 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Vulpkanin
-        - Harpy
         - Shadowkin
     - !type:CharacterTraitRequirement
       inverted: true
@@ -24,8 +22,6 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Vulpkanin
-        - Harpy
         - Shadowkin
     - !type:CharacterTraitRequirement
       inverted: true
