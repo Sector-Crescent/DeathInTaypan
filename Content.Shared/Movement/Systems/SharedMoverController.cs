@@ -7,6 +7,7 @@ using Content.Shared.CCVar;
 using Content.Shared.Friction;
 using Content.Shared.Gravity;
 using Content.Shared.Inventory;
+using Content.Shared._ES.Viewcone;
 using Content.Shared.Maps;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Components;
@@ -39,6 +40,10 @@ public abstract partial class SharedMoverController : VirtualController
     [Dependency] private   readonly IConfigurationManager _configManager = default!;
     [Dependency] private   readonly IEntityManager _entities = default!;
     [Dependency] protected readonly IGameTiming Timing = default!;
+
+    // ES START
+    [Dependency] private   readonly ESViewconeEffectSystem _viewconeEffect = default!;
+    // ES END
     [Dependency] private   readonly IMapManager _mapManager = default!;
     [Dependency] private   readonly ITileDefinitionManager _tileDefinitionManager = default!;
     [Dependency] private   readonly AlertsSystem _alerts = default!;
@@ -66,6 +71,10 @@ public abstract partial class SharedMoverController : VirtualController
     protected EntityQuery<NoRotateOnMoveComponent> NoRotateQuery;
     protected EntityQuery<FootstepModifierComponent> FootstepModifierQuery;
     protected EntityQuery<MapGridComponent> MapGridQuery;
+
+    // ES START
+    private static readonly EntProtoId ESFootstepViewconeEffect = "ESViewconeEffectFootstep";
+    // ES END
 
     /// <summary>
     /// <see cref="CCVars.StopSpeed"/>
@@ -303,6 +312,10 @@ public abstract partial class SharedMoverController : VirtualController
                 {
                     _audio.PlayPredicted(sound, uid, uid, audioParams);
                 }
+
+                // ES START
+                _viewconeEffect.SpawnEffect(uid, ESFootstepViewconeEffect, wishDir.ToWorldAngle());
+                // ES END
             }
         }
 
