@@ -1,0 +1,18 @@
+- type: entity
+  id: CrateNPCHamster
+  parent: CrateRodentCage
+  suffix: Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: MobHamster
+
+- type: entity
+  id: CrateNPCHamlet
+  parent: CrateRodentCage
+  suffix: Hamlet
+  components:
+    - type: StorageFill
+      contents:
+        - id: MobHamsterHamlet
+

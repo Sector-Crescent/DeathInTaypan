@@ -9,7 +9,6 @@
     - Diona
     - Dwarf
     - Felinid
-    - Gingerbread
     - Harpy
     - Human
     - Lamia
@@ -20,7 +19,6 @@
     - SynthHuman
     - Tajaran
     - Vulpkanin
-    - Xelthia
 
 - type: startingGear
   id: NitrogenBreather

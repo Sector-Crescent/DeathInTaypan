@@ -1,6 +1,5 @@
-
 - type: entity
-  id: CrateFunInstrumentsString
+  id: CratePlushiePearcat
   parent: CrateGenericSteel
   name: Pearcat Crate of Considerable Amounts
   description: Love Implosion.

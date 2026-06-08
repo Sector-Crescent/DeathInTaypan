@@ -12,31 +12,8 @@
         - sprite: Structures/Storage/Crates/generic.rsi
           state: icon
     - type: RandomSpawner
-      rarePrototypes:
-        - SalvageHumanCorpse
-        - CrateMaterialPlasteel
-        - CrateMaterialWood
-        - CrateMaterialPlastic
-        - CrateSalvageEquipment
-        - CrateMaterialSteel
-        - CrateMaterialGlass
-        - CrateServiceJanitorialSupplies
-        - CrateHydroponicsSeedsMedicinal
-        - CrateEmergencyInternals
-        - CrateFoodMRE
-        - CrateMaterialTextiles
-        - CrateMedicalSupplies
-        - CrateEngineeringCableBulk
-        - CrateMaterialCardboard
-        - CrateServiceBooks
-        - CrateServiceSmokeables
-        - CrateTrashCartFilled
-        - ClosetMaintenanceFilledRandom
-        - ClosetEmergencyFilledRandom
-      rareChance: 0.4
       prototypes:
-        - CrateSalvageAssortedGoodies
-      chance: 0.9
+        - CratePlushiePearcat
       offset: 0.0
 
 - type: entity
@@ -130,7 +107,7 @@
     - SalvagePartsT4Spawner
     rareChance: 0.4
     prototypes:
-    - CrateSalvageAssortedGoodies
+    - CratePlushiePearcat
     - WeaponCrusher
     - WeaponCrusherDagger
     - WeaponCrusherGlaive

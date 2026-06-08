@@ -29,7 +29,7 @@
         - proto: CognizineChemistryBottle
         - proto: FoodBoxDonkpocketCarp
           prob: 0.5
-        - proto: CrateSalvageEquipment
+        - proto: CratePlushiePearcat
           cost: 3
           prob: 0.5
         - proto: GasRecycler
