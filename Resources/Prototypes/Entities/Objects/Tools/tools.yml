@@ -593,7 +593,7 @@
     sprite: Objects/Tools/rpd.rsi
   - type: PhysicalComposition
     materialComposition:
-      Steel: 500
+      Steel: 200
       Plastic: 150
       Circuitry: 50
   - type: ReverseEngineering # Nyano
