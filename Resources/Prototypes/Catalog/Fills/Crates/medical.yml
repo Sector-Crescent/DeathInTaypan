@@ -43,17 +43,6 @@
       - id: BoxVial
 
 - type: entity
-  id: CrateMindShieldImplants
-  parent: CrateMedical
-  name: MindShield implant crate
-  description: Crate filled with 3 MindShield implants.
-  components:
-  - type: StorageFill
-    contents:
-      - id: MindShieldImplanter
-        amount: 3
-
-- type: entity
   id: CrateMedicalSurgery
   parent: CrateSurgery
   name: surgical supplies crate
@@ -171,19 +160,4 @@
   - type: StorageFill
     contents:
       - id: BoxBodyBag
-        amount: 2
-
-- type: entity
-  id: CrateVirologyBiosuit
-  parent: CrateMedicalSecure
-  name: virology bio suit crate
-  description: Contains 2 biohazard suits to ensure that no disease will distract you from treating the crew. Requires Medical access to open.
-  components:
-  - type: StorageFill
-    contents:
-      - id: ClothingOuterBioVirology
-        amount: 2
-      - id: ClothingHeadHatHoodBioVirology
-        amount: 2
-      - id: ClothingMaskSterile
         amount: 2
