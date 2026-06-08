@@ -258,34 +258,6 @@
         moodPrototype: NicotineBenefit
 
 # TODO: Replace these nonstandardized effects with generic brain damage
-- type: reagent
-  id: Impedrezene
-  name: reagent-name-impedrezene
-  group: Narcotics
-  desc: reagent-desc-impedrezene
-  physicalDesc: reagent-physical-desc-acrid
-  flavor: bitter
-  color: "#215263"
-  metabolisms:
-    Narcotic:
-      effects:
-      - !type:MovespeedModifier
-        walkSpeedModifier: 0.65
-        sprintSpeedModifier: 0.65
-      - !type:HealthChange
-        damage:
-          types:
-            Poison: 2
-      - !type:GenericStatusEffect
-        key: SeeingRainbows
-        component: SeeingRainbows
-        type: Add
-        time: 10
-        refresh: false
-      - !type:ChemVomit # Vomiting is a symptom of brain damage
-        probability: 0.05
-      - !type:Drunk # Headaches and slurring are major symptoms of brain damage, this is close enough
-        boozePower: 5
 
 - type: reagent
   id: SpaceDrugs
@@ -460,47 +432,6 @@
           min: 5
       - !type:ChemAddMoodlet
         moodPrototype: TearGasEffect
-
-- type: reagent
-  id: Happiness
-  name: reagent-name-happiness
-  group: Narcotics
-  desc: reagent-desc-happiness
-  physicalDesc: reagent-physical-desc-soothing
-  flavor: paintthinner
-  color: "#EE35FF"
-  metabolisms:
-    Narcotic:
-      effects:
-      - !type:Emote
-        emote: Laugh
-        showInChat: true
-        probability: 0.1
-        conditions:
-        - !type:ReagentThreshold
-          max: 20
-      - !type:Emote
-        emote: Whistle
-        showInChat: true
-        probability: 0.1
-        conditions:
-        - !type:ReagentThreshold
-          max: 20
-      - !type:Emote
-        emote: Crying
-        showInChat: true
-        probability: 0.1
-        conditions:
-        - !type:ReagentThreshold
-          min: 20
-      - !type:ChemAddMoodlet
-        moodPrototype: PsicodineEffect
-      - !type:GenericStatusEffect
-        key: SeeingRainbows
-        component: SeeingRainbows
-        type: Add
-        time: 5
-        refresh: false
 
 - type: reagent
   id: Cryanobalamin

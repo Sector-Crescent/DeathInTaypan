@@ -78,28 +78,6 @@
   - !type:PlantAdjustHealth
     amount: 1
 
-- type: reagent
-  id: Diphenhydramine
-  name: reagent-name-diphenhydramine
-  group: Medicine
-  desc: reagent-desc-diphenhydramine
-  physicalDesc: reagent-physical-desc-chalky
-  flavor: medicine
-  color: "#64ffe6"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:AdjustReagent
-        reagent: Histamine
-        amount: -3.0
-      - !type:GenericStatusEffect
-        key: Jitter
-        time: 3.0
-        type: Remove
-      - !type:HealthChange
-        damage:
-          types:
-            Poison: -3
 
 - type: reagent
   id: Ethylredoxrazine
@@ -496,40 +474,6 @@
         moodPrototype: MildPainkiller
 
 - type: reagent
-  id: Leporazine
-  name: reagent-name-leporazine
-  group: Medicine
-  desc: reagent-desc-leporazine
-  physicalDesc: reagent-physical-desc-pungent
-  flavor: medicine
-  color: "#ff7db5"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Cold: -4
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          max: 288.15
-        amount: 100000 # thermal energy, not temperature!
-      - !type:AdjustTemperature
-        conditions:
-        - !type:Temperature
-          min: 298.15
-        amount: -10000
-      - !type:PopupMessage
-        type: Local
-        visualType: Medium
-        messages: [ "leporazine-effect-temperature-adjusting" ]
-        probability: 0.2
-      - !type:AdjustReagent
-        reagent: Fresium
-        amount: -5
-
-- type: reagent
   id: Barozine
   name: reagent-name-barozine
   group: Medicine
@@ -627,49 +571,6 @@
         amount: -0.25
 
 - type: reagent
-  id: Ambuzol
-  name: reagent-name-ambuzol
-  group: Medicine
-  desc: reagent-desc-ambuzol
-  physicalDesc: reagent-physical-desc-crisp
-  flavor: medicine
-  color: "#86caf7"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:CureZombieInfection
-        conditions:
-        - !type:ReagentThreshold
-          min: 10
-      - !type:ChemRemoveMoodlet
-        moodPrototype: RomerolEffect
-        conditions:
-        - !type:ReagentThreshold
-          min: 10
-
-- type: reagent
-  id: AmbuzolPlus
-  name: reagent-name-ambuzol-plus
-  group: Medicine
-  desc: reagent-desc-ambuzol-plus
-  physicalDesc: reagent-physical-desc-crisp
-  flavor: medicine
-  color: "#1274b5"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:CureZombieInfection
-        innoculate: true
-        conditions:
-        - !type:ReagentThreshold
-          min: 5
-      - !type:ChemRemoveMoodlet
-        moodPrototype: RomerolEffect
-        conditions:
-        - !type:ReagentThreshold
-          min: 5
-
-- type: reagent
   id: PulpedBananaPeel
   name: reagent-name-pulped-banana-peel
   group: Medicine
@@ -698,22 +599,6 @@
         factor: 6
       - !type:ModifyBloodLevel
         amount: 6
-
-- type: reagent
-  id: Siderlac
-  name: reagent-name-siderlac
-  group: Medicine
-  desc: reagent-desc-siderlac
-  physicalDesc: reagent-physical-desc-milky
-  flavor: medicine
-  color: "#f4dab8"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Caustic: -5
 
 - type: reagent
   id: Stellibinin
@@ -821,20 +706,6 @@
       - !type:ChemAddMoodlet
         moodPrototype: MildPainkiller
 
-- type: reagent
-  id: Lipozine
-  name: reagent-name-lipozine
-  group: Medicine
-  desc: reagent-desc-lipozine
-  physicalDesc: reagent-physical-desc-oily
-  flavor: medicine
-  color: "#2690b5"
-  metabolisms:
-    Medicine:
-      effects:
-      # what the hell, this isn't satiating at all!!
-      - !type:SatiateHunger
-        factor: -1
 
   # Should heal quite literally everything, use in very small amounts
 - type: reagent
@@ -856,48 +727,6 @@
             Airloss: -3
             Brute: -3 # Was 2, Buffed due to limb damage changes
 
-- type: reagent
-  id: Ultravasculine
-  name: reagent-name-ultravasculine
-  group: Medicine
-  desc: reagent-desc-ultravasculine
-  physicalDesc: reagent-physical-desc-thick-and-grainy
-  flavor: medicine
-  color: "#520e30"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 0
-          max: 30
-        damage:
-          groups:
-            Toxin: -3
-            Brute: 0.5
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 30
-        damage:
-          groups:
-            Toxin: -1
-            Brute: 3
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Histamine
-          min: 1
-        reagent: Histamine
-        amount: -1
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Histamine
-          min: 1
-        reagent: Ultravasculine
-        amount: 0.5
 
 - type: reagent
   id: Oculine
@@ -911,22 +740,6 @@
     Medicine:
       effects:
       - !type:ChemHealEyeDamage
-
-- type: reagent
-  id: Cognizine
-  name: reagent-name-cognizine
-  desc: reagent-desc-cognizine
-  group: Medicine
-  physicalDesc: reagent-physical-desc-enigmatic
-  flavor: magical
-  color: "#b50ee8"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:MakeSentient
-        conditions:
-        - !type:ReagentThreshold
-          min: 5
 
 - type: reagent
   id: Ethyloxyephedrine
@@ -981,46 +794,6 @@
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
         type: Local
         probability: 0.1
-
-- type: reagent
-  id: Sigynate
-  name: reagent-name-sigynate
-  group: Medicine
-  desc: reagent-desc-sigynate
-  physicalDesc: reagent-physical-desc-thick
-  flavor: sweet
-  color: "#e0a5b9"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Caustic: -3
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 16
-        damage:
-          types:
-            Heat: 2
-      - !type:Jitter
-        conditions:
-        - !type:ReagentThreshold
-          min: 20
-      - !type:PopupMessage
-        conditions:
-        - !type:ReagentThreshold
-          min: 20
-        type: Local
-        visualType: Medium
-        messages: [ "generic-reagent-effect-nauseous" ]
-        probability: 0.2
-      - !type:ChemVomit
-        conditions:
-        - !type:ReagentThreshold
-          min: 30
-        probability: 0.02
 
 - type: reagent
   id: Lacerinol
@@ -1190,180 +963,6 @@
           min: 20
         emote: Scream
         probability: 0.2
-
-- type: reagent
-  id: Insuzine
-  name: reagent-name-insuzine
-  group: Medicine
-  desc: reagent-desc-insuzine
-  physicalDesc: reagent-physical-desc-frosty
-  flavor: metallic
-  color: "#8147ff"
-  metabolisms:
-    Medicine:
-      effects:
-      # heals shocks and removes shock chems
-      - !type:HealthChange
-        damage:
-          types:
-            Shock: -4
-      - !type:AdjustReagent
-        reagent: Licoxide
-        amount: -4
-      - !type:AdjustReagent
-        reagent:  Tazinide
-        amount: -4
-      # makes you a little chilly when not oding
-      - !type:AdjustTemperature
-        amount: -5000
-      # od makes you freeze to death
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 12
-        damage:
-          types:
-            Cold: 2
-      - !type:AdjustTemperature
-        conditions:
-        - !type:ReagentThreshold
-          min: 12
-        amount: -30000
-      - !type:Jitter
-        conditions:
-        - !type:ReagentThreshold
-          min: 12
-
-- type: reagent
-  id: Opporozidone #Name based of an altered version of the startreck chem "Opporozine"
-  name: reagent-name-opporozidone
-  group: Medicine
-  desc: reagent-desc-opporozidone
-  physicalDesc: reagent-physical-desc-sickly
-  flavor: acid
-  color: "#b5e36d"
-  worksOnTheDead: true
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:ReduceRotting
-        seconds: 20
-        conditions:
-        #Patient must be dead and in a cryo tube (or something cold)
-        - !type:Temperature
-          max: 213.0 # WD EDIT: 150.0 -> 213.0
-        - !type:MobStateCondition
-          mobstate: Dead
-
-- type: reagent
-  id: Necrosol
-  name: reagent-name-necrosol
-  group: Medicine
-  desc: reagent-desc-necrosol
-  physicalDesc: reagent-physical-desc-necrotic
-  flavor: medicine
-  color: "#86a5bd"
-  worksOnTheDead: true
-  plantMetabolism:
-  # WD EDIT START
-  # - !type:PlantAdjustToxins
-  #   amount: -5
-  # WD EDIT END
-  - !type:PlantAdjustHealth
-    amount: 5
-  - !type:PlantCryoxadone {}
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        conditions:
-        - !type:Temperature
-          max: 213.0
-        damage:
-          groups:
-            Brute: -8 # WD EDIT
-
-- type: reagent
-  id : Aloxadone
-  name: reagent-name-aloxadone
-  group: Medicine
-  desc: reagent-desc-aloxadone
-  physicalDesc: reagent-physical-desc-soothing
-  flavor: medicine
-  color: "#89f77f"
-  worksOnTheDead: true
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        conditions:
-        - !type:Temperature
-          max: 213.0
-        damage:
-          types:
-            # WD EDIT START
-            Heat: -6.0
-            Shock: -6.0
-            Cold: -6.0
-            # WD EDIT END
-
-- type: reagent
-  id : Mannitol # currently this is just a way to create psicodine
-  name: reagent-name-mannitol
-  group: Medicine
-  desc: reagent-desc-mannitol
-  physicalDesc: reagent-physical-desc-opaque
-  flavor: sweet
-  color: "#A0A0A0"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:PopupMessage
-        conditions:
-        - !type:ReagentThreshold
-          min: 15
-        type: Local
-        visualType: Medium
-        messages: [ "mannitol-effect-enlightened" ]
-        probability: 0.2
-
-- type: reagent
-  id: Psicodine
-  name: reagent-name-psicodine
-  group: Medicine
-  desc: reagent-desc-psicodine
-  physicalDesc: reagent-physical-desc-shiny
-  flavor: bitter
-  color: "#07E79E"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        conditions:
-        - !type:ReagentThreshold
-          min: 30
-        damage:
-          types:
-            Poison: 2
-      - !type:GenericStatusEffect
-        conditions:
-        - !type:ReagentThreshold
-          min: 30
-        key: SeeingRainbows
-        component: SeeingRainbows
-        type: Add
-        time: 8
-        refresh: false
-      - !type:GenericStatusEffect
-        key: Jitter
-        time: 2.0
-        type: Remove
-      - !type:GenericStatusEffect
-        key: Drunk
-        time: 6.0
-        type: Remove
-      - !type:ChemAddMoodlet
-        moodPrototype: PsicodineEffect
 
 - type: reagent
   id: PotassiumIodide
