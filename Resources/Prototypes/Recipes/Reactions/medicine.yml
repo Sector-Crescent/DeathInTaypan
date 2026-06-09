@@ -442,3 +442,18 @@
       amount: 3
   products:
     Artiplates: 12
+
+- type: reaction
+  id: Happiness
+  reactants:
+    Laughter:
+      amount: 2
+    Epinephrine:
+      amount: 1
+    Ethanol:
+      amount: 1
+    Plasma:
+      amount: 5
+      catalyst: true
+  products:
+    Happiness: 4
