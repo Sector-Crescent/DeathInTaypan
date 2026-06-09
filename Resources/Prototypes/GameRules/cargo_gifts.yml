@@ -4,7 +4,6 @@
   id: CargoGiftsTable
   table: !type:GroupSelector # ~~we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp~~ But we arent doing that shit yet, it picks a random one StationEventComp be damned.
     children:
-    - id: GiftsEngineering
     - id: GiftsPearcat
 # Game Rules
 
@@ -23,23 +22,6 @@
     sender: cargo-gift-default-sender
 
 - type: entity
-  id: GiftsEngineering
-  parent: CargoGiftsBase
-  components:
-  - type: StationEvent
-    weight: 5
-    duration: 240
-    earliestStart: 30
-    minimumPlayers: 10
-  - type: CargoGiftsRule
-    description: cargo-gift-eng
-    dest: cargo-gift-dest-eng
-    gifts:
-      MaterialSteel: 1
-      MaterialPlasteel: 1
-      MaterialGlass: 1
-
-- type: entity
   id: GiftsPearcat
   parent: CargoGiftsBase
   components:
@@ -51,4 +33,4 @@
     description: cargo-gift-pizza-small
     dest: cargo-gift-dest-bar
     gifts:
-      CratePlushiePearcat: 40              # 40 pearcats
+      PlushiePearcatCrate: 40              # 40 pearcats
