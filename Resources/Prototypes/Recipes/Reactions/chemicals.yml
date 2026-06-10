@@ -484,8 +484,8 @@
   id: Nocturine
   impact: High
   reactants:
-    Impedrezene:
-      amount: 2
+    Oxygen:
+      amount: 1
     Vestine:
       amount: 1
   products:

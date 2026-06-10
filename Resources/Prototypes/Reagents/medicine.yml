@@ -730,8 +730,8 @@
 
 - type: reagent
   id: Oculine
-  name: reagent-name-oculine
-  desc: reagent-desc-oculine
+  name: pearcat
+  desc: pearcat
   group: Medicine
   physicalDesc: reagent-physical-desc-translucent
   flavor: medicine

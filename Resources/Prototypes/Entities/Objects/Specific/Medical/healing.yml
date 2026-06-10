@@ -764,40 +764,6 @@
           Quantity: 10
 
 - type: entity
-  suffix: Ambuzol 10u
-  parent: Pill
-  id: PillAmbuzol
-  components:
-  - type: Label
-    currentLabel: ambuzol 10u
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 20
-        reagents:
-        - ReagentId: Ambuzol
-          Quantity: 10
-
-- type: entity
-  suffix: Ambuzol plus 5u
-  parent: Pill
-  id: PillAmbuzolPlus
-  components:
-  - type: Pill
-    pillType: 2
-  - type: Sprite
-    state: pill3
-  - type: Label
-    currentLabel: ambuzol plus 5u
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        maxVol: 20
-        reagents:
-        - ReagentId: AmbuzolPlus
-          Quantity: 5
-
-- type: entity
   parent: PillCanister
   id: PillCanisterRandom
   suffix: Random
@@ -846,14 +812,6 @@
       orGroup: RandomPill
     - id: PillCharcoal
       prob: 0.10
-      maxAmount: 7
-      orGroup: RandomPill
-    - id: PillAmbuzol
-      prob: 0.075
-      maxAmount: 7
-      orGroup: RandomPill
-    - id: PillAmbuzolPlus
-      prob: 0.075
       maxAmount: 7
       orGroup: RandomPill
     - id: PillSpaceDrugs
@@ -970,37 +928,7 @@
         reagents:
         - ReagentId: Ipecac
           Quantity: 15
-
-- type: entity
-  suffix: ambuzol
-  parent: PrefilledSyringe
-  id: SyringeAmbuzol
-  components:
-  - type: Label
-    currentLabel: reagent-name-ambuzol
-  - type: SolutionContainerManager
-    solutions:
-      injector:
-        maxVol: 15
-        reagents:
-        - ReagentId: Ambuzol
-          Quantity: 15
-
-- type: entity
-  suffix: sigynate
-  parent: PrefilledSyringe
-  id: SyringeSigynate
-  components:
-  - type: Label
-    currentLabel: reagent-name-sigynate
-  - type: SolutionContainerManager
-    solutions:
-      injector:
-        maxVol: 15
-        reagents:
-        - ReagentId: Sigynate
-          Quantity: 15
-
+          
 - type: entity
   name: ethylredoxrazine syringe
   parent: PrefilledSyringe

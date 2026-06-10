@@ -86,9 +86,6 @@
         - !type:BloodReagentThreshold
           reagent: Calomel
           max: 0.1
-        - !type:BloodReagentThreshold
-          reagent: Diphenhydramine
-          max: 0.1
       - !type:AdjustReagent
         group: Medicine
         amount: -0.5

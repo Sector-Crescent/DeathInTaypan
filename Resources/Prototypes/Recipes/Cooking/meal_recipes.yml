@@ -1674,7 +1674,6 @@
   group: Cake
   reagents:
     Milk: 15
-    Cognizine: 5
   solids:
     FoodCakePlain: 1
     FoodSnackRaisins: 1
@@ -1686,8 +1685,6 @@
   result: MobBreadDog
   time: 15
   group: Breads
-  reagents:
-    Cognizine: 5
   solids:
     FoodBreadSausage: 1
     OrganAnimalHeart: 1
@@ -1727,7 +1724,7 @@
   solids:
     LeftLegHarpy: 1
     RightLegHarpy: 1
- 
+
 #Donks i guess
 - type: microwaveMealRecipe
   id: RecipeWarmDonkpocket

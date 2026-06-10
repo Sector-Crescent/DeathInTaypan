@@ -33,8 +33,6 @@
   reactants:
     Haloperidol:
       amount: 1
-    Impedrezene:
-      amount: 1
     Radium:
       amount: 1
   products:
@@ -45,8 +43,6 @@
   impact: Medium
   reactants:
     PotassiumIodide:
-      amount: 1
-    Impedrezene:
       amount: 1
     Aluminium:
       amount: 1

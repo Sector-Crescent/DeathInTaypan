@@ -344,21 +344,6 @@
           Quantity: 30
 
 - type: entity
-  parent: BaseChemistryBottleFilled
-  id: CognizineChemistryBottle
-  suffix: cognizine
-  components:
-  - type: Label
-    currentLabel: reagent-name-cognizine
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 30
-        reagents:
-        - ReagentId: Cognizine
-          Quantity: 30
-
-- type: entity
   id: PaxChemistryBottle
   suffix: pax
   parent: BaseChemistryBottleFilled

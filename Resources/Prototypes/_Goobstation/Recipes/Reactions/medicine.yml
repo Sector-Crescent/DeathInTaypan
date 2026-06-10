@@ -90,8 +90,6 @@
   reactants:
     Silver: # check 1
       amount: 2
-    Diphenhydramine: # check 2
-      amount: 2
     Fluorine:
       amount: 1
     Aluite:
@@ -105,8 +103,6 @@
   minTemp: 500 # actually hotbeakerable
   reactants:
     Gold: # check 1
-      amount: 2
-    Sigynate: # check 2
       amount: 2
     Silicon:
       amount: 1
@@ -281,8 +277,6 @@
     Dermaline:
       amount: 1
     Phenol:
-      amount: 1
-    Leporazine:
       amount: 1
   products:
     Oxandrolone: 4
