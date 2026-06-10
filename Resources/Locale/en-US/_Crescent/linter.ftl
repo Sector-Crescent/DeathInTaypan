@@ -41,3 +41,5 @@ marking-ResomiRLegFeathers = Pearkitty
 marking-ResomiTail = Pearkitty
 marking-ResomiTailFeathers = Pearkitty
 marking-SnakeLargeTailAnimated = Pearkitty
+
+placeholder-CrescentEdit = pearcat

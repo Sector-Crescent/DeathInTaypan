@@ -730,8 +730,8 @@
 
 - type: reagent
   id: Oculine
-  name: pearcat
-  desc: pearcat
+  name: placeholder-CrescentEdit
+  desc: placeholder-CrescentEdit
   group: Medicine
   physicalDesc: reagent-physical-desc-translucent
   flavor: medicine

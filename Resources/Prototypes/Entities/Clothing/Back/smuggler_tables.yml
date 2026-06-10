@@ -125,7 +125,6 @@
       amount: !type:RangeNumberSelector
         range: 1, 5
     - id: OmnizineChemistryBottle
-    - id: CognizineChemistryBottle
     - id: ToxinChemistryBottle
     - id: NocturineChemistryBottle
     - id: VestineChemistryVial
@@ -527,7 +526,6 @@
     children:
     - id: SpaceCash100
       weight: 10
-    - id: SyringeAmbuzol
     - id: SyringeHyronalin
     - id: SyringeDermaline
     - id: SyringeBicaridine

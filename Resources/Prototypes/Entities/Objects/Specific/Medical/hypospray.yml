@@ -402,8 +402,6 @@
       pen:
         maxVol: 30
         reagents:
-          - ReagentId: Leporazine
-            Quantity: 10
           - ReagentId: Barozine
             Quantity: 20
   - type: Tag

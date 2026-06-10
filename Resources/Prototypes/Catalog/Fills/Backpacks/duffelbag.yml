@@ -27,9 +27,6 @@
       amount: 2
     - id: GrenadeFlashBang
       amount: 2
-    - id: PillAmbuzolPlus
-    - id: PillAmbuzol
-      amount: 4
     # WD EDIT START
     - id: MedicatedSuture
     - id: RegenerativeMesh
@@ -351,9 +348,6 @@
       - id: SyringeRomerol
       - id: WeaponRevolverPython
       - id: MagazineBoxMagnumIncendiary
-      - id: PillAmbuzolPlus
-      - id: PillAmbuzol
-        amount: 3
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle

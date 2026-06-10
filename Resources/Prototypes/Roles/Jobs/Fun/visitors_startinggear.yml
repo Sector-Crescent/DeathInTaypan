@@ -695,8 +695,6 @@
     outerClothing: ClothingOuterCoatLabViro
     pocket1: PillCanisterTricordrazine
     pocket2: PillCanisterRandom
-  inhand:
-  - SyringeSigynate
 
 - type: startingGear
   id: VisitorVirologistAlt
