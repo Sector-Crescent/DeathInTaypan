@@ -80,9 +80,6 @@
       proper: true
   - type: RandomMetadata
     nameSegments: [names_pitbull]
-  - type: Speech
-    speechVerb: Canine
-    speechSounds: Vulpkanin
   - type: LanguageKnowledge
     speaks:
     - Dog
