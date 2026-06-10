@@ -1,9 +1,0 @@
-- type: cargoProduct
-  id: PlushiePearcatCrate
-  icon:
-    sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
-    state: icon
-  product: CratePlushiePearcat
-  cost: 9000
-  category: cargoproduct-category-name-armory
-  group: market
