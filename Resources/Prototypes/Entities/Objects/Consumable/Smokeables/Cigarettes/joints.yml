@@ -54,8 +54,6 @@
           Quantity: 2.66
 #       - ReagentId: ColorfulReagent
 #         Quantity: 1.33
-        - ReagentId: Psicodine
-          Quantity: 0.8
 
 - type: entity
   id: Blunt
@@ -113,5 +111,3 @@
           Quantity: 2.66
 #       - ReagentId: ColorfulReagent
 #         Quantity: 1.33
-        - ReagentId: Psicodine
-          Quantity: 0.8

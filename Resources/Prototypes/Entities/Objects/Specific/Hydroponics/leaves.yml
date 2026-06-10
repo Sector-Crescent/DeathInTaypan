@@ -123,8 +123,6 @@
           Quantity: 2
 #       - ReagentId: ColorfulReagent
 #         Quantity: 1
-        - ReagentId: Psicodine
-          Quantity: 0.6
 
 - type: entity
   name: dried rainbow cannabis leaves
@@ -150,8 +148,6 @@
           Quantity: 1.6
 #       - ReagentId: ColorfulReagent
 #         Quantity: 0.8
-        - ReagentId: Psicodine
-          Quantity: 0.48
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
     state: dried
@@ -179,8 +175,6 @@
           Quantity: 2.66
 #       - ReagentId: ColorfulReagent
 #         Quantity: 1.33
-        - ReagentId: Psicodine
-          Quantity: 0.8
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/rainbow_cannabis.rsi
     state: powderpile_rainbow
