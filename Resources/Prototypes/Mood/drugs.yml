@@ -131,6 +131,12 @@
   moodChange: 100
   timeout: 60 #1 minute
 
+- type: moodEffect
+  id: PsicodineEffect
+  moodChange: 8
+  timeout: 300 #5 minutes
+
+
 # Food
 - type: moodEffect
   id: SweetenerEffect
