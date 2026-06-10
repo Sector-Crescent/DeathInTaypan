@@ -172,9 +172,6 @@
     tags:
     - DoorBumpOpener
     - VimPilot
-  - type: Vocal
-    sounds:
-      Unsexed: MobDog
   - type: LanguageKnowledge
     speaks:
     - Dog
