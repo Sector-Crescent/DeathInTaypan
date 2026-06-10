@@ -14,18 +14,3 @@
       tags:
         - Bottle
 
-- type: entity
-  id: UltravasculineChemistryBottle
-  name: ultravasculine bottle
-  parent: BaseChemistryEmptyBottle
-  components:
-    - type: SolutionContainerManager
-      solutions:
-        drink:
-          maxVol: 30
-          reagents:
-            - ReagentId: Ultravasculine
-              Quantity: 30
-    - type: Tag
-      tags:
-        - Bottle

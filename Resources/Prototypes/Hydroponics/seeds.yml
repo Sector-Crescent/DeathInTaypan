@@ -1250,10 +1250,6 @@
   growthStages: 3
   waterConsumption: 0.60
   chemicals:
-    Ultravasculine:
-      Min: 1
-      Max: 20
-      PotencyDivisor: 5
     Epinephrine:
       Min: 1
       Max: 20
