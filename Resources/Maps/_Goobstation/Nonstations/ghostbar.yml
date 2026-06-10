@@ -6460,21 +6460,21 @@ entities:
     - type: Transform
       pos: 14.5,22.5
       parent: 4
-- proto: CrateFunInstrumentsKeyedPercussion
+- proto: CratePlushiePearcat
   entities:
   - uid: 1203
     components:
     - type: Transform
       pos: 18.5,6.5
       parent: 4
-- proto: CrateFunInstrumentsSpecial
+- proto: CratePlushiePearcat
   entities:
   - uid: 945
     components:
     - type: Transform
       pos: 19.5,6.5
       parent: 4
-- proto: CrateFunInstrumentsVariety
+- proto: CratePlushiePearcat
   entities:
   - uid: 1082
     components:
